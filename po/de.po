@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wesnoth-Valley_of_the_Ancients\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-30 10:34+0000\n"
-"PO-Revision-Date: 2013-11-30 10:38+0100\n"
+"PO-Revision-Date: 2013-11-30 11:50+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: trewe <sjrs456@yahoo.fr>\n"
 "Language: de_DE\n"
@@ -26,8 +26,8 @@ msgstr "VotA"
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 #: Valley_of_the_Ancients/_main.cfg:27
 msgid ""
-"Fight your way into the legendary Valley of the Ancients against your "
-"rival.\n"
+"Fight your way into the legendary Valley of the Ancients against your rival."
+"\n"
 "\n"
 msgstr ""
 "Kämpfe dich durch das legendäre Alte Tal gegen deinen Rivalen.\n"
@@ -619,8 +619,8 @@ msgid ""
 "Stubborn and proud to the end, he was. I always thought he could use some "
 "humbling, but gods, not like this..."
 msgstr ""
-"Stur und stolz bis zum Ende, das war er. Ich dachte immer, er könnte immer "
-"etwas mehr Demut gebrauchen, aber bei allen Göttern, nicht so..."
+"Stur und stolz bis zum Ende, das war er. Ich dachte immer, er könnte etwas "
+"mehr Demut gebrauchen, aber bei allen Göttern, nicht so..."
 
 #. [message]: role=swordsman
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1104
@@ -703,14 +703,14 @@ msgstr "Höhlen Kreaturen"
 #. [multiplayer]: id=vota_rotatingwar_3p
 #: Valley_of_the_Ancients/scenarios/3p_Rotating_War.cfg:5
 msgid "3p — Rotating War"
-msgstr "3s — Kreisel der Unvernunft"
+msgstr "3s — Der Bunte Tod"
 
 #. [multiplayer]: id=vota_rotatingwar_3p
 #. [multiplayer]: id=vota_rotatingwar_6p
 #: Valley_of_the_Ancients/scenarios/3p_Rotating_War.cfg:7
 #: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:7
 msgid ""
-"A somewhat complex 3 player competitive scenario, on which the map will "
+"A somewhat complex competitive scenario, on which the map will "
 "rotate continuously. Attempt to set up a trap for your opponent while "
 "avoiding that the same is done to you."
 msgstr ""
@@ -934,7 +934,7 @@ msgstr ""
 #. [multiplayer]: id=vota_rotatingwar_6p
 #: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:5
 msgid "6p — Rotating War"
-msgstr "6s — Kreisel der Unvernunft"
+msgstr "6s — Der Bunte Tod"
 
 #. [side]
 #: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:20
@@ -1664,7 +1664,7 @@ msgstr "Saurianer"
 #: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:349
 #: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:310
 msgid "Goblin"
-msgstr "Goblin"
+msgstr "Kobold"
 
 #. [message]: race=dwarf
 #: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:734
@@ -2087,7 +2087,7 @@ msgstr "Draken"
 #: Valley_of_the_Ancients/utils/Rotation_War_Common.cfg:62
 #: Valley_of_the_Ancients/utils/Rotation_War_Common.cfg:104
 msgid "Rotating War"
-msgstr "Kreisel der Unvernunft"
+msgstr "Der Bunte Tod"
 
 #. [message]: speaker=narrator
 #: Valley_of_the_Ancients/utils/Rotation_War_Common.cfg:64
@@ -2104,6 +2104,17 @@ msgid ""
 "If you're certain you found a new bug, please let know the maintainer. Have "
 "fun and good luck! This is version $version"
 msgstr ""
+"\n"
+"Nutze die kreiselnde Burgen um komplexe Strategien zu erproben, und die "
+"Mehrheit über die Karte zu erhalten.\n"
+"\n"
+"Falls du Schwierigkeiten hast das Szenario zu verstehen, empfehle ich erst "
+"einmal eine Runde gegen die KI zu spielen.\n"
+"\n"
+"Schalte Nebel an für eine interessantere Partie.\n"
+"\n"
+"Wenn du dir sicher bist einen neuen Fehler eindeckt zu haben, laß es "
+"jederzeit dem Autor wissen. Dies ist Version $version"
 
 #. [chat]
 #: Valley_of_the_Ancients/utils/Rotation_War_Common.cfg:105
@@ -2144,12 +2155,3 @@ msgstr "Nimm es"
 #: Valley_of_the_Ancients/utils/misc.cfg:121
 msgid "Leave it"
 msgstr "Lass es"
-
-#~ msgid "Version: "
-#~ msgstr "Version: "
-
-#~ msgid "Team B"
-#~ msgstr "Team B"
-
-#~ msgid "Team C"
-#~ msgstr "Team C"

@@ -26,8 +26,8 @@ msgstr "VdA"
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 #: Valley_of_the_Ancients/_main.cfg:27
 msgid ""
-"Fight your way into the legendary Valley of the Ancients against your "
-"rival.\n"
+"Fight your way into the legendary Valley of the Ancients against your rival."
+"\n"
 "\n"
 msgstr ""
 "Disputa o teu caminho para o Vale Antigo contra o teu rival.\n"
@@ -569,7 +569,7 @@ msgid ""
 "meeting the same fate."
 msgstr ""
 "Lá vai a nossa melhor hipótese da sobrevivência. Agora vai ficar mais "
-"difícil para evitar similar final."
+"difícil para evitar similar fim."
 
 #. [message]: role=mage
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1028
@@ -697,11 +697,11 @@ msgstr "3j — Guerra Rotativa"
 #: Valley_of_the_Ancients/scenarios/3p_Rotating_War.cfg:7
 #: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:7
 msgid ""
-"A somewhat complex 3 player competitive scenario, on which the map will "
+"A somewhat complex competitive scenario, on which the map will "
 "rotate continuously. Attempt to set up a trap for your opponent while "
 "avoiding that the same is done to you."
 msgstr ""
-"Um cenário competitivo algo complexo para 3 jogadores, no qual o mapa irá "
+"Um cenário competitivo algo complexo, no qual o mapa irá "
 "rodar continuadamente. Procura forçar uma armadilha ao teu adversário "
 "enquanto evitas que este faça o mesmo a ti."
 
@@ -2136,12 +2136,3 @@ msgstr "Leva-o"
 #: Valley_of_the_Ancients/utils/misc.cfg:121
 msgid "Leave it"
 msgstr "Deixa-o"
-
-#~ msgid "Version: "
-#~ msgstr "Versão: "
-
-#~ msgid "Team B"
-#~ msgstr "Equipa B"
-
-#~ msgid "Team C"
-#~ msgstr "Equipa C"
