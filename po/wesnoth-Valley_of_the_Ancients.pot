@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-01-28 14:30+0000\n"
+"POT-Creation-Date: 2014-02-08 20:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,67 +65,82 @@ msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_Reversi
 #: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:7
-msgid "Reversi a.k.a Othello for 2 players (if you must, the AI can play reasonable too)"
+msgid "Reversi a.k.a Othello for 2 players or alone"
+msgstr ""
+
+#. [time]: id=Reversi_tod
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:14
+msgid "Time of day has no effect in Reversi"
 msgstr ""
 
 #. [side]
-#. [side]: type=Elvish Sylph
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:288 Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:87
-msgid "Elves"
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:102
+msgid "Black"
 msgstr ""
 
 #. [side]
-#. [side]: type=Ancient Lich
-#. [side]: type=Ancient Lich, id=mal-daugur
-#. [side]: type=Necrophage
-#. [side]: type=Revenant
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:303 Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:711 Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:66 Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:87 Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:109 Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:190 Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:211 Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:60
-msgid "Undead"
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:117
+msgid "White"
 msgstr ""
 
 #. [objective]: condition=win
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:320
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:134
 msgid "Capture more units than your opponent does"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:324
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:138
 msgid "Your opponent finish with more units"
 msgstr ""
 
 #. [objectives]
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:327
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:141
 msgid "<b>How to Play</b>"
 msgstr ""
 
 #. [note]
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:329
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:143
 msgid "A move is valid if enemy units will be between two of yours. To place a unit on the board:"
 msgstr ""
 
 #. [note]
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:332
-msgid "(1) Move your leader to a ruined castle to select the column"
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:146
+msgid "(1) Move your leader to a ruined castle to select the column and row"
 msgstr ""
 
 #. [note]
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:335
-msgid "(2) Move your leader again to a ruined castle to select the row"
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:149
+msgid "(2) If the move is valid an unit will be created at the given interception"
 msgstr ""
 
 #. [note]
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:338
-msgid "(3) If the move is valid an unit will be created at the given place"
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:152
+msgid "(3) Any enemy units standing between the newly created unit and one of the same side will swap side."
 msgstr ""
 
 #. [note]
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:341
-msgid "(4) And any enemy units standing between two of yours will swap side."
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:155
+msgid "(4) The game continues until the board is full, or neither leader can do a move."
 msgstr ""
 
-#. [note]
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:344
-msgid "(5) The game continues until the board is full, or neither leader could do a move."
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:590 Valley_of_the_Ancients/scenarios/2p_Othello.cfg:607 Valley_of_the_Ancients/scenarios/2p_Othello.cfg:624
+msgid "Endgame"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:591
+msgid "<b>$Player1Name</b> won the game with <i>$side_1.units:$side_2.units</i>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:608
+msgid "<b>$Player2Name</b> won the game with <i>$side_2.units:$side_1.units</i>"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:625
+msgid "The game ended in a draw (<i>$side_1.units:$side_2.units</i>)"
 msgstr ""
 
 #. [bloodlust]: id=bloodlust
@@ -360,6 +375,15 @@ msgstr ""
 #. [unit]: type=Merman Fighter, role=merman
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:681
 msgid "Eleagros"
+msgstr ""
+
+#. [side]
+#. [side]: type=Ancient Lich
+#. [side]: type=Ancient Lich, id=mal-daugur
+#. [side]: type=Necrophage
+#. [side]: type=Revenant
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:711 Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:66 Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:87 Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:109 Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:190 Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:211 Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:60
+msgid "Undead"
 msgstr ""
 
 #. [objective]: condition=win
@@ -598,207 +622,207 @@ msgid "Why would anyone want to kill virgins? The unmerciful god Q'zrk demands i
 msgstr ""
 
 #. [side]: type=Elvish Lady
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:47 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:77
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:47 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:75
 msgid "Virgins"
 msgstr ""
 
 #. [side]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:106 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:132 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:158 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:184
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:102 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:128 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:154 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:180
 msgid "Sacrificers"
 msgstr ""
 
 #. [objective]: condition=win
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:211
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:207
 msgid "Kill the virgins!"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:215
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:211
 msgid "Death of your team"
 msgstr ""
 
 #. [note]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:219
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:215
 msgid "Your Leader will respawn on death as long you have at least one unit left"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:470
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:464
 msgid "Thank God you made it! Please destroy me!!!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:472 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:501 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:548 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:780
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:466 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:495 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:542 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:774
 msgid "Innocent Virgin"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:499
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:493
 msgid "Oh please, just kill me now!!!"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:508 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:509 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:761 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:762
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:502 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:503 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:755 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:756
 msgid "Virgin Altar"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:536
-msgid "Hooligans"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:536
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:530
 msgid "Turn 4 [R]"
 msgstr ""
 
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:530
+msgid "Hooligans"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:546
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:540
 msgid "If we two virgins must die for the good of all, so be it. Show no mercy before the angry god!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:558
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:552
 msgid "Choose the game difficulty."
 msgstr ""
 
 #. [option]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:560
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:554
 msgid "Moderate"
 msgstr ""
 
 #. [print]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:563
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:557
 msgid "Difficulty: Moderate"
 msgstr ""
 
 #. [option]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:575
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:569
 msgid "Extreme"
 msgstr ""
 
 #. [print]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:578
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:572
 msgid "Difficulty: Extreme"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:595
-msgid "Healer with Guards"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:595
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:589
 msgid "Turn 8 [L]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:605
-msgid "Evil Things"
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:589
+msgid "Healer with Guards"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:605
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:599
 msgid "Turn 11 [R]"
 msgstr ""
 
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:599
+msgid "Evil Things"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:636 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:707
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:630 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:701
 msgid "Free at last! I will help you but first I must heal!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:638 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:709
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:632 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:703
 msgid "Talking Squid"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:645
-msgid "Water Dwellers"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:645
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:639
 msgid "Turn 14 [L]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:655
-msgid "Savages"
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:639
+msgid "Water Dwellers"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:655
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:649
 msgid "Turn 17 [R]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:665
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:649
+msgid "Savages"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:659
 msgid "Turn 20 [L]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:665
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:659
 msgid "Stampede"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:675
-msgid "Tree Huggers"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:675
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:669
 msgid "Turn 24 [R]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:716
-msgid "Turn 28 [L]"
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:669
+msgid "Tree Huggers"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:716
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:710
 msgid "Skirmishers"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:726
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:710
+msgid "Turn 28 [L]"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:720
 msgid "Turn 32 [R]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:726
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:720
 msgid "Fire and Steel"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:741
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:735
 msgid "Turn 35 [L]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:741
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:735
 msgid "Hodgepodge"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:751
-msgid "Turn 40"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:751
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:745
 msgid "Kill the Virgins!"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:764
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:745
+msgid "Turn 40"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:758
 msgid "Hail Q'zrk!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:778
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:772
 msgid "Free us from our altars and sacrifice us to Q'zrk! Hurry before it is too late!"
 msgstr ""
 
@@ -1600,6 +1624,11 @@ msgstr ""
 #. [side]: type=Elvish Sylph
 #: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:83
 msgid "Aelarra"
+msgstr ""
+
+#. [side]: type=Elvish Sylph
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:87
+msgid "Elves"
 msgstr ""
 
 #. [unit]: type=Elvish Champion, role=champion
