@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-Valley_of_the_Ancients\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-02-08 20:04+0000\n"
+"POT-Creation-Date: 2014-02-25 13:30+0000\n"
 "PO-Revision-Date: 2014-02-08 20:05+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: trewe <sjrs456@yahoo.fr>\n"
@@ -23,8 +23,8 @@ msgstr "VdA"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 msgid ""
-"Fight your way into the legendary Valley of the Ancients against your rival."
-"\n"
+"Fight your way into the legendary Valley of the Ancients against your "
+"rival.\n"
 "\n"
 msgstr ""
 "Disputa o teu caminho para o Vale Antigo contra o teu rival.\n"
@@ -336,7 +336,6 @@ msgstr ""
 "Uma partida de terror para três jogadores. Sobreviva ao assalto dos mortos "
 "mutantes."
 
-#. [illuminated_time]: id=campfire_illum
 #. [time]: id=campfire
 msgid "Campfire"
 msgstr "Fogueira"
@@ -733,12 +732,12 @@ msgid "Difficulty: Extreme"
 msgstr "Dificuldade: Extrema"
 
 #. [event]
-msgid "Turn 8 [L]"
-msgstr "Turno 8 [E]"
-
-#. [event]
 msgid "Healer with Guards"
 msgstr "Curandeiros com Guardas"
+
+#. [event]
+msgid "Turn 8 [L]"
+msgstr "Turno 8 [E]"
 
 #. [event]
 msgid "Turn 11 [R]"
@@ -781,36 +780,36 @@ msgid "Stampede"
 msgstr "debandada"
 
 #. [event]
-msgid "Turn 24 [R]"
-msgstr "Turno 24 [D]"
-
-#. [event]
 msgid "Tree Huggers"
 msgstr "adoradores de árvores"
 
 #. [event]
-msgid "Skirmishers"
-msgstr "Escaramuçadores"
+msgid "Turn 24 [R]"
+msgstr "Turno 24 [D]"
 
 #. [event]
 msgid "Turn 28 [L]"
 msgstr "Turno 28 [E]"
 
 #. [event]
-msgid "Turn 32 [R]"
-msgstr "Turno 32 [D]"
+msgid "Skirmishers"
+msgstr "Escaramuçadores"
 
 #. [event]
 msgid "Fire and Steel"
 msgstr "Fogo e Aço"
 
 #. [event]
-msgid "Turn 35 [L]"
-msgstr "Turno 35 [E]"
+msgid "Turn 32 [R]"
+msgstr "Turno 32 [D]"
 
 #. [event]
 msgid "Hodgepodge"
 msgstr "Brutos"
+
+#. [event]
+msgid "Turn 35 [L]"
+msgstr "Turno 35 [E]"
 
 #. [event]
 msgid "Kill the Virgins!"
@@ -855,10 +854,6 @@ msgstr "VotA — Aliança Insegura"
 #. [multiplayer]: id=TL_VOTA_01_Uneasy_Alliance
 msgid "Valley of the Ancients: the Gates of Dawn"
 msgstr "Vale dos Anciãos: As Portas da Madrugada"
-
-#. [multiplayer]: id=TL_VOTA_01_Uneasy_Alliance
-msgid "2p — Valley of the Ancients"
-msgstr "2j — Vale dos Anciãos"
 
 #. [part]
 msgid ""
@@ -1845,3 +1840,6 @@ msgstr "Leva-o"
 #. [option]: speaker=narrator
 msgid "Leave it"
 msgstr "Deixa-o"
+
+#~ msgid "2p — Valley of the Ancients"
+#~ msgstr "2j — Vale dos Anciãos"

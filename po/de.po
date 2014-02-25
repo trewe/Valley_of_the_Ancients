@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-Valley_of_the_Ancients\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-02-08 20:04+0000\n"
+"POT-Creation-Date: 2014-02-25 13:30+0000\n"
 "PO-Revision-Date: 2014-01-28 15:00+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: trewe <sjrs456@yahoo.fr>\n"
@@ -23,8 +23,8 @@ msgstr "VotA"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 msgid ""
-"Fight your way into the legendary Valley of the Ancients against your rival."
-"\n"
+"Fight your way into the legendary Valley of the Ancients against your "
+"rival.\n"
 "\n"
 msgstr ""
 "Kämpfe dich durch das legendäre Alte Tal gegen deinen Rivalen.\n"
@@ -346,7 +346,6 @@ msgstr ""
 "Überlebensszenario für drei Spieler. Überlebe gegen einen Ansturm von immer "
 "mutierenden Zombies."
 
-#. [illuminated_time]: id=campfire_illum
 #. [time]: id=campfire
 msgid "Campfire"
 msgstr "Lagerfeuer"
@@ -748,12 +747,12 @@ msgid "Difficulty: Extreme"
 msgstr "Schwierigkeit: Extrem"
 
 #. [event]
-msgid "Turn 8 [L]"
-msgstr "8. Runde [L]"
-
-#. [event]
 msgid "Healer with Guards"
 msgstr "Heiler mit Wächter"
+
+#. [event]
+msgid "Turn 8 [L]"
+msgstr "8. Runde [L]"
 
 #. [event]
 msgid "Turn 11 [R]"
@@ -796,36 +795,36 @@ msgid "Stampede"
 msgstr "Panik"
 
 #. [event]
-msgid "Turn 24 [R]"
-msgstr "24. Runde [R]"
-
-#. [event]
 msgid "Tree Huggers"
 msgstr ""
 
 #. [event]
-msgid "Skirmishers"
-msgstr "Plänkler"
+msgid "Turn 24 [R]"
+msgstr "24. Runde [R]"
 
 #. [event]
 msgid "Turn 28 [L]"
 msgstr "28. Runde [L]"
 
 #. [event]
-msgid "Turn 32 [R]"
-msgstr "32. Runde [R]"
+msgid "Skirmishers"
+msgstr "Plänkler"
 
 #. [event]
 msgid "Fire and Steel"
 msgstr "Feuer und Stahl"
 
 #. [event]
-msgid "Turn 35 [L]"
-msgstr "35. Runde [L]"
+msgid "Turn 32 [R]"
+msgstr "32. Runde [R]"
 
 #. [event]
 msgid "Hodgepodge"
 msgstr "Mischmasch"
+
+#. [event]
+msgid "Turn 35 [L]"
+msgstr "35. Runde [L]"
 
 #. [event]
 msgid "Kill the Virgins!"
@@ -870,10 +869,6 @@ msgstr "VotA — Eine Unsichere Allianz"
 #. [multiplayer]: id=TL_VOTA_01_Uneasy_Alliance
 msgid "Valley of the Ancients: the Gates of Dawn"
 msgstr "Das Tal der Ältesten: Die Tore der Dämmerung"
-
-#. [multiplayer]: id=TL_VOTA_01_Uneasy_Alliance
-msgid "2p — Valley of the Ancients"
-msgstr "2s — Das Tal der Ältesten"
 
 #. [part]
 msgid ""
@@ -1867,3 +1862,6 @@ msgstr "Nimm es"
 #. [option]: speaker=narrator
 msgid "Leave it"
 msgstr "Lass es"
+
+#~ msgid "2p — Valley of the Ancients"
+#~ msgstr "2s — Das Tal der Ältesten"
