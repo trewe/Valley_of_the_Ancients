@@ -23,8 +23,8 @@ msgstr "VotA"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 msgid ""
-"Fight your way into the legendary Valley of the Ancients against your "
-"rival.\n"
+"Fight your way into the legendary Valley of the Ancients against your rival."
+"\n"
 "\n"
 msgstr ""
 "Kämpfe dich durch das legendäre Alte Tal gegen deinen Rivalen.\n"
@@ -1867,17 +1867,3 @@ msgstr "Nimm es"
 #. [option]: speaker=narrator
 msgid "Leave it"
 msgstr "Lass es"
-
-#, fuzzy
-#~ msgid ""
-#~ "Capture more units than your opponent does (currently: $side_2.units)"
-#~ msgstr "Erobere mehr Einheiten als dein Gegner"
-
-#, fuzzy
-#~ msgid "Your opponent finish with more units (currently: $side_1.units)"
-#~ msgstr "Dein Gegner Endet mit mehr Einheiten"
-
-#~ msgid "(2) Move your leader again to a ruined castle to select the row"
-#~ msgstr ""
-#~ "(2) Bewege deinen Anführer wieder zu einer Burgruine um die Zeile "
-#~ "auszuwählen"
