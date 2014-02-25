@@ -23,8 +23,8 @@ msgstr "VotA"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 msgid ""
-"Fight your way into the legendary Valley of the Ancients against your "
-"rival.\n"
+"Fight your way into the legendary Valley of the Ancients against your rival."
+"\n"
 "\n"
 msgstr ""
 "Kämpfe dich durch das legendäre Alte Tal gegen deinen Rivalen.\n"
@@ -1862,6 +1862,3 @@ msgstr "Nimm es"
 #. [option]: speaker=narrator
 msgid "Leave it"
 msgstr "Lass es"
-
-#~ msgid "2p — Valley of the Ancients"
-#~ msgstr "2s — Das Tal der Ältesten"
