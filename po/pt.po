@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-Valley_of_the_Ancients\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-02-25 13:30+0000\n"
+"POT-Creation-Date: 2014-05-24 17:18+0100\n"
 "PO-Revision-Date: 2014-02-08 20:05+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: trewe <sjrs456@yahoo.fr>\n"
@@ -23,8 +23,8 @@ msgstr "VdA"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 msgid ""
-"Fight your way into the legendary Valley of the Ancients against your rival."
-"\n"
+"Fight your way into the legendary Valley of the Ancients against your "
+"rival.\n"
 "\n"
 msgstr ""
 "Disputa o teu caminho para o Vale Antigo contra o teu rival.\n"
@@ -35,12 +35,12 @@ msgid "(Competive campaign, 6 scenarios)"
 msgstr "(Campanha competitiva, 6 cenários)"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
-msgid "(Normal)"
-msgstr "(Normal)"
-
-#. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 msgid "Guardian"
 msgstr "Guardião"
+
+#. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
+msgid "(Normal)"
+msgstr "(Normal)"
 
 #. [about]
 msgid "Creator and Original Designer"
@@ -696,12 +696,12 @@ msgid "Virgin Altar"
 msgstr "Altar da Virgem"
 
 #. [event]
-msgid "Turn 4 [R]"
-msgstr "Turno 4 [D]"
-
-#. [event]
 msgid "Hooligans"
 msgstr "Bandoleiros"
+
+#. [event]
+msgid "Turn 4 [R]"
+msgstr "Turno 4 [D]"
 
 #. [message]: speaker=narrator
 msgid ""
@@ -732,12 +732,12 @@ msgid "Difficulty: Extreme"
 msgstr "Dificuldade: Extrema"
 
 #. [event]
-msgid "Healer with Guards"
-msgstr "Curandeiros com Guardas"
-
-#. [event]
 msgid "Turn 8 [L]"
 msgstr "Turno 8 [E]"
+
+#. [event]
+msgid "Healer with Guards"
+msgstr "Curandeiros com Guardas"
 
 #. [event]
 msgid "Turn 11 [R]"
@@ -756,12 +756,12 @@ msgid "Talking Squid"
 msgstr "Polvo Falante"
 
 #. [event]
-msgid "Turn 14 [L]"
-msgstr "Turno 14 [E]"
-
-#. [event]
 msgid "Water Dwellers"
 msgstr "Seres aquáticos"
+
+#. [event]
+msgid "Turn 14 [L]"
+msgstr "Turno 14 [E]"
 
 #. [event]
 msgid "Turn 17 [R]"
@@ -780,20 +780,20 @@ msgid "Stampede"
 msgstr "debandada"
 
 #. [event]
-msgid "Tree Huggers"
-msgstr "adoradores de árvores"
-
-#. [event]
 msgid "Turn 24 [R]"
 msgstr "Turno 24 [D]"
 
 #. [event]
-msgid "Turn 28 [L]"
-msgstr "Turno 28 [E]"
+msgid "Tree Huggers"
+msgstr "adoradores de árvores"
 
 #. [event]
 msgid "Skirmishers"
 msgstr "Escaramuçadores"
+
+#. [event]
+msgid "Turn 28 [L]"
+msgstr "Turno 28 [E]"
 
 #. [event]
 msgid "Fire and Steel"
@@ -812,12 +812,12 @@ msgid "Turn 35 [L]"
 msgstr "Turno 35 [E]"
 
 #. [event]
-msgid "Kill the Virgins!"
-msgstr "Mata as Virgens!"
-
-#. [event]
 msgid "Turn 40"
 msgstr "Turno 40"
+
+#. [event]
+msgid "Kill the Virgins!"
+msgstr "Mata as Virgens!"
 
 #. [event]
 msgid "Hail Q'zrk!"

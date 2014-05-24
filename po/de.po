@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-Valley_of_the_Ancients\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-02-25 13:30+0000\n"
-"PO-Revision-Date: 2014-01-28 15:00+0100\n"
+"POT-Creation-Date: 2014-05-24 17:18+0100\n"
+"PO-Revision-Date: 2014-05-24 17:22-0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: trewe <sjrs456@yahoo.fr>\n"
 "Language: de\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.4\n"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 msgid "Valley of the Ancients"
@@ -23,8 +23,8 @@ msgstr "VotA"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 msgid ""
-"Fight your way into the legendary Valley of the Ancients against your rival."
-"\n"
+"Fight your way into the legendary Valley of the Ancients against your "
+"rival.\n"
 "\n"
 msgstr ""
 "Kämpfe dich durch das legendäre Alte Tal gegen deinen Rivalen.\n"
@@ -35,12 +35,12 @@ msgid "(Competive campaign, 6 scenarios)"
 msgstr ""
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
-msgid "(Normal)"
-msgstr "(Normal)"
-
-#. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 msgid "Guardian"
 msgstr "Wächter"
+
+#. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
+msgid "(Normal)"
+msgstr "(Normal)"
 
 #. [about]
 msgid "Creator and Original Designer"
@@ -59,11 +59,10 @@ msgid "2p — Reversi"
 msgstr "2s — Reversi"
 
 #. [multiplayer]: id=TL_VOTA_Reversi
-#, fuzzy
 msgid "Reversi a.k.a Othello for 2 players or alone"
 msgstr ""
 "Reversi, auch bekannt als Othello, für zwei Spieler (auch als Einzelspieler "
-"Modus geeignet)"
+"Modus spielbar)"
 
 #. [time]: id=Reversi_tod
 msgid "Time of day has no effect in Reversi"
@@ -71,19 +70,17 @@ msgstr ""
 
 #. [side]
 msgid "Black"
-msgstr ""
+msgstr "Schwarz"
 
 #. [side]
 msgid "White"
-msgstr ""
+msgstr "Weiß"
 
 #. [objective]: condition=win
-#, fuzzy
 msgid "Capture more units than your opponent does"
 msgstr "Erobere mehr Einheiten als dein Gegner"
 
 #. [objective]: condition=lose
-#, fuzzy
 msgid "Your opponent finish with more units"
 msgstr "Dein Gegner Endet mit mehr Einheiten"
 
@@ -100,12 +97,10 @@ msgstr ""
 "Um eine Einheit auf dem Brett zu bewegen:"
 
 #. [note]
-#, fuzzy
 msgid "(1) Move your leader to a ruined castle to select the column and row"
 msgstr "(1) Bewege deinen Anführer zu einer Burgruine um die Spalte auswählen"
 
 #. [note]
-#, fuzzy
 msgid ""
 "(2) If the move is valid an unit will be created at the given interception"
 msgstr ""
@@ -113,7 +108,6 @@ msgstr ""
 "einberufen"
 
 #. [note]
-#, fuzzy
 msgid ""
 "(3) Any enemy units standing between the newly created unit and one of the "
 "same side will swap side."
@@ -122,7 +116,6 @@ msgstr ""
 "dann die Seite wechseln."
 
 #. [note]
-#, fuzzy
 msgid ""
 "(4) The game continues until the board is full, or neither leader can do a "
 "move."
@@ -132,7 +125,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 msgid "Endgame"
-msgstr ""
+msgstr "Spielende"
 
 #. [message]: speaker=narrator
 msgid ""
@@ -146,7 +139,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 msgid "The game ended in a draw (<i>$side_1.units:$side_2.units</i>)"
-msgstr ""
+msgstr "Das Spiel endete Unetnschieden  (<i>$side_1.units:$side_2.units</i>)"
 
 #. [bloodlust]: id=bloodlust
 msgid "hit'n run"
@@ -711,12 +704,12 @@ msgid "Virgin Altar"
 msgstr "Altar der Jungfrau"
 
 #. [event]
-msgid "Turn 4 [R]"
-msgstr "4. Runde [R]"
-
-#. [event]
 msgid "Hooligans"
 msgstr "Randalierer"
+
+#. [event]
+msgid "Turn 4 [R]"
+msgstr "4. Runde [R]"
 
 #. [message]: speaker=narrator
 msgid ""
@@ -747,12 +740,12 @@ msgid "Difficulty: Extreme"
 msgstr "Schwierigkeit: Extrem"
 
 #. [event]
-msgid "Healer with Guards"
-msgstr "Heiler mit Wächter"
-
-#. [event]
 msgid "Turn 8 [L]"
 msgstr "8. Runde [L]"
+
+#. [event]
+msgid "Healer with Guards"
+msgstr "Heiler mit Wächter"
 
 #. [event]
 msgid "Turn 11 [R]"
@@ -771,12 +764,12 @@ msgid "Talking Squid"
 msgstr "Sprechendes Vieh"
 
 #. [event]
-msgid "Turn 14 [L]"
-msgstr "14. Runde [L]"
-
-#. [event]
 msgid "Water Dwellers"
 msgstr "Wasser Bewohner"
+
+#. [event]
+msgid "Turn 14 [L]"
+msgstr "14. Runde [L]"
 
 #. [event]
 msgid "Turn 17 [R]"
@@ -795,20 +788,20 @@ msgid "Stampede"
 msgstr "Panik"
 
 #. [event]
-msgid "Tree Huggers"
-msgstr ""
-
-#. [event]
 msgid "Turn 24 [R]"
 msgstr "24. Runde [R]"
 
 #. [event]
-msgid "Turn 28 [L]"
-msgstr "28. Runde [L]"
+msgid "Tree Huggers"
+msgstr ""
 
 #. [event]
 msgid "Skirmishers"
 msgstr "Plänkler"
+
+#. [event]
+msgid "Turn 28 [L]"
+msgstr "28. Runde [L]"
 
 #. [event]
 msgid "Fire and Steel"
@@ -827,12 +820,12 @@ msgid "Turn 35 [L]"
 msgstr "35. Runde [L]"
 
 #. [event]
-msgid "Kill the Virgins!"
-msgstr "Tötet die Jungfrauen!"
-
-#. [event]
 msgid "Turn 40"
 msgstr "40. Runde"
+
+#. [event]
+msgid "Kill the Virgins!"
+msgstr "Tötet die Jungfrauen!"
 
 #. [event]
 msgid "Hail Q'zrk!"

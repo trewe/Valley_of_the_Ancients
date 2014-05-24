@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-02-25 13:30+0000\n"
+"POT-Creation-Date: 2014-05-24 17:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,12 +35,12 @@ msgstr ""
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 #: Valley_of_the_Ancients/_main.cfg:29
-msgid "(Normal)"
+msgid "Guardian"
 msgstr ""
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 #: Valley_of_the_Ancients/_main.cfg:29
-msgid "Guardian"
+msgid "(Normal)"
 msgstr ""
 
 #. [about]
@@ -124,22 +124,22 @@ msgid "(4) The game continues until the board is full, or neither leader can do 
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:531 Valley_of_the_Ancients/scenarios/2p_Othello.cfg:548 Valley_of_the_Ancients/scenarios/2p_Othello.cfg:565
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:533 Valley_of_the_Ancients/scenarios/2p_Othello.cfg:550 Valley_of_the_Ancients/scenarios/2p_Othello.cfg:567
 msgid "Endgame"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:532
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:534
 msgid "<b>$Player1Name</b> won the game with <i>$side_1.units:$side_2.units</i>"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:549
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:551
 msgid "<b>$Player2Name</b> won the game with <i>$side_2.units:$side_1.units</i>"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:566
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:568
 msgid "The game ended in a draw (<i>$side_1.units:$side_2.units</i>)"
 msgstr ""
 
@@ -667,12 +667,12 @@ msgstr ""
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:496
-msgid "Turn 4 [R]"
+msgid "Hooligans"
 msgstr ""
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:496
-msgid "Hooligans"
+msgid "Turn 4 [R]"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -707,12 +707,12 @@ msgstr ""
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:555
-msgid "Healer with Guards"
+msgid "Turn 8 [L]"
 msgstr ""
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:555
-msgid "Turn 8 [L]"
+msgid "Healer with Guards"
 msgstr ""
 
 #. [event]
@@ -737,12 +737,12 @@ msgstr ""
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:605
-msgid "Turn 14 [L]"
+msgid "Water Dwellers"
 msgstr ""
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:605
-msgid "Water Dwellers"
+msgid "Turn 14 [L]"
 msgstr ""
 
 #. [event]
@@ -767,22 +767,22 @@ msgstr ""
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:635
-msgid "Tree Huggers"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:635
 msgid "Turn 24 [R]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:676
-msgid "Turn 28 [L]"
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:635
+msgid "Tree Huggers"
 msgstr ""
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:676
 msgid "Skirmishers"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:676
+msgid "Turn 28 [L]"
 msgstr ""
 
 #. [event]
@@ -807,12 +807,12 @@ msgstr ""
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:711
-msgid "Kill the Virgins!"
+msgid "Turn 40"
 msgstr ""
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:711
-msgid "Turn 40"
+msgid "Kill the Virgins!"
 msgstr ""
 
 #. [event]
@@ -1300,192 +1300,192 @@ msgid "We'll see about that. Those treasures are mine!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:454 Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:507
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:450 Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:499
 msgid "What?! There are still dwarves alive down here?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:459 Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:512
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:455 Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:504
 msgid "Aye, o'course there be!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:464 Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:517
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:460 Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:509
 msgid "But the upper levels are swarming with undead! How can you survive?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:469 Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:522
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:465 Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:514
 msgid "With good sturdy dwarvish steel--how else? Yon bonesacks are nae a match for our axes and hammers!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:474 Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:527
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:470 Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:519
 msgid "Then surely you must help us. Together we can drive the undead scourge away from your home!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:479 Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:532
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:475 Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:524
 msgid "Aye... so ye can take it for yourselves, no doubt! C'mon, lads--let's send these intruders back where they belong!"
 msgstr ""
 
 #. [message]: role=zombie
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:564
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:556
 msgid "Nnnnrrrrrgghhhh..."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:569
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:561
 msgid "Gah! What is this?"
 msgstr ""
 
 #. [message]: race=dwarf
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:575
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:567
 msgid "It is our terrible burden. We are bound to this valley forever, in death as well as life."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:596
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:588
 msgid "A curse over this wretched place! I should have heeded the guardian's warnings while I had a chance..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:618
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:610
 msgid "Damn. I had come so far..."
 msgstr ""
 
 #. [message]: race=dwarf
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:625
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:617
 msgid "Excellent. The intruders have been defeated!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:676 Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:307 Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:268
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:668 Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:307 Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:268
 msgid "What type of Soulless would you like to recruit?"
 msgstr ""
 
 #. [option]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:679 Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:310 Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:271
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:671 Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:310 Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:271
 msgid "Bat"
 msgstr ""
 
 #. [option]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:692 Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:323 Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:284
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:684 Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:323 Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:284
 msgid "Saurian"
 msgstr ""
 
 #. [option]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:705 Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:349 Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:310
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:697 Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:349 Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:310
 msgid "Goblin"
 msgstr ""
 
 #. [message]: race=dwarf
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:734
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:726
 msgid "No! Our sacred treasures, all gone!"
 msgstr ""
 
 #. [then]: id=Mal-Draugur
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:739
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:731
 msgid "Mal-Draugur"
 msgstr ""
 
 #. [message]: id=Mal-Draugur
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:748
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:740
 msgid "Hah hah hah! Foolish mortals... your infighting has only left you weak and vulnerable. Now I will finally destroy you once and for all!"
 msgstr ""
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:752
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:744
 msgid "Pull back! We need a more defensible position to fight from!"
 msgstr ""
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:756
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:748
 msgid "Damn! Too many enemies... we'll have to retreat!"
 msgstr ""
 
 #. [message]: race=dwarf
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:763
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:755
 msgid "Fools! You have doomed us all... below us lies an even greater danger, but now you have left us all no choice."
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:845
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:837
 msgid "Ring of Invisibility"
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:846
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:838
 msgid "Wearing this ring will render a unit invisible unless it attacks or moves adjacent to an enemy."
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:860
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:852
 msgid "Runestorm Axe"
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:861
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:853
 msgid "This magic throwing axe is enchanted to swiftly return to the thrower's hand."
 msgstr ""
 
 #. [effect]: type=blade
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:865
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:857
 msgid "runestorm axe"
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:910
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:902
 msgid "Golden Mail"
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:911
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:903
 msgid "This enchanted armor will increase a unit's hitpoints as well as boosting resistance to fire and cold damage."
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:934
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:926
 msgid "Ring of Ogre Might"
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:935
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:927
 msgid "Wearing this ring will grant the unit teleporting, and increasing the number of its strikes."
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:1008
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:1000
 msgid "Spear of Valor"
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:1009
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:1001
 msgid "This magic spear fills the wielder with courage and daring, letting them charge for double damage."
 msgstr ""
 
 #. [effect]: type=pierce
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:1013
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:1005
 msgid "spear of valour"
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:1058
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:1050
 msgid "Vial of Holy Water"
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:1059
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:1051
 msgid "This blessed water will allow a unit's melee attacks to do arcane damage."
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:1074
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:1066
 msgid "Trollsblood Potion"
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:1075
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:1067
 msgid "This magical conconction will allow a unit to regenerate health like a troll."
 msgstr ""
 
