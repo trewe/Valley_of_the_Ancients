@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-02-08 20:04+0000\n"
+"POT-Creation-Date: 2014-05-24 16:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,12 +35,12 @@ msgstr ""
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 #: Valley_of_the_Ancients/_main.cfg:30
-msgid "(Normal)"
+msgid "Guardian"
 msgstr ""
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 #: Valley_of_the_Ancients/_main.cfg:30
-msgid "Guardian"
+msgid "(Normal)"
 msgstr ""
 
 #. [about]
@@ -124,22 +124,22 @@ msgid "(4) The game continues until the board is full, or neither leader can do 
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:590 Valley_of_the_Ancients/scenarios/2p_Othello.cfg:607 Valley_of_the_Ancients/scenarios/2p_Othello.cfg:624
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:587 Valley_of_the_Ancients/scenarios/2p_Othello.cfg:604 Valley_of_the_Ancients/scenarios/2p_Othello.cfg:621
 msgid "Endgame"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:591
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:588
 msgid "<b>$Player1Name</b> won the game with <i>$side_1.units:$side_2.units</i>"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:608
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:605
 msgid "<b>$Player2Name</b> won the game with <i>$side_2.units:$side_1.units</i>"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:625
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:622
 msgid "The game ended in a draw (<i>$side_1.units:$side_2.units</i>)"
 msgstr ""
 
@@ -652,7 +652,7 @@ msgid "Thank God you made it! Please destroy me!!!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:466 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:495 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:542 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:774
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:466 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:495 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:542 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:782
 msgid "Innocent Virgin"
 msgstr ""
 
@@ -662,7 +662,7 @@ msgid "Oh please, just kill me now!!!"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:502 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:503 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:755 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:756
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:502 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:503 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:763 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:764
 msgid "Virgin Altar"
 msgstr ""
 
@@ -707,122 +707,122 @@ msgid "Difficulty: Extreme"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:589
-msgid "Turn 8 [L]"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:589
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:597
 msgid "Healer with Guards"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:599
-msgid "Turn 11 [R]"
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:597
+msgid "Turn 8 [L]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:599
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:607
 msgid "Evil Things"
 msgstr ""
 
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:607
+msgid "Turn 11 [R]"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:630 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:701
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:638 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:709
 msgid "Free at last! I will help you but first I must heal!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:632 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:703
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:640 Valley_of_the_Ancients/scenarios/4p_KTV.cfg:711
 msgid "Talking Squid"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:639
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:647
 msgid "Turn 14 [L]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:639
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:647
 msgid "Water Dwellers"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:649
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:657
 msgid "Turn 17 [R]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:649
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:657
 msgid "Savages"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:659
-msgid "Turn 20 [L]"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:659
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:667
 msgid "Stampede"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:669
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:667
+msgid "Turn 20 [L]"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:677
 msgid "Turn 24 [R]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:669
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:677
 msgid "Tree Huggers"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:710
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:718
 msgid "Skirmishers"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:710
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:718
 msgid "Turn 28 [L]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:720
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:728
 msgid "Turn 32 [R]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:720
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:728
 msgid "Fire and Steel"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:735
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:743
 msgid "Turn 35 [L]"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:735
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:743
 msgid "Hodgepodge"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:745
-msgid "Kill the Virgins!"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:745
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:753
 msgid "Turn 40"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:758
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:753
+msgid "Kill the Virgins!"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:766
 msgid "Hail Q'zrk!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:772
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:780
 msgid "Free us from our altars and sacrifice us to Q'zrk! Hurry before it is too late!"
 msgstr ""
 
@@ -832,17 +832,17 @@ msgid "6p — Rotating War"
 msgstr ""
 
 #. [side]
-#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:27 Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:97
+#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:27 Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:69
 msgid "Team Earth"
 msgstr ""
 
 #. [side]
-#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:41 Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:55
+#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:41 Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:83
 msgid "Team Fire"
 msgstr ""
 
 #. [side]
-#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:69 Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:83
+#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:55 Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:97
 msgid "Team Air"
 msgstr ""
 
@@ -1710,13 +1710,13 @@ msgstr ""
 #. [message]: speaker=narrator
 #: Valley_of_the_Ancients/utils/Rotation_War_Common.cfg:64
 msgid ""
-"\n"
+"<span color='black'>`</span>\n"
 "Use the castle rotation to carry out complex strategies, and attempt to control the most of the map.\n"
-"\n"
+"<span color='black'>`</span>\n"
 "If you have trouble understanding the scenario, I'd suggest you dry-run it with a few ai first, just to get the feel of the game.\n"
-"\n"
+"<span color='black'>`</span>\n"
 "Using fog could also be funny and provide for an interesting gameplay.\n"
-"\n"
+"<span color='black'>`</span>\n"
 "If you're certain you found a new bug, please let know the maintainer. Have fun and good luck! This is version $version"
 msgstr ""
 
