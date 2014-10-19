@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-Valley_of_the_Ancients\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-05-24 17:18+0100\n"
+"POT-Creation-Date: 2014-10-19 23:47+0100\n"
 "PO-Revision-Date: 2014-05-24 17:22-0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: trewe <sjrs456@yahoo.fr>\n"
@@ -14,14 +14,17 @@ msgstr ""
 "X-Generator: Poedit 1.6.4\n"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
+#: _main.cfg:10
 msgid "Valley of the Ancients"
 msgstr "Das Tal der Ältesten"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
+#: _main.cfg:11
 msgid "VotA"
 msgstr "VotA"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
+#: _main.cfg:26
 msgid ""
 "Fight your way into the legendary Valley of the Ancients against your "
 "rival.\n"
@@ -31,64 +34,296 @@ msgstr ""
 "\n"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
+#: _main.cfg:28
 msgid "(Competive campaign, 6 scenarios)"
-msgstr ""
+msgstr "(Campanha competitiva, 6 cenários)"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
-msgid "Guardian"
-msgstr "Wächter"
-
-#. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
+#: _main.cfg:30
 msgid "(Normal)"
 msgstr "(Normal)"
 
+#. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
+#: _main.cfg:30
+msgid "Guardian"
+msgstr "Wächter"
+
 #. [about]
+#: _main.cfg:33
 msgid "Creator and Original Designer"
 msgstr "Autor und Designer"
 
 #. [entry]
+#: _main.cfg:35
 msgid "TL"
 msgstr "TL"
 
 #. [about]
+#: _main.cfg:39
 msgid "Campaign Maintenance"
 msgstr "Pflege und Erweiterung der Kampagne"
 
+#. [multiplayer]: id=VOTA_multiplayer_dimagabeachrace
+#: scenarios/2p_Dimaga_Beach_Race.cfg:159
+msgid "2p — Race for Dimaga Beach"
+msgstr ""
+
+#. [multiplayer]: id=VOTA_multiplayer_dimagabeachrace
+#: scenarios/2p_Dimaga_Beach_Race.cfg:161
+msgid ""
+"Two players must race down the mountain to dimaga beach! The winner is the "
+"player who reaches the end or survives longer than his opponent."
+msgstr ""
+
+#. [side]
+#: scenarios/2p_Dimaga_Beach_Race.cfg:176
+msgid "Enemies"
+msgstr "Inimigos"
+
+#. [side]
+#: scenarios/2p_Dimaga_Beach_Race.cfg:212
+#, fuzzy
+msgid "Contestant (East)"
+msgstr "Conteúdos"
+
+#. [side]
+#: scenarios/2p_Dimaga_Beach_Race.cfg:226
+#, fuzzy
+msgid "Contestant (West)"
+msgstr "Aventureiros"
+
+#. [label]
+#: scenarios/2p_Dimaga_Beach_Race.cfg:264
+#, fuzzy
+msgid "Dimaga Beach"
+msgstr "Praia dos Répteis"
+
+#. [objective]: condition=win
+#: scenarios/2p_Dimaga_Beach_Race.cfg:274
+msgid "Advance your leader to Dimaga Beach"
+msgstr ""
+
+#. [objective]: condition=lose
+#: scenarios/2p_Dimaga_Beach_Race.cfg:278
+#, fuzzy
+msgid "Death of your Leader"
+msgstr "Tod deines Anführers"
+
+#. [objective]: condition=lose
+#: scenarios/2p_Dimaga_Beach_Race.cfg:282
+msgid "Opponent's Leader reaches Dimaga Beach"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:352
+#: scenarios/2p_Dimaga_Beach_Race.cfg:358
+#: scenarios/2p_Dimaga_Beach_Race.cfg:371
+#: scenarios/2p_Dimaga_Beach_Race.cfg:381
+#: scenarios/2p_Dimaga_Beach_Race.cfg:401
+#: scenarios/2p_Dimaga_Beach_Race.cfg:411
+#: scenarios/2p_Dimaga_Beach_Race.cfg:417
+#: scenarios/2p_Dimaga_Beach_Race.cfg:423
+#: scenarios/2p_Dimaga_Beach_Race.cfg:429
+#: scenarios/2p_Dimaga_Beach_Race.cfg:692
+#: scenarios/2p_Dimaga_Beach_Race.cfg:698
+#: scenarios/2p_Dimaga_Beach_Race.cfg:728
+#: scenarios/2p_Dimaga_Beach_Race.cfg:734
+#: scenarios/2p_Dimaga_Beach_Race.cfg:740
+#: scenarios/2p_Dimaga_Beach_Race.cfg:775
+#: scenarios/2p_Dimaga_Beach_Race.cfg:864
+msgid "Dimaga Entruse"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:354
+msgid "Ah, greetings contestants and welcome to 'The race for Dimaga Beach!'"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:360
+msgid "Your quest is simple, proceed north..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:373
+msgid "...to Dimaga Beach before your opponent gets there."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:383
+msgid "These rings grant one lucky unit, for each player, a melee enhancement."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:403
+msgid "Hostile creatures scatter the path! You must be fast and efficient."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:413
+msgid "If you are killed then your opponent is immediately victorious."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:419
+msgid "Your keep will disappear on turn 10 so choose your units wisely."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:425
+msgid "Be sure to thank Vincent for his awesome work!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:431
+msgid "Now let the Race begin!"
+msgstr ""
+
+#. [object]: id=FlameRing
+#: scenarios/2p_Dimaga_Beach_Race.cfg:620
+#, fuzzy
+msgid "Ring of Fire"
+msgstr "Anel do Poder"
+
+#. [object]: id=FlameRing
+#: scenarios/2p_Dimaga_Beach_Race.cfg:622
+msgid ""
+"This enchanted ring has made your melee weapon burn and deal 25% extra "
+"damage!"
+msgstr ""
+
+#. [object]: id=AccuracyRing
+#: scenarios/2p_Dimaga_Beach_Race.cfg:654
+#, fuzzy
+msgid "Ring of Accuracy"
+msgstr "Precisão:"
+
+#. [object]: id=AccuracyRing
+#: scenarios/2p_Dimaga_Beach_Race.cfg:656
+msgid "This ring has enchanted your melee weapon and granted it 70% accuracy!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:694
+msgid "Attention players!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:700
+msgid "Vision of your opponent has been removed, you must fight for the Win."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:730
+#, fuzzy
+msgid "$unit.name has been slain..."
+msgstr "A partida foi guardada."
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:736
+msgid "Therefore his opponent is Victorious! Congratulations!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:742
+#: scenarios/2p_Dimaga_Beach_Race.cfg:866
+msgid "Thanks for playing and please come again!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:777
+msgid "Ladies and gentlemen, we have a Winner."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:783
+msgid "Congratulations $unit.name!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:792
+msgid "Unbreakable Achievement"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:794
+msgid "$unit.name has not lost a single unit in the race!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:807
+msgid "Hardcore Achievement"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:809
+msgid "$unit.name has killed $kills$unit_side units during the race!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:823
+msgid "Blitz Achievement"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:825
+msgid "$unit.name has completed the race in $turn_number turns!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:855
+msgid "Capitalist Achievement"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: scenarios/2p_Dimaga_Beach_Race.cfg:857
+msgid "$unit.name has finished the race with $gold gold to spare!"
+msgstr ""
+
 #. [multiplayer]: id=TL_VOTA_Reversi
+#: scenarios/2p_Othello.cfg:5
 msgid "2p — Reversi"
 msgstr "2s — Reversi"
 
 #. [multiplayer]: id=TL_VOTA_Reversi
+#: scenarios/2p_Othello.cfg:7
 msgid "Reversi a.k.a Othello for 2 players or alone"
 msgstr ""
 "Reversi, auch bekannt als Othello, für zwei Spieler (auch als Einzelspieler "
 "Modus spielbar)"
 
 #. [time]: id=Reversi_tod
+#: scenarios/2p_Othello.cfg:14
 msgid "Time of day has no effect in Reversi"
-msgstr ""
+msgstr "O tempo do dia não tem efeito em reversi"
 
 #. [side]
+#: scenarios/2p_Othello.cfg:46
 msgid "Black"
 msgstr "Schwarz"
 
 #. [side]
+#: scenarios/2p_Othello.cfg:61
 msgid "White"
 msgstr "Weiß"
 
 #. [objective]: condition=win
+#: scenarios/2p_Othello.cfg:78
 msgid "Capture more units than your opponent does"
 msgstr "Erobere mehr Einheiten als dein Gegner"
 
 #. [objective]: condition=lose
+#: scenarios/2p_Othello.cfg:82
 msgid "Your opponent finish with more units"
 msgstr "Dein Gegner Endet mit mehr Einheiten"
 
 #. [objectives]
+#: scenarios/2p_Othello.cfg:85
 msgid "<b>How to Play</b>"
 msgstr "<b>Anleitung</b>"
 
 #. [note]
+#: scenarios/2p_Othello.cfg:87
 msgid ""
 "A move is valid if enemy units will be between two of yours. To place a unit "
 "on the board:"
@@ -97,10 +332,12 @@ msgstr ""
 "Um eine Einheit auf dem Brett zu bewegen:"
 
 #. [note]
+#: scenarios/2p_Othello.cfg:90
 msgid "(1) Move your leader to a ruined castle to select the column and row"
 msgstr "(1) Bewege deinen Anführer zu einer Burgruine um die Spalte auswählen"
 
 #. [note]
+#: scenarios/2p_Othello.cfg:93
 msgid ""
 "(2) If the move is valid an unit will be created at the given interception"
 msgstr ""
@@ -108,6 +345,7 @@ msgstr ""
 "einberufen"
 
 #. [note]
+#: scenarios/2p_Othello.cfg:96
 msgid ""
 "(3) Any enemy units standing between the newly created unit and one of the "
 "same side will swap side."
@@ -116,6 +354,7 @@ msgstr ""
 "dann die Seite wechseln."
 
 #. [note]
+#: scenarios/2p_Othello.cfg:99
 msgid ""
 "(4) The game continues until the board is full, or neither leader can do a "
 "move."
@@ -124,37 +363,48 @@ msgstr ""
 "beiden Anführer einen Zug machen kann."
 
 #. [message]: speaker=narrator
+#: scenarios/2p_Othello.cfg:538 scenarios/2p_Othello.cfg:555
+#: scenarios/2p_Othello.cfg:572
 msgid "Endgame"
 msgstr "Spielende"
 
 #. [message]: speaker=narrator
+#: scenarios/2p_Othello.cfg:539
 msgid ""
 "<b>$Player1Name</b> won the game with <i>$side_1.units:$side_2.units</i>"
 msgstr ""
+"<b>$Player1Name</b> ganhou a partida com <i>$side_1.units:$side_2.units</i>"
 
 #. [message]: speaker=narrator
+#: scenarios/2p_Othello.cfg:556
 msgid ""
 "<b>$Player2Name</b> won the game with <i>$side_2.units:$side_1.units</i>"
 msgstr ""
+"<b>$Player2Name</b> ganhou a partida com <i>$side_2.units:$side_1.units</i>"
 
 #. [message]: speaker=narrator
+#: scenarios/2p_Othello.cfg:573
 msgid "The game ended in a draw (<i>$side_1.units:$side_2.units</i>)"
 msgstr "Das Spiel endete Unetnschieden  (<i>$side_1.units:$side_2.units</i>)"
 
 #. [bloodlust]: id=bloodlust
+#: scenarios/3p_Outbreak.cfg:6
 msgid "hit'n run"
-msgstr ""
+msgstr "toca e foge"
 
 #. [bloodlust]: id=bloodlust
+#: scenarios/3p_Outbreak.cfg:7
 msgid "female^hit'n run"
-msgstr ""
+msgstr "toca e foge"
 
 #. [bloodlust]: id=bloodlust
+#: scenarios/3p_Outbreak.cfg:8
 msgid "This unit gains another move everytime its kills an enemy unit."
 msgstr ""
 "Diese Einheit kann sich erneut bewegen wenn sie eine feindliche Einheit "
 "tötet."
 
+#: scenarios/3p_Outbreak.cfg:17
 msgid ""
 "Sprinkling this water on melee weapons grants them the <i>arcane</i> damage "
 "type until the end of the current scenario. Should $unit.name use it?"
@@ -162,21 +412,27 @@ msgstr ""
 "Jedwede Waffe, die mit diesem Wasser übergossen wird, gilt bis zum Ende des "
 "Szenarios als <i>arkane</i> Waffe. Soll $unit.name das Wasser verwenden?"
 
+#: scenarios/3p_Outbreak.cfg:18
 msgid "holy water^Take it"
 msgstr "Nehmen"
 
+#: scenarios/3p_Outbreak.cfg:19
 msgid "holy water^Leave it"
 msgstr "Liegen lassen"
 
+#: scenarios/3p_Outbreak.cfg:20 scenarios/3p_Outbreak.cfg:50
+#: scenarios/3p_Outbreak.cfg:85
 msgid "Leaders cannot take this item! Let another take it."
 msgstr ""
 "Anführer können diesen Gegenstand nicht nutzen! Gebt ihn einem anderen."
 
 #. [object]
+#: scenarios/3p_Outbreak.cfg:22
 msgid "Holy Water"
 msgstr "Weihwasser"
 
 #. [object]
+#: scenarios/3p_Outbreak.cfg:25
 msgid ""
 "This water will make melee weapons have the 'arcane' damage type until the "
 "end of the current scenario."
@@ -184,6 +440,7 @@ msgstr ""
 "Jedwede Waffe, die mit diesem Wasser übergossen wird, gilt bis zum Ende des "
 "Szenarios als <i>arkane</i> Waffe"
 
+#: scenarios/3p_Outbreak.cfg:47
 msgid ""
 "Picking up this item will grant illuminates to the wearer until the end of "
 "the current scenario. Should $unit.name use it?"
@@ -191,17 +448,21 @@ msgstr ""
 "Dieser Gegenstand gewährt seinen Träger Beleuchtung bis zum Ende des "
 "aktuellen Szenario. Soll $unit.name es verwenden?"
 
+#: scenarios/3p_Outbreak.cfg:48
 msgid "ankh amulete^Take it"
 msgstr "Nimm es"
 
+#: scenarios/3p_Outbreak.cfg:49
 msgid "ankh amulete^Leave it"
 msgstr "Lass es"
 
 #. [object]
+#: scenarios/3p_Outbreak.cfg:52
 msgid "Illuminates"
 msgstr "Lichtaura"
 
 #. [object]
+#: scenarios/3p_Outbreak.cfg:55
 msgid ""
 "Picking up this item will grant illuminates to the wearer until the end of "
 "the current scenario."
@@ -209,6 +470,7 @@ msgstr ""
 "Dieser Gegenstand gewährt seinen Träger Beleuchtung bis zum Ende des "
 "aktuellen Szenario."
 
+#: scenarios/3p_Outbreak.cfg:82
 msgid ""
 "Drinking this potion will give the unit the bloodlust ability, allowing it "
 "to attack again whenever it kills an opponent. Should $unit.name use it?"
@@ -217,73 +479,90 @@ msgstr ""
 "wieder angreifen kann, wenn es einen Gegner tötet. Soll $unit.name ihn "
 "verwenden?"
 
+#: scenarios/3p_Outbreak.cfg:83
 msgid "potion of bloodlust^Take it"
 msgstr "Nimm ihn"
 
+#: scenarios/3p_Outbreak.cfg:84
 msgid "potion of bloodlust^Leave it"
 msgstr "Lass ihn"
 
 #. [object]
+#: scenarios/3p_Outbreak.cfg:87
 msgid "Hit'n run"
-msgstr ""
+msgstr "Toca e Foge"
 
 #. [message]: speaker=narrator
+#: scenarios/3p_Outbreak.cfg:238
 msgid "Choose the game difficulty. Once chosen, you cannot change it."
 msgstr ""
 "Wählen Sie den Spielschwierigkeitsgrad. Einmal gewählt, kann sie nicht "
 "geändert werden."
 
 #. [option]: speaker=narrator
+#: scenarios/3p_Outbreak.cfg:240
 msgid "Walking Corpse"
 msgstr "Wandelnde Leiche"
 
 #. [print]
+#: scenarios/3p_Outbreak.cfg:246
 msgid "Difficulty: Walking Corpse"
 msgstr "Schwierigkeitsgrad: Wandelne Leiche"
 
 #. [option]: speaker=narrator
+#: scenarios/3p_Outbreak.cfg:256
 msgid "Dark Adept: Default"
 msgstr "Dunkler Adept: Standard"
 
 #. [print]
+#: scenarios/3p_Outbreak.cfg:262
 msgid "Difficulty: Dark Adept"
 msgstr "Schwierigkeitsgrad: Dunkler Adept"
 
 #. [option]: speaker=narrator
+#: scenarios/3p_Outbreak.cfg:272
 msgid "Necromancer"
 msgstr "Totenbeschwörer"
 
 #. [print]
+#: scenarios/3p_Outbreak.cfg:278
 msgid "Difficulty: Necromancer"
 msgstr "Schwierigkeitsgrad: Totenbeschwörer"
 
 #. [option]: speaker=narrator
+#: scenarios/3p_Outbreak.cfg:288
 msgid "Lich"
 msgstr "Lich"
 
 #. [print]
+#: scenarios/3p_Outbreak.cfg:294
 msgid "Difficulty: Lich"
 msgstr "Schwierigkeitsgrad: Lich"
 
 #. [message]: speaker=unit
+#: scenarios/3p_Outbreak.cfg:339
 msgid "Did that tree just move?!?"
 msgstr "Hat sich dieser Baum gerade bewegt?!?"
 
 #. [unit]: type=Elvish Shaman, role=shaman
+#: scenarios/3p_Outbreak.cfg:344
 msgid "Smygel"
 msgstr "Smygel"
 
 #. [message]: role=shaman
+#: scenarios/3p_Outbreak.cfg:371
 msgid "Who dares to enter my forest? Die rotten ... oh hi there!"
 msgstr "Wer wagt es, meinen Wald zu betreten? Stirbt faule... oh hallo!"
 
 #. [message]: speaker=unit
+#: scenarios/3p_Outbreak.cfg:375
 msgid "We mean no harm, please join us - the Walking Deads are everywhere!"
 msgstr ""
 "Wir meinen es nicht böse, bitte schließe dich uns an - die wandelnde Tote "
 "sind überall!"
 
 #. [message]: role=shaman
+#: scenarios/3p_Outbreak.cfg:379
 msgid ""
 "Hmph, fine. But you have to take good care of me - I don't want to become "
 "one of THEM!"
@@ -292,46 +571,57 @@ msgstr ""
 "IHNEN werden!"
 
 #. [message]: speaker=unit
+#: scenarios/3p_Outbreak.cfg:394
 msgid "Does anyone live here?"
 msgstr "Lebt hier jemand?"
 
 #. [unit]: type=Heavy Infantryman, role=troop
+#: scenarios/3p_Outbreak.cfg:399
 msgid "Vobryn"
 msgstr "Vobryn"
 
 #. [message]: role=troop
+#: scenarios/3p_Outbreak.cfg:413
 msgid "Who is disturbing my rest?"
 msgstr "Wer stört meine Ruhe?"
 
 #. [message]: speaker=unit
+#: scenarios/3p_Outbreak.cfg:417
 msgid "How can you resting with all that undead around!?"
 msgstr "Wie könnt ihr ruhen mit all dem Untoten!?"
 
 #. [message]: role=troop
+#: scenarios/3p_Outbreak.cfg:421
 msgid "Undead? Where?"
 msgstr "Untote? Wo?"
 
 #. [message]: speaker=unit
+#: scenarios/3p_Outbreak.cfg:435
 msgid "Someone is hidden in this temple!"
 msgstr "Es scheint, als verstecke sich jemand in diesem Tempel."
 
 #. [unit]: type=Dark Adept, role=adept
+#: scenarios/3p_Outbreak.cfg:442
 msgid "Ischtar"
 msgstr "Ischtar"
 
 #. [message]: role=adept
+#: scenarios/3p_Outbreak.cfg:462
 msgid "Get out of my way"
 msgstr "Aus meinen weg!"
 
 #. [message]: speaker=unit
+#: scenarios/3p_Outbreak.cfg:474
 msgid "Please don't slay me!"
 msgstr "Bitte tötet mich nicht!"
 
 #. [multiplayer]: id=Outbrrreak
+#: scenarios/3p_Outbreak.cfg:493
 msgid "3p — Outbrrreak"
 msgstr "3s — Epidemie"
 
 #. [multiplayer]: id=Outbrrreak
+#: scenarios/3p_Outbreak.cfg:495
 msgid ""
 "Three player horror survival. Survive against 'n onslaught of ever-mutating "
 "zombies."
@@ -340,25 +630,31 @@ msgstr ""
 "mutierenden Zombies."
 
 #. [time]: id=campfire
+#: scenarios/3p_Outbreak.cfg:531
 msgid "Campfire"
 msgstr "Lagerfeuer"
 
 #. [side]: type=Lieutenant
 #. [side]: type=Swordsman
 #. [side]: type=White Mage
+#: scenarios/3p_Outbreak.cfg:544 scenarios/3p_Outbreak.cfg:588
+#: scenarios/3p_Outbreak.cfg:632
 msgid "Survivors"
 msgstr "Überlebenden"
 
 #. [unit]: type=Fencer, role=fencer
+#: scenarios/3p_Outbreak.cfg:556
 msgid "Felric"
 msgstr "Felric"
 
 #. [unit]: type=Horseman, role=lancer
 #. [unit]: type=Lancer, id=Rhonvan, role=lancer
+#: scenarios/3p_Outbreak.cfg:600 scenarios/3p_Outbreak.cfg:1219
 msgid "Rhonvan"
 msgstr "Rhonvan"
 
 #. [unit]: type=Merman Fighter, role=merman
+#: scenarios/3p_Outbreak.cfg:644
 msgid "Eleagros"
 msgstr "Eleagros"
 
@@ -367,22 +663,30 @@ msgstr "Eleagros"
 #. [side]: type=Ancient Lich, id=mal-daugur
 #. [side]: type=Necrophage
 #. [side]: type=Revenant
+#: scenarios/3p_Outbreak.cfg:674 scenarios/VOTA/03_Cursed_City.cfg:51
+#: scenarios/VOTA/03_Cursed_City.cfg:72 scenarios/VOTA/03_Cursed_City.cfg:94
+#: scenarios/VOTA/03_Cursed_City.cfg:175 scenarios/VOTA/03_Cursed_City.cfg:196
+#: scenarios/VOTA/06_Last_Battle.cfg:44
 msgid "Undead"
 msgstr "Untote"
 
 #. [objective]: condition=win
+#: scenarios/3p_Outbreak.cfg:788
 msgid "Survive the zombie onslaught for 1 week"
 msgstr "Überlebe den Ansturm der Zombies für eine Woche"
 
 #. [objective]: condition=lose
+#: scenarios/3p_Outbreak.cfg:793
 msgid "Death of all leaders"
 msgstr "Tod aller Anführer"
 
 #. [objectives]
+#: scenarios/3p_Outbreak.cfg:796
 msgid "Scenario Settings:"
 msgstr "Szenarioneinstellungen"
 
 #. [message]: role=lieutenant
+#: scenarios/3p_Outbreak.cfg:827
 msgid ""
 "I feel a chill wind blowing; something bodes ill for this night. At times "
 "like these I wish we were not the fort's only defenders..."
@@ -392,6 +696,7 @@ msgstr ""
 "Verteidiger der Festung..."
 
 #. [message]: role=swordsman
+#: scenarios/3p_Outbreak.cfg:831
 msgid ""
 "Hmph, what are you worrying about? We can hold this fort just fine. You're "
 "not afraid of the dark, are you?"
@@ -400,15 +705,18 @@ msgstr ""
 "hast doch etwa keine Angst vor der Dunkelheit, nicht?"
 
 #. [message]: role=mage
+#: scenarios/3p_Outbreak.cfg:835
 msgid "No, he's right. I feel dark forces stirring in the twilight..."
 msgstr ""
 "Nein, er hat Recht. Ich fühle dunkle Kräfte in der Dämmerung am regen..."
 
 #. [unit]: type=Cavalryman, role=cavalryman
+#: scenarios/3p_Outbreak.cfg:850
 msgid "Gerddyn"
 msgstr "Gerddyn"
 
 #. [message]: role=cavalryman
+#: scenarios/3p_Outbreak.cfg:863
 msgid ""
 "My lords, something terrible is happening! We are under attack from the "
 "living dead!"
@@ -417,10 +725,12 @@ msgstr ""
 "den lebenden Toten!"
 
 #. [message]: role=fencer
+#: scenarios/3p_Outbreak.cfg:867
 msgid "Grave tidings, I see."
 msgstr "Grabraub, wie ich sehe."
 
 #. [message]: role=mage
+#: scenarios/3p_Outbreak.cfg:871
 msgid ""
 "Hold your tongue! This is no time for mirth. We few must somehow defend the "
 "city, and it may be a week before reinforcements arrive..."
@@ -430,6 +740,7 @@ msgstr ""
 "eintrifft..."
 
 #. [message]: role=merman
+#: scenarios/3p_Outbreak.cfg:875
 msgid ""
 "I don't see what the problem is. These walls will hold mere zombies away, "
 "and with the lake here they can't get in behind us. Not unless they learn "
@@ -440,6 +751,7 @@ msgstr ""
 "nicht lernen wie man schwimmt, heh heh."
 
 #. [message]: role=swordsman
+#: scenarios/3p_Outbreak.cfg:879
 msgid ""
 "The fish has a point. Even if there's only six of us, we can always rouse a "
 "few able-bodied men into the militia. Even barely equipped peasants could "
@@ -450,6 +762,7 @@ msgstr ""
 "Bauern können diese Mauern gegen eine Reihe von watschelnden Leichen halten."
 
 #. [message]: role=lieutenant
+#: scenarios/3p_Outbreak.cfg:883
 msgid ""
 "For a day or two, perhaps. But who knows how strong their attack will be? We "
 "must see to the protection of the outlying lands, for without their "
@@ -460,6 +773,7 @@ msgstr ""
 "ohne ihre Mittel werden wir verdammt sein!"
 
 #. [message]: role=mage
+#: scenarios/3p_Outbreak.cfg:887
 msgid ""
 "Rhonvan, ride to the north and seek for help from the Brotherhood of Light. "
 "Only they might know the cure for this horrible plague. Hurry, time is of "
@@ -470,6 +784,7 @@ msgstr ""
 "Zeit ist rar!"
 
 #. [message]: role=lancer
+#: scenarios/3p_Outbreak.cfg:891
 msgid ""
 "Sirs, I will not disappoint you. Though I would rather stay and fight here "
 "with you, I understand the importance of my mission ..."
@@ -478,6 +793,7 @@ msgstr ""
 "und kämpfen würde, verstehe ich die Wichtigkeit meiner Mission..."
 
 #. [message]: role=mage
+#: scenarios/3p_Outbreak.cfg:988
 msgid ""
 "Have mercy on me, friends. Slay me quickly and spare me this unnatural end!"
 msgstr ""
@@ -485,6 +801,7 @@ msgstr ""
 "unnatürliches Ende!"
 
 #. [message]
+#: scenarios/3p_Outbreak.cfg:993
 msgid ""
 "There goes our best chance for survival. It will be all we can do to avoid "
 "meeting the same fate."
@@ -493,26 +810,31 @@ msgstr ""
 "können, um das gleiche Schicksal zu vermeiden."
 
 #. [message]: role=mage
+#: scenarios/3p_Outbreak.cfg:999
 msgid "No! I feel a great darkness reaching over the land..."
 msgstr ""
 "Nein! Ich fühle eine große Dunkelheit die sich über das Land ausbreitet..."
 
 #. [message]: role=lieutenant
+#: scenarios/3p_Outbreak.cfg:1023
 msgid ""
 "Urk! You'll have to carry on without me. The people are depending on you!"
 msgstr ""
 "Arg! Ihr müsst ohne mich weitermachen. Das Volk verlässt sich auf euch!"
 
 #. [message]
+#: scenarios/3p_Outbreak.cfg:1028
 msgid "Damn. He was a good man, he didn't deserve to go out like that..."
 msgstr ""
 "Verdammt. Er war ein guter Mann, er hat es nicht verdient so zu sterben..."
 
 #. [message]: role=lieutenant
+#: scenarios/3p_Outbreak.cfg:1034
 msgid "This is the end! We have failed our duty..."
 msgstr "Dies ist das Ende! Wir haben unsere Pflicht nicht erfühlt..."
 
 #. [message]: role=swordsman
+#: scenarios/3p_Outbreak.cfg:1058
 msgid ""
 "What the... can't believe a bunch of worm-ridden corpses got the best of me!"
 msgstr ""
@@ -520,6 +842,7 @@ msgstr ""
 "Leichen mich besiegt hat!"
 
 #. [message]
+#: scenarios/3p_Outbreak.cfg:1063
 msgid ""
 "Stubborn and proud to the end, he was. I always thought he could use some "
 "humbling, but gods, not like this..."
@@ -528,14 +851,17 @@ msgstr ""
 "mehr Demut gebrauchen, aber bei allen Göttern, nicht so..."
 
 #. [message]: role=swordsman
+#: scenarios/3p_Outbreak.cfg:1069
 msgid "It's... only a flesh wound..."
 msgstr "Es ist... bloß eine Fleischwunde..."
 
 #. [unit]: type=Mage of Light, role=maldor
+#: scenarios/3p_Outbreak.cfg:1177
 msgid "Maldor"
 msgstr "Maldor"
 
 #. [message]: role=maldor
+#: scenarios/3p_Outbreak.cfg:1233
 msgid ""
 "This is worse than I could have imagined! I have never seen such monstrous "
 "mutations before."
@@ -544,6 +870,7 @@ msgstr ""
 "monströsen Mutationen gesehen."
 
 #. [message]
+#: scenarios/3p_Outbreak.cfg:1238
 msgid ""
 "The legendary Maldor has come to our aid. Alas, I fear you arrive too late. "
 "There are ... so many of them. *Gasp* it is horrible - they turned our "
@@ -555,74 +882,95 @@ msgstr ""
 "gewinnen..."
 
 #. [message]: role=lancer
+#: scenarios/3p_Outbreak.cfg:1242
 msgid "I wish I could have returned earlier ..."
 msgstr "Ich wünschte ich wäre nur früher zurückkommen ..."
 
 #. [message]: role=pally2
+#: scenarios/3p_Outbreak.cfg:1246
 msgid "It is not over yet! Onwards, protect the surviors!"
 msgstr "Es ist noch nicht vorbei! Vorwärts, beschützt die überlebenden!"
 
 #. [message]: role=pally3
+#: scenarios/3p_Outbreak.cfg:1250
 msgid "CHAAARGE!"
 msgstr "AAANGRIF!"
 
 #. [message]: id=Maldor
+#: scenarios/3p_Outbreak.cfg:1254
 msgid "Only divine magic can help us now..."
 msgstr "Bloß göttliche Magie kann uns nun retten..."
 
 #. [message]
+#: scenarios/3p_Outbreak.cfg:1258
 msgid "... no ... more ... BRAINS?"
 msgstr "... keine ... GEHIRNE ... mehr?"
 
 #. [message]: role=maldor
+#: scenarios/3p_Outbreak.cfg:1262
 msgid "... *casts lvl99 of 'Turn Undead'*"
 msgstr "... *sagt Spruch Level 99 von 'Untoten Aura' auf*"
 
 #. [multiplayer]: id=TL_Pits_of_Despair
+#: scenarios/3p_Pits_of_Despair.cfg:5
 msgid "3p — Pits of Despair"
 msgstr "3s — Gruben der Verzweiflung"
 
 #. [multiplayer]: id=TL_Pits_of_Despair
+#: scenarios/3p_Pits_of_Despair.cfg:6
 msgid ""
 "A three players competitive survival. Fight off clones of other players' "
 "recruits."
 msgstr ""
+"Jogo de sobrevivência em competição para 3 jogadores. Derrota os clones dos "
+"teus adversários."
 
 #. [side]
+#: scenarios/3p_Pits_of_Despair.cfg:23
 msgid "Critters"
 msgstr "Höhlen Kreaturen"
 
 #. [multiplayer]: id=vota_rotatingwar_3p
+#: scenarios/3p_Rotating_War.cfg:5
 msgid "3p — Rotating War"
 msgstr "3s — Der Bunte Tod"
 
 #. [multiplayer]: id=vota_rotatingwar_3p
 #. [multiplayer]: id=vota_rotatingwar_6p
+#: scenarios/3p_Rotating_War.cfg:7 scenarios/6p_Rotating_War.cfg:7
 msgid ""
 "A somewhat complex competitive scenario, on which the map will rotate "
 "continuously. Attempt to set up a trap for your opponent while avoiding that "
 "the same is done to you."
 msgstr ""
+"Um cenário competitivo algo complexo, no qual o mapa irá rodar "
+"continuadamente. Procura forçar uma armadilha ao teu adversário enquanto "
+"evitas que este faça o mesmo a ti."
 
 #. [side]
-#. [side]: type=Peasant, id=player2
+#. [side]: type=Ruffian
+#: scenarios/3p_Rotating_War.cfg:20 scenarios/VOTA/02_Showdown.cfg:33
 msgid "East"
 msgstr "Osten"
 
 #. [side]
-#. [side]: type=Peasant, id=player1
+#. [side]: type=Ruffian
+#: scenarios/3p_Rotating_War.cfg:35 scenarios/VOTA/02_Showdown.cfg:21
 msgid "West"
 msgstr "Westen"
 
 #. [side]
+#: scenarios/3p_Rotating_War.cfg:50
 msgid "North"
 msgstr "Norden"
 
 #. [multiplayer]: id=vota_ktv_4p
+#: scenarios/4p_KTV.cfg:5
 msgid "4p — Kill the Virgins! (Survival)"
 msgstr "4s — Töte die Jungfrauen! (Überleben)"
 
 #. [multiplayer]: id=vota_ktv_4p
+#: scenarios/4p_KTV.cfg:11
 msgid ""
 "Kill the Virgins! (Survival)\n"
 "Created by: Skele\n"
@@ -652,6 +1000,7 @@ msgstr ""
 "Startgold: 75"
 
 #. [part]
+#: scenarios/4p_KTV.cfg:34
 msgid ""
 "Why would anyone want to kill virgins? The unmerciful god Q'zrk demands it. "
 "Why? Your town's lack of temple worship has upset him and he threatens to "
@@ -664,54 +1013,62 @@ msgstr ""
 "Marathon des Gemetzels überleben und dann zwei Jungfrauen in kaltem Blut "
 "opfern. Gegrüßt sei Q'zrk!"
 
-#. [side]: type=Elvish Lady
+#. [side]
+#: scenarios/4p_KTV.cfg:48
 msgid "Virgins"
 msgstr "Jungfrauen"
 
 #. [side]
+#: scenarios/4p_KTV.cfg:67 scenarios/4p_KTV.cfg:91 scenarios/4p_KTV.cfg:115
+#: scenarios/4p_KTV.cfg:139
 msgid "Sacrificers"
 msgstr "Opferenden"
 
 #. [objective]: condition=win
+#: scenarios/4p_KTV.cfg:164
 msgid "Kill the virgins!"
 msgstr "Tötet die Jungfrauen!"
 
 #. [objective]: condition=lose
+#: scenarios/4p_KTV.cfg:168
 msgid "Death of your team"
 msgstr "Tod deines Teams"
 
-#. [note]
-msgid ""
-"Your Leader will respawn on death as long you have at least one unit left"
-msgstr ""
-"Dein Anführer wird wiederbeleben nach seinen Tod so lange mindestens eine "
-"Einheit überlebt"
-
 #. [message]: speaker=narrator
+#: scenarios/4p_KTV.cfg:418
 msgid "Thank God you made it! Please destroy me!!!"
 msgstr "Gott sei Dank habt ihr es geschafft! Bitte vernichtet mich jetzt!"
 
+#. [event]
 #. [message]: speaker=narrator
+#: scenarios/4p_KTV.cfg:420 scenarios/4p_KTV.cfg:449 scenarios/4p_KTV.cfg:483
+#: scenarios/4p_KTV.cfg:484 scenarios/4p_KTV.cfg:523 scenarios/4p_KTV.cfg:763
 msgid "Innocent Virgin"
 msgstr "Unschuldige Jungfrau"
 
 #. [message]: speaker=narrator
+#: scenarios/4p_KTV.cfg:447
 msgid "Oh please, just kill me now!!!"
 msgstr "Oh ja, bitte, töte mich jetzt!!!"
 
 #. [event]
+#: scenarios/4p_KTV.cfg:480 scenarios/4p_KTV.cfg:481 scenarios/4p_KTV.cfg:744
+#: scenarios/4p_KTV.cfg:745
 msgid "Virgin Altar"
 msgstr "Altar der Jungfrau"
 
 #. [event]
-msgid "Hooligans"
-msgstr "Randalierer"
-
-#. [event]
+#: scenarios/4p_KTV.cfg:511
 msgid "Turn 4 [R]"
 msgstr "4. Runde [R]"
 
+#. [event]
+#: scenarios/4p_KTV.cfg:511
+msgid "Hooligans"
+msgstr "Randalierer"
+
 #. [message]: speaker=narrator
+#: scenarios/4p_KTV.cfg:521
 msgid ""
 "If we two virgins must die for the good of all, so be it. Show no mercy "
 "before the angry god!"
@@ -720,118 +1077,156 @@ msgstr ""
 "Zeige keine Gnade vor dem zornigen Gott!"
 
 #. [message]: speaker=narrator
+#: scenarios/4p_KTV.cfg:533
 msgid "Choose the game difficulty."
 msgstr "Wählen Sie den Spielschwierigkeitsgrad."
 
 #. [option]: speaker=narrator
+#: scenarios/4p_KTV.cfg:535
 msgid "Moderate"
 msgstr "Moderat"
 
 #. [print]
+#: scenarios/4p_KTV.cfg:538
 msgid "Difficulty: Moderate"
 msgstr "Schwierigkeit: Moderat"
 
 #. [option]: speaker=narrator
+#: scenarios/4p_KTV.cfg:550
 msgid "Extreme"
 msgstr "Extreme"
 
 #. [print]
+#: scenarios/4p_KTV.cfg:553
 msgid "Difficulty: Extreme"
 msgstr "Schwierigkeit: Extrem"
 
 #. [event]
-msgid "Turn 8 [L]"
-msgstr "8. Runde [L]"
-
-#. [event]
+#: scenarios/4p_KTV.cfg:578
 msgid "Healer with Guards"
 msgstr "Heiler mit Wächter"
 
 #. [event]
-msgid "Turn 11 [R]"
-msgstr "11. Runde [R]"
+#: scenarios/4p_KTV.cfg:578
+msgid "Turn 8 [L]"
+msgstr "8. Runde [L]"
 
 #. [event]
+#: scenarios/4p_KTV.cfg:588
 msgid "Evil Things"
 msgstr "Üble Dinge"
 
+#. [event]
+#: scenarios/4p_KTV.cfg:588
+#, fuzzy
+msgid "Turn 12 [R]"
+msgstr "11. Runde [R]"
+
 #. [message]: speaker=narrator
+#: scenarios/4p_KTV.cfg:619 scenarios/4p_KTV.cfg:690
 msgid "Free at last! I will help you but first I must heal!"
 msgstr "Endlich frei! Ich werde euch helfen, aber zuerst muss ich mich heilen!"
 
 #. [message]: speaker=narrator
+#: scenarios/4p_KTV.cfg:621 scenarios/4p_KTV.cfg:692
 msgid "Talking Squid"
 msgstr "Sprechendes Vieh"
 
 #. [event]
+#: scenarios/4p_KTV.cfg:628
 msgid "Water Dwellers"
 msgstr "Wasser Bewohner"
 
 #. [event]
-msgid "Turn 14 [L]"
+#: scenarios/4p_KTV.cfg:628
+#, fuzzy
+msgid "Turn 16 [L]"
 msgstr "14. Runde [L]"
 
 #. [event]
-msgid "Turn 17 [R]"
-msgstr "17. Runde [R]"
+#: scenarios/4p_KTV.cfg:638
+#, fuzzy
+msgid "Turn 20 [R]"
+msgstr "20. Runde [L]"
 
 #. [event]
+#: scenarios/4p_KTV.cfg:638
 msgid "Savages"
 msgstr "Wilde"
 
 #. [event]
-msgid "Turn 20 [L]"
-msgstr "20. Runde [L]"
+#: scenarios/4p_KTV.cfg:648
+#, fuzzy
+msgid "Turn 24 [L]"
+msgstr "24. Runde [R]"
 
 #. [event]
+#: scenarios/4p_KTV.cfg:648
 msgid "Stampede"
 msgstr "Panik"
 
 #. [event]
-msgid "Turn 24 [R]"
-msgstr "24. Runde [R]"
+#: scenarios/4p_KTV.cfg:658
+#, fuzzy
+msgid "Turn 27 [R]"
+msgstr "17. Runde [R]"
 
 #. [event]
+#: scenarios/4p_KTV.cfg:658
 msgid "Tree Huggers"
-msgstr ""
+msgstr "adoradores de árvores"
 
 #. [event]
+#: scenarios/4p_KTV.cfg:699
+#, fuzzy
+msgid "Turn 32 [L]"
+msgstr "32. Runde [R]"
+
+#. [event]
+#: scenarios/4p_KTV.cfg:699
 msgid "Skirmishers"
 msgstr "Plänkler"
 
 #. [event]
-msgid "Turn 28 [L]"
-msgstr "28. Runde [L]"
+#: scenarios/4p_KTV.cfg:709
+#, fuzzy
+msgid "Turn 35 [R]"
+msgstr "35. Runde [L]"
 
 #. [event]
+#: scenarios/4p_KTV.cfg:709
 msgid "Fire and Steel"
 msgstr "Feuer und Stahl"
 
 #. [event]
-msgid "Turn 32 [R]"
-msgstr "32. Runde [R]"
+#: scenarios/4p_KTV.cfg:724
+#, fuzzy
+msgid "Turn 38 [L]"
+msgstr "8. Runde [L]"
 
 #. [event]
+#: scenarios/4p_KTV.cfg:724
 msgid "Hodgepodge"
 msgstr "Mischmasch"
 
 #. [event]
-msgid "Turn 35 [L]"
-msgstr "35. Runde [L]"
-
-#. [event]
-msgid "Turn 40"
+#: scenarios/4p_KTV.cfg:734
+#, fuzzy
+msgid "Turn 42"
 msgstr "40. Runde"
 
 #. [event]
+#: scenarios/4p_KTV.cfg:734
 msgid "Kill the Virgins!"
 msgstr "Tötet die Jungfrauen!"
 
 #. [event]
+#: scenarios/4p_KTV.cfg:747
 msgid "Hail Q'zrk!"
 msgstr "Lob Q'zrk!"
 
 #. [message]: speaker=narrator
+#: scenarios/4p_KTV.cfg:761
 msgid ""
 "Free us from our altars and sacrifice us to Q'zrk! Hurry before it is too "
 "late!"
@@ -840,30 +1235,38 @@ msgstr ""
 "zu spät ist!"
 
 #. [multiplayer]: id=vota_rotatingwar_6p
+#: scenarios/6p_Rotating_War.cfg:5
 msgid "6p — Rotating War"
 msgstr "6s — Der Bunte Tod"
 
 #. [side]
+#: scenarios/6p_Rotating_War.cfg:27 scenarios/6p_Rotating_War.cfg:97
 msgid "Team Earth"
 msgstr "Team Erde"
 
 #. [side]
+#: scenarios/6p_Rotating_War.cfg:41 scenarios/6p_Rotating_War.cfg:55
 msgid "Team Fire"
 msgstr "Team Feuer"
 
 #. [side]
+#: scenarios/6p_Rotating_War.cfg:69 scenarios/6p_Rotating_War.cfg:83
 msgid "Team Air"
 msgstr "Team Luft"
 
-#. [multiplayer]: id=TL_VOTA_01_Uneasy_Alliance
-msgid "VotA — Uneasy Alliance"
-msgstr "VotA — Eine Unsichere Allianz"
+#. [scenario]: id=TL_VOTA_01_Uneasy_Alliance
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:5
+#, fuzzy
+msgid "Uneasy Alliance"
+msgstr "Aliança Apressada"
 
-#. [multiplayer]: id=TL_VOTA_01_Uneasy_Alliance
+#. [scenario]: id=TL_VOTA_01_Uneasy_Alliance
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:6
 msgid "Valley of the Ancients: the Gates of Dawn"
 msgstr "Das Tal der Ältesten: Die Tore der Dämmerung"
 
 #. [part]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:24
 msgid ""
 "It is said that long before Men ever came from the west to settle the "
 "continent, in the days when even the elves and dwarves were new to the "
@@ -884,6 +1287,7 @@ msgstr ""
 "über den Kontinent verteilt."
 
 #. [part]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:29
 msgid ""
 "Most dismiss the legend as pure fabrication. Even the dwarves themselves "
 "doubt that such a place ever existed; in their most ancient annals of "
@@ -905,6 +1309,7 @@ msgstr ""
 "gefahren erliegen ist. "
 
 #. [part]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:34
 msgid ""
 "For years you have chased the myths. At first it was merely an exercise in "
 "curiosity, but as you began to piece the stories together, you became more "
@@ -920,37 +1325,45 @@ msgstr ""
 "Aufgeregt, sammelst du alle Ressourcen die du finden konntest für die "
 "Expedition, nur um zu erfahren dass du nicht alleine bist..."
 
-#. [side]: id=player1
-#. [side]: id=player2
+#. [side]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:41
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:52
 msgid "Explorers"
 msgstr "Erforscher"
 
 #. [side]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:64
 msgid "Guardians"
 msgstr "Wächter"
 
 #. [unit]: type=$random
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:91
 msgid "Praetor"
 msgstr "Praetor"
 
 #. [objective]: condition=win
-msgid "Defeat enemy leader"
-msgstr "Besiege deinen Gegner"
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:181 scenarios/VOTA/02_Showdown.cfg:46
+msgid "Defeat the enemy leader"
+msgstr "Besiegt den gegnerischen Anführer"
 
 #. [objective]: condition=lose
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:185
 msgid "Death of an Hero"
 msgstr "Tod eines Helden"
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:201
 msgid "At last! Behold the Gates of Dawn--the legends are true!"
 msgstr ""
 "Endlich! Hinter den Toren der Dämmerung - die Legenden bewahrheiten sich! "
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:206
 msgid "The legendary entrance to the Valley of the Ancients. I knew it!"
 msgstr "Der legendäre Eingang zum Alten Tal. Ich wusste es! "
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:211
 msgid ""
 "What? Who are you--how did you discover the location of the valley?! No "
 "matter. If you try to interfere, I will destroy you."
@@ -959,6 +1372,7 @@ msgstr ""
 "sorge. Wenn du dich versuchst einzumischen, werde ich dich zerstören."
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:216
 msgid ""
 "You really think you can stop me? It is my destiny to reclaim the ancient "
 "valley of the dwarves!"
@@ -967,11 +1381,13 @@ msgstr ""
 "Tal von dem Zwergen zu fordern!"
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:221
 msgid "More intruders, I see. So, you both seek the Accursed Valley?"
 msgstr ""
 "Noch mehr Eindringlinge, ich sehe. Also, ihr beide sucht dass Verfluchte Tal?"
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:226
 msgid ""
 "'Accursed Valley'? What nonsense is this? You will not stop me with a lot of "
 "superstitious prattle, fool!"
@@ -980,6 +1396,7 @@ msgstr ""
 "aufhalten mit diesen abergläubischen Geschwätz, Narr!"
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:231
 msgid ""
 "Indeed I will not; I will stop you with strength of arms, for it is our "
 "sworn duty to guard the valley. Be thankful, for it is a far kinder fate "
@@ -990,6 +1407,7 @@ msgstr ""
 "weit besseres Schicksal als dass was euch innen erwartet!"
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:236
 msgid ""
 "His words are backed by a great army. Perhaps we should band together until "
 "he is out of the way?"
@@ -998,6 +1416,7 @@ msgstr ""
 "wir uns zusammen tun bis er aus den weg ist?"
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:241
 msgid ""
 "So be it. First we will destroy these self-proclaimed guardians. Your "
 "reckoning will come later!"
@@ -1006,14 +1425,17 @@ msgstr ""
 "zerstören. Deine Rechnung kommt später!"
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:246
 msgid "Hah! We shall see."
 msgstr "Ha! Wir werden sehen."
 
 #. [message]: speaker=unit
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:262
 msgid "Nooooo! I was so close..."
 msgstr "Neeeiiiin! Ich war so nah dran..."
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:267
 msgid ""
 "Well done, men. All we have to do is clean up the rest of this rabble. The "
 "valley is safe again, for now."
@@ -1022,6 +1444,7 @@ msgstr ""
 "bereinigen. Das Tal ist wieder sicher, fürs erste."
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:277
 msgid ""
 "Damnation! I'll never be able to fight my way through now... you've won "
 "today, but I will be back!"
@@ -1030,31 +1453,38 @@ msgstr ""
 "hast heute gewonnen, aber ich werde wiederkommen!"
 
 #. [message]: speaker=unit
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:294
 msgid "No! I have failed..."
 msgstr "Nein! Ich hab versagt..."
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:299
 msgid "The valley is mine!"
 msgstr "Dass Tal ist Mein!"
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:304
 msgid "Hah! Think again."
 msgstr "Ha! Überlegt es dir noch mal."
 
 #. [message]: speaker=unit
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:308
 msgid "Hmph. Much good may it do you... turn back now, I tell you!"
 msgstr "Hmpf! Viel gutes wünsche ich euch... kehrt um, sage ich euch!"
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:313
 msgid "Crazy old blighter... oh well. Time to settle the score!"
 msgstr "Verrückte alte Natter ... sehr gut. Zeit zur Beilegung der Gäste!"
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:350
 msgid "Reinforcements are at hand! Now we can sweep the invaders before us!"
 msgstr ""
 "Verstärkungen sind eingetroffen! Jetzt können wir die Eindringlinge wegfegen!"
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:355
 msgid ""
 "Bah! You're on your own. I'm getting out of here while I still have a chance."
 msgstr ""
@@ -1062,6 +1492,7 @@ msgstr ""
 "ich noch kann."
 
 #. [message]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:360
 msgid ""
 "You coward! You've cost me my only chance at the Valley... you'll pay for "
 "this!"
@@ -1070,22 +1501,23 @@ msgstr ""
 "bezahlen!"
 
 #. [modify_side]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:366
 msgid "Traitor"
 msgstr "Verräter"
 
 #. [modify_side]
+#: scenarios/VOTA/01_Uneasy_Alliance.cfg:371
 msgid "Covard"
 msgstr "Feigling"
 
-#. [multiplayer]: id=TL_VOTA_02_Showdown
-msgid "VotA — Showdown in the Valley"
+#. [scenario]: id=TL_VOTA_02_Showdown
+#: scenarios/VOTA/02_Showdown.cfg:5
+#, fuzzy
+msgid "Showdown in the Valley"
 msgstr "VotA — Kraftprobe im Tal"
 
-#. [objective]: condition=win
-msgid "Defeat the enemy leader"
-msgstr "Besiegt den gegnerischen Anführer"
-
 #. [message]
+#: scenarios/VOTA/02_Showdown.cfg:58
 msgid ""
 "So you still persist in pursuing the valley? You could still choose to "
 "depart peacefully, you realize. You need not die in vain here."
@@ -1094,6 +1526,7 @@ msgstr ""
 "aufbrechen, weißt du. Du musst nicht grundlos hier sterben."
 
 #. [message]
+#: scenarios/VOTA/02_Showdown.cfg:63
 msgid ""
 "Hmph. Unable to back your claim through force, I see you resort to bluff--"
 "and a weak bluff, at that. Either way, you will die!"
@@ -1102,10 +1535,12 @@ msgstr ""
 "bluffen -- ein schwacher Bluff. Sei's darum, du wirst sterben!"
 
 #. [message]: speaker=unit
+#: scenarios/VOTA/02_Showdown.cfg:76
 msgid "Argh! They are stronger than I had thought. Fall back!"
 msgstr "Arght! Sie sind stärker als ich dachte. Rückzug!"
 
 #. [message]
+#: scenarios/VOTA/02_Showdown.cfg:82
 msgid ""
 "Onward! The path lies open before us now. Soon the ancient treasures of the "
 "dwarves will be mine and mine alone!"
@@ -1113,56 +1548,70 @@ msgstr ""
 "Vorwärts! Der weg ist nun frei vor uns. Bald werden die uralten schätze der "
 "Zwerge meine sein, und meine allein!"
 
-#. [multiplayer]: id=TL_VOTA_03_Cursed_City
-msgid "VotA — The Accursed City"
+#. [scenario]: id=TL_VOTA_03_Cursed_City
+#: scenarios/VOTA/03_Cursed_City.cfg:5
+#, fuzzy
+msgid "The Accursed City"
 msgstr "VotA — Die verfluchte Stadt"
 
-#. [side]: type=Peasant, id=player1
+#. [side]: type=Elvish Lady
+#: scenarios/VOTA/03_Cursed_City.cfg:21
 msgid "Human One"
 msgstr "Erster Spieler"
 
-#. [side]: type=Peasant, id=player2
+#. [side]: type=Elvish Lady
+#: scenarios/VOTA/03_Cursed_City.cfg:35
 msgid "Human Two"
 msgstr "Zweiter Spieler"
 
 #. [side]: type=Necrophage
+#: scenarios/VOTA/03_Cursed_City.cfg:47
 msgid "Ghruul"
 msgstr "Ghruul"
 
 #. [side]: type=Necrophage
+#: scenarios/VOTA/03_Cursed_City.cfg:68
 msgid "Urhuu"
 msgstr "Urhuu"
 
 #. [side]: type=Ancient Lich
 #. [side]: type=Ancient Lich, id=mal-daugur
+#: scenarios/VOTA/03_Cursed_City.cfg:89 scenarios/VOTA/06_Last_Battle.cfg:40
 msgid "Mal-Daugur"
 msgstr "Mal-Daugur"
 
 #. [side]: type=Revenant
+#: scenarios/VOTA/03_Cursed_City.cfg:171
 msgid "Aeggorath"
 msgstr "Aeggorath"
 
 #. [side]: type=Revenant
+#: scenarios/VOTA/03_Cursed_City.cfg:192
 msgid "Duagor"
 msgstr "Duagor"
 
 #. [objectives]
+#: scenarios/VOTA/03_Cursed_City.cfg:226
 msgid "Escape the undead hordes"
 msgstr "Entfliehen Sie dem untoten Horden"
 
 #. [objective]: condition=win
+#: scenarios/VOTA/03_Cursed_City.cfg:228
 msgid "Reach one of the trapdoors with your leader"
 msgstr "Erreiche eine der Falltüren mit deinen Anführer"
 
 #. [objective]: condition=lose
+#: scenarios/VOTA/03_Cursed_City.cfg:232
 msgid "Death of your leader"
 msgstr "Tod deines Anführers"
 
 #. [objective]: condition=lose
+#: scenarios/VOTA/03_Cursed_City.cfg:237
 msgid "Opponent escapes before you do"
 msgstr "Gegner entkommt vor ihnen"
 
 #. [message]: id=$victor.id
+#: scenarios/VOTA/03_Cursed_City.cfg:307
 msgid ""
 "Glorious! The lost city of the dwarves and all its riches belong to me at "
 "last!"
@@ -1171,30 +1620,37 @@ msgstr ""
 "endlich mir!"
 
 #. [message]: id=$loser.id
+#: scenarios/VOTA/03_Cursed_City.cfg:311
 msgid "Enjoy it while it lasts. I will have my revenge!"
 msgstr "Genieße es, während es dauert. Ich werde meine Rache haben!"
 
 #. [message]: id=$victor.id
+#: scenarios/VOTA/03_Cursed_City.cfg:315
 msgid "So you're still around? I can take care of that."
 msgstr "Sie sind also noch da? Es kümmert mich nicht."
 
 #. [message]
+#: scenarios/VOTA/03_Cursed_City.cfg:320
 msgid "FRESH MEAT..."
 msgstr "FRISCHES FLEISCH..."
 
 #. [message]
+#: scenarios/VOTA/03_Cursed_City.cfg:325
 msgid "HUNGRY..."
 msgstr "HUNGER..."
 
 #. [message]: id=$victor.id
+#: scenarios/VOTA/03_Cursed_City.cfg:329
 msgid "Huh?"
 msgstr "Huch?"
 
 #. [message]
+#: scenarios/VOTA/03_Cursed_City.cfg:334
 msgid "More victims! How delightful."
 msgstr "Mehr Opfer! Wie entzückend."
 
 #. [message]: id=$victor.id
+#: scenarios/VOTA/03_Cursed_City.cfg:338
 msgid ""
 "Drat! Perhaps there was more to that guardian's 'Accursed Valley' nonsense "
 "than we gave credit."
@@ -1203,6 +1659,7 @@ msgstr ""
 "Wächters als wir glauben schenkten. "
 
 #. [message]: id=$victor.id
+#: scenarios/VOTA/03_Cursed_City.cfg:342
 msgid ""
 "The ancient dwarves were said to have weapons of great power. If we can "
 "reach the depths of the lower city to recover them, we may be able to fight "
@@ -1213,11 +1670,13 @@ msgstr ""
 "wir in der Lage, diese Horde abzuwehren."
 
 #. [message]: id=$loser.id
+#: scenarios/VOTA/03_Cursed_City.cfg:346
 msgid "'We'? What's this 'we' business? You're on your own, friend."
 msgstr ""
 "'Wir'? Was ist das 'wir' Gerede? Du bist auf eigener Faust, mein Freund."
 
 #. [message]
+#: scenarios/VOTA/03_Cursed_City.cfg:351
 msgid ""
 "Run, run, run! Flee as you will, you will not escape! Nothing leaves the "
 "Valley alive!"
@@ -1226,26 +1685,32 @@ msgstr ""
 "Nichts verlässt dass Tal Lebend!"
 
 #. [message]
+#: scenarios/VOTA/03_Cursed_City.cfg:375
 msgid "We'll never get out of here at this rate!"
 msgstr "Wir werden hier niemals herauskommen in diesen Tempo!"
 
 #. [message]
+#: scenarios/VOTA/03_Cursed_City.cfg:379
 msgid "This is hopeless. We are doomed!"
 msgstr "Das ist aussichtslos. Wir sind verloren!"
 
 #. [message]
+#: scenarios/VOTA/03_Cursed_City.cfg:384
 msgid "Mua hah hah hah!"
 msgstr "Mua hah hah hah!"
 
 #. [message]: speaker=unit
+#: scenarios/VOTA/03_Cursed_City.cfg:414
 msgid "Quickly, this way!"
 msgstr "Schnell, hier entlang!"
 
 #. [message]
+#: scenarios/VOTA/03_Cursed_City.cfg:419
 msgid "Master! Some of them are getting away!"
 msgstr "Meister! Ein paar schleichen sich davon!"
 
 #. [message]
+#: scenarios/VOTA/03_Cursed_City.cfg:424
 msgid ""
 "They will not get very far. We can deal with them later. For now, though, "
 "take the others!"
@@ -1254,89 +1719,119 @@ msgstr ""
 "Vorerst, nimmt die anderen!"
 
 #. [message]
+#: scenarios/VOTA/03_Cursed_City.cfg:435
 msgid "Oh no. We are doomed fighting this horde alone!"
 msgstr "O nein. Wir sind dazu verurteilt diese Horde allein zu bekämpfen!"
 
 #. [message]
+#: scenarios/VOTA/03_Cursed_City.cfg:441
 msgid "Muahahah hah hah!"
 msgstr "Muahahah hah hah!"
 
 #. [message]: speaker=second_unit
+#: scenarios/VOTA/03_Cursed_City.cfg:509
 msgid "Yessss... more blood and souls for the master!"
 msgstr "Jaaaaa.... noch mehr Blut und Seelen für den Meister!"
 
 #. [message]: speaker=unit
+#: scenarios/VOTA/03_Cursed_City.cfg:513
 msgid "No! Not like this..."
 msgstr "Nein! Nicht so..."
 
 #. [message]
+#: scenarios/VOTA/03_Cursed_City.cfg:518
 msgid "Feed, my children! Slaughter them all!"
 msgstr "Frisst, meine Kinder! Schlachtet sie alle!"
 
 #. [message]: id=$victor2.id
+#: scenarios/VOTA/03_Cursed_City.cfg:522
 msgid "Quick, let's get out of here while they're busy."
 msgstr "Schnell, lasst uns hier raus kommen solange sie beschäftigt sind."
 
 #. [message]
+#: scenarios/VOTA/03_Cursed_City.cfg:527
 msgid "Heh heh. Run while you can! You will join them soon enough!"
 msgstr ""
 "He He. Rennt solange ihr könnt! Ihr werdet sie als nächstes anschließen!"
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
-msgid "VotA — Dwarven Hold"
-msgstr "VotA ­— An der Zwergen Pforte"
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:5
+#, fuzzy
+msgid "Dwarven Hold"
+msgstr "Cinto Anão"
 
-#. [side]: type=Peasant, id=player1
-#. [side]: type=Peasant, id=player2
-msgid "Treasure Hunter"
+#. [side]: type=Elvish Lady
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:132
+#, fuzzy
+msgid "A Treasure Hunter"
+msgstr "Schatzjäger"
+
+#. [side]: type=Elvish Lady
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:143
+#, fuzzy
+msgid "Another Treasure Hunter"
 msgstr "Schatzjäger"
 
 #. [side]: type=Dwarvish Lord
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:153
 msgid "Morglandur"
 msgstr "Morglandur"
 
 #. [side]: type=Dwarvish Lord
 #. [side]: type=Dwarvish Sentinel
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:157
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:211
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:266
 msgid "Dwarves"
 msgstr "Zwerge"
 
 #. [side]: type=Dwarvish Sentinel
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:207
 msgid "Druth"
 msgstr "Druth"
 
 #. [side]: type=Dwarvish Sentinel
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:262
 msgid "Hrandath"
 msgstr "Hrandath"
 
 #. [objectives]
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:333
 msgid "Loot the ancient dwarvish treasure"
 msgstr "Plündere den uralten Schatz der Zwerge"
 
 #. [objective]: condition=win
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:335
 msgid "Collect all 7 dwarvish treasures"
 msgstr "Sammle alle 7 Zwergen Schätze"
 
 #. [objective]: condition=lose
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:339
 msgid "Death of both human players"
 msgstr "Tod beider menschlichen Spielern"
 
 #. [objectives]
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:342
 msgid "The player who find the most treasures wins if both survive"
 msgstr "Der Spieler der die meisten Schätze findet siegt falls beide überleben"
 
 #. [message]
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:416
 msgid "Phew, I think I've lost them. Now I can explore at my leisure."
 msgstr "Pff, ich glaube ich hab ihn verloren. Nun kann ich ungestört suchen."
 
 #. [message]
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:421
 msgid "Hah hah! Guess again!"
 msgstr "Hah hah! Er glaubt es!"
 
 #. [message]
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:426
 msgid "You again?! How did you get past the lich?"
 msgstr "Du schon wieder?! Wie bist du am Lich vorbeigekommen?"
 
 #. [message]
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:431
 msgid ""
 "Mal-Daugur was generous enough to reanimate me with the powers of unlife. He "
 "sought to enslave me into his army, but my will was too strong and I broke "
@@ -1349,23 +1844,32 @@ msgstr ""
 "ihn zu besiegen ... sobald nachdem ich dich töte!"
 
 #. [message]
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:436
 msgid "We'll see about that. Those treasures are mine!"
 msgstr "Wir werden sehen. Diese Schätze sind meine!"
 
 #. [message]: speaker=second_unit
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:458
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:504
 msgid "What?! There are still dwarves alive down here?"
 msgstr "Was?! Hier sind immer noch Zwerge am leben hier unten?"
 
 #. [message]: speaker=unit
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:463
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:509
 msgid "Aye, o'course there be!"
 msgstr "Yo, 'türlich sind es!"
 
 #. [message]: speaker=second_unit
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:468
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:514
 msgid "But the upper levels are swarming with undead! How can you survive?"
 msgstr ""
 "Aber die oberen Stockwerke sind voll mit Untoten! Wie könnt ihr überleben? "
 
 #. [message]: speaker=unit
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:473
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:519
 msgid ""
 "With good sturdy dwarvish steel--how else? Yon bonesacks are nae a match for "
 "our axes and hammers!"
@@ -1374,6 +1878,8 @@ msgstr ""
 "leichtes Spiel för uns're Äxte und Hämm'r!"
 
 #. [message]: speaker=second_unit
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:478
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:524
 msgid ""
 "Then surely you must help us. Together we can drive the undead scourge away "
 "from your home!"
@@ -1382,6 +1888,8 @@ msgstr ""
 "eurer Heimat entledigen!"
 
 #. [message]: speaker=unit
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:483
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:529
 msgid ""
 "Aye... so ye can take it for yourselves, no doubt! C'mon, lads--let's send "
 "these intruders back where they belong!"
@@ -1389,15 +1897,18 @@ msgstr ""
 "Jup... so daß ihr es für euch selbst nimmt, sicher! Last stecken, Leute - "
 "schickt diese Eindringlinge zurück wo sie hingehören!"
 
-#. [message]: role=zombie
+#. [message]
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:564
 msgid "Nnnnrrrrrgghhhh..."
 msgstr "Nnnnrrrrrgghhhh..."
 
 #. [message]: speaker=second_unit
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:569
 msgid "Gah! What is this?"
 msgstr "Uah! Was ist dass?"
 
 #. [message]: race=dwarf
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:575
 msgid ""
 "It is our terrible burden. We are bound to this valley forever, in death as "
 "well as life."
@@ -1406,6 +1917,7 @@ msgstr ""
 "im Tod."
 
 #. [message]: speaker=unit
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:596
 msgid ""
 "A curse over this wretched place! I should have heeded the guardian's "
 "warnings while I had a chance..."
@@ -1414,38 +1926,55 @@ msgstr ""
 "beachten sollen, während ich eine Chance hatte ..."
 
 #. [message]: speaker=unit
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:618
 msgid "Damn. I had come so far..."
 msgstr "Verdammt. Ich bin so weit gekommen..."
 
 #. [message]: race=dwarf
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:625
 msgid "Excellent. The intruders have been defeated!"
 msgstr "Sehr gut. Die Eindringlinge sind besiegt!"
 
 #. [message]: speaker=narrator
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:676
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:291
+#: scenarios/VOTA/06_Last_Battle.cfg:247
 msgid "What type of Soulless would you like to recruit?"
 msgstr "Welche Art von Seelenloser würden Sie gerne zu rekrutieren?"
 
 #. [option]: speaker=narrator
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:679
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:294
+#: scenarios/VOTA/06_Last_Battle.cfg:250
 msgid "Bat"
 msgstr "Fledermaus"
 
 #. [option]: speaker=narrator
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:692
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:307
+#: scenarios/VOTA/06_Last_Battle.cfg:263
 msgid "Saurian"
 msgstr "Saurianer"
 
 #. [option]: speaker=narrator
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:705
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:333
+#: scenarios/VOTA/06_Last_Battle.cfg:289
 msgid "Goblin"
 msgstr "Kobold"
 
 #. [message]: race=dwarf
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:734
 msgid "No! Our sacred treasures, all gone!"
 msgstr "Nein! Unsere heiligen Schätze, alle fort!"
 
 #. [then]: id=Mal-Draugur
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:739
 msgid "Mal-Draugur"
 msgstr "Mal-Draugur"
 
 #. [message]: id=Mal-Draugur
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:748
 msgid ""
 "Hah hah hah! Foolish mortals... your infighting has only left you weak and "
 "vulnerable. Now I will finally destroy you once and for all!"
@@ -1454,16 +1983,19 @@ msgstr ""
 "und verletzlich. Jetzt werde ich euch endlich vernichten, ein für alle Mal!"
 
 #. [message]
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:752
 msgid "Pull back! We need a more defensible position to fight from!"
 msgstr ""
 "Zurück! Wir brauche eine besser zu verteidigende Position um sie zu "
 "bekämpfen!"
 
 #. [message]
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:756
 msgid "Damn! Too many enemies... we'll have to retreat!"
 msgstr "Verdammt! Zu viele Feinde... Wir müssen uns zurückziehen!"
 
 #. [message]: race=dwarf
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:763
 msgid ""
 "Fools! You have doomed us all... below us lies an even greater danger, but "
 "now you have left us all no choice."
@@ -1471,11 +2003,13 @@ msgstr ""
 "Tore! Ihr habt uns alle zum Scheitern verurteilt ... Unter uns liegt eine "
 "noch größere Gefahr, aber jetzt habt ihr uns allen keine Wahl gelassen."
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:845
 msgid "Ring of Invisibility"
 msgstr "Ring der Unsichtbarkeit"
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:846
 msgid ""
 "Wearing this ring will render a unit invisible unless it attacks or moves "
 "adjacent to an enemy."
@@ -1483,11 +2017,20 @@ msgstr ""
 "Diesen Ring zu tragen lässt die Einheit unsichtbar erscheinen es sei denn "
 "sie greift an oder bewegt sich zu einer feindlichen Einheit."
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
+#. [hides]: id=VotA_invisible, description=This unit cannot be seen unless it attacks or is adjacent to an enemy.
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:852
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:853
+#, fuzzy
+msgid "Invisible"
+msgstr "invisível"
+
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:861
 msgid "Runestorm Axe"
 msgstr "Runen Sturmaxt"
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:862
 msgid ""
 "This magic throwing axe is enchanted to swiftly return to the thrower's hand."
 msgstr ""
@@ -1495,14 +2038,17 @@ msgstr ""
 "zurückkommt."
 
 #. [effect]: type=blade
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:866
 msgid "runestorm axe"
 msgstr "Runen Sturmaxt"
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:904
 msgid "Golden Mail"
 msgstr "goldene Rüstung"
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:905
 msgid ""
 "This enchanted armor will increase a unit's hitpoints as well as boosting "
 "resistance to fire and cold damage."
@@ -1510,11 +2056,13 @@ msgstr ""
 "Diese verzauberte Rüstung wird die Lebenspunkte der Einheit sowie seine "
 "Feuer und Kälte Resistenzen erhöhen."
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:928
 msgid "Ring of Ogre Might"
 msgstr "Ring der Oger Macht"
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:929
 msgid ""
 "Wearing this ring will grant the unit teleporting, and increasing the number "
 "of its strikes."
@@ -1522,11 +2070,13 @@ msgstr ""
 "Diesen Ring zu tragen erstarkt die Einheit, sowie erhöht er die Schlagkraft "
 "und die Angriffe im Nahkampf."
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:1002
 msgid "Spear of Valor"
 msgstr "Speer des Mutes"
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:1003
 msgid ""
 "This magic spear fills the wielder with courage and daring, letting them "
 "charge for double damage."
@@ -1535,64 +2085,78 @@ msgstr ""
 "ermöglicht ihn mit doppelten schaden zu stürmen."
 
 #. [effect]: type=pierce
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:1007
 msgid "spear of valour"
 msgstr "Speer des Mutes"
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:1052
 msgid "Vial of Holy Water"
 msgstr "Fläschchen Weihwasser"
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:1053
 msgid ""
 "This blessed water will allow a unit's melee attacks to do arcane damage."
 msgstr ""
 "Dieses heilige Wasser lässt allen Nahkampfwaffen den Arkanen schaden geben."
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:1068
 msgid "Trollsblood Potion"
 msgstr "Trollbluttrank"
 
-#. [multiplayer]: id=TL_VOTA_04_Dwarven_Hold
+#. [scenario]: id=TL_VOTA_04_Dwarven_Hold
+#: scenarios/VOTA/04_Dwarven_Hold.cfg:1069
 msgid ""
 "This magical conconction will allow a unit to regenerate health like a troll."
 msgstr ""
 "Dieses magisches getränkt ermöglicht der Einheiten sich zu regenerieren wie "
 "ein Troll."
 
-#. [multiplayer]: id=TL_VOTA_05_Out_of_the_Frying_Pan
-msgid "VotA — Out of the Frying Pan"
-msgstr "VotA — Der Glut Entfliehend"
+#. [scenario]: id=TL_VOTA_05_Out_of_the_Frying_Pan
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:5
+msgid "Out of the Frying Pan"
+msgstr "Saindo da Frigideira"
 
-#. [side]: type=Peasant, id=player1
-#. [side]: type=Peasant, id=player2
+#. [side]: type=Elvish Lady
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:21
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:34
 msgid "Humans"
 msgstr "Spieler"
 
 #. [side]: type=Fire Dragon
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:46
 msgid "Rathmalrak"
 msgstr "Rathmalrak"
 
 #. [side]: type=Fire Dragon
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:54
 msgid "Dragons"
 msgstr "Drachen"
 
 #. [objectives]
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:82
 msgid "Slay the dragon to escape"
 msgstr "Erschlage den Drachen zum entkommen"
 
 #. [objective]: condition=win
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:84
 msgid "Slay Rathmalrak"
 msgstr "Erschlage Rathmalrak"
 
 #. [objective]: condition=lose
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:88
 msgid "Death of both players"
 msgstr "Tod beider Spieler"
 
 #. [message]
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:121
 msgid "What place is this?"
 msgstr "Was für ein Platz ist dass?"
 
 #. [message]: role=ally
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:126
 msgid ""
 "Behold the lair of Rathmalrak. It was he who destroyed our once-proud "
 "city... we eventually managed to trap him here at the heart of the mountain, "
@@ -1603,10 +2167,12 @@ msgstr ""
 "Berges einzusperren, aber er legte ein Fluch auf uns als seine Rache."
 
 #. [message]
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:130
 msgid "What? You mean it was not Mal-Daugur who cursed you?"
 msgstr "Was? Du meinst, es war nicht Mal-Daugur der euch verfluchte?"
 
 #. [message]: role=ally
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:134
 msgid ""
 "Nay. Mal-Daugur simply took advantage of our vulnerability to move into the "
 "upper citadel. For centuries now we have lived under an uneasy stalemate, "
@@ -1619,6 +2185,7 @@ msgstr ""
 "entfesseln. Rathmalrak ist dass einzige Lebewesen dass er fürchtet."
 
 #. [message]
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:138
 msgid ""
 "All things fear me! I am Rathmalrak the Destroyer! It has been long since I "
 "have feasted on fresh meat. I will be sure to make your carcasses last a "
@@ -1629,6 +2196,7 @@ msgstr ""
 "lange, lange weile dauern!"
 
 #. [message]: role=ally
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:143
 msgid ""
 "This is it. We're throwing our lot in with you. If we must die, we'll die "
 "fighting!"
@@ -1637,6 +2205,7 @@ msgstr ""
 "kämpfend sterben!"
 
 #. [message]
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:148
 msgid ""
 "We had no idea we were bringing such destruction down upon you, but it is "
 "only fitting we should share in your destruction. I swear we will fight "
@@ -1647,6 +2216,7 @@ msgstr ""
 "wir werden gemeinsam mit Ihnen bis zum Ende kämpfen!"
 
 #. [message]: role=ally
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:153
 msgid ""
 "Hmph. Maybe there is such a thing as honor among surface-dwellers. Very "
 "well. Come, lads! We'll die fighting today!"
@@ -1655,6 +2225,7 @@ msgstr ""
 "gut. Los, Leute! Wir werden kämpfend sterben heute!"
 
 #. [message]
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:158
 msgid ""
 "Looks like we're back to where we started. We'll have to work together to "
 "kill this thing, but don't think that we're through yet!"
@@ -1663,67 +2234,87 @@ msgstr ""
 "um dieses Ding zu töten, aber denke nicht das wir miteinander fertig sind!"
 
 #. [message]: speaker=unit
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:200
 msgid "I am undone! Avenge me!"
 msgstr "Ich Sterbe! Räche mich!"
 
 #. [message]
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:222
 msgid "You pathetic weaklings thought you could stand up to ME?"
 msgstr "Ihr Schwächlinge dachtet ihr könntet es mit MIR aufnehmen?"
 
 #. [option]: speaker=narrator
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:320
+#: scenarios/VOTA/06_Last_Battle.cfg:276
 msgid "Dwarf"
 msgstr "Zwerg"
 
 #. [message]
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:362
 msgid "WHAT?! No... this cannot be! I am Rathmalrak! I destroy all!"
 msgstr ""
 "WAS?! Nein... dass kann nicht sein! Ich bin Rathmalrak! Ich zerstöre alles!"
 
 #. [message]: speaker=second_unit
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:366
 msgid "Hah! Not anymore. Your reign of destruction has ended!"
 msgstr "Ha! Nicht mehr. Dein Herrschaft der Zerstörung ist worüber!"
 
 #. [message]
+#: scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:375
 msgid "Huzzah! Our curse is lifted. We are free!"
 msgstr "Hurra! Unser Fluch ist gebrochen. Wir sind frei!"
 
-#. [multiplayer]: id=TL_VOTA_06_Last_Battle
-msgid "VotA — The Last Battle"
+#. [scenario]: id=TL_VOTA_06_Last_Battle
+#: scenarios/VOTA/06_Last_Battle.cfg:5
+#, fuzzy
+msgid "The Last Battle"
 msgstr "VotA — Die Letzte Schlacht"
 
-#. [side]: type=Peasant, id=player1
-msgid "One"
-msgstr "Eins"
+#. [side]: type=Elvish Lady
+#: scenarios/VOTA/06_Last_Battle.cfg:20
+#, fuzzy
+msgid "Player One"
+msgstr "Jogador"
 
-#. [side]: type=Peasant, id=player2
-msgid "Two"
-msgstr "Zwei"
+#. [side]: type=Elvish Lady
+#: scenarios/VOTA/06_Last_Battle.cfg:31
+#, fuzzy
+msgid "Player Two"
+msgstr "Jogador"
 
 #. [side]: type=Elvish Sylph
+#: scenarios/VOTA/06_Last_Battle.cfg:67
 msgid "Aelarra"
 msgstr "Aelarra"
 
 #. [side]: type=Elvish Sylph
+#: scenarios/VOTA/06_Last_Battle.cfg:71
 msgid "Elves"
 msgstr "Elfen"
 
 #. [unit]: type=Elvish Champion, role=champion
+#: scenarios/VOTA/06_Last_Battle.cfg:97
 msgid "Lythandrail"
 msgstr "Lythandrail"
 
 #. [objective]: condition=win
+#: scenarios/VOTA/06_Last_Battle.cfg:113
 msgid "Defeat enemy leaders"
 msgstr "Besiege die feindlichen Anführer"
 
 #. [objectives]
+#: scenarios/VOTA/06_Last_Battle.cfg:116
 msgid "This scenario is a FFA"
 msgstr "Dieses Szenario ist ein FFA"
 
 #. [message]
+#: scenarios/VOTA/06_Last_Battle.cfg:160
 msgid "Finally! I never thought I'd see the open skies again."
 msgstr "Endlich! Ich dachte schon ich würde nie wieder den Himmel sehen."
 
 #. [message]
+#: scenarios/VOTA/06_Last_Battle.cfg:164
 msgid ""
 "Then enjoy your last look at them. Now I shall finish you for all your "
 "interference!"
@@ -1732,6 +2323,7 @@ msgstr ""
 "alle male ausschalten für deine Einmischungen!"
 
 #. [message]: role=drake ally
+#: scenarios/VOTA/06_Last_Battle.cfg:168
 msgid ""
 "We care nothing for the feuds of surface folk, but you slew our lord. For "
 "that, we will not rest until we have defeated you."
@@ -1741,6 +2333,7 @@ msgstr ""
 "haben."
 
 #. [message]
+#: scenarios/VOTA/06_Last_Battle.cfg:172
 msgid ""
 "Ah... I can't thank you enough for taking care of my little dragon problem. "
 "I promise you'll have a position of great prestige in my eternal undead army!"
@@ -1750,10 +2343,12 @@ msgstr ""
 "meiner ewigen untoten Armee zu geben!"
 
 #. [message]: role=champion
+#: scenarios/VOTA/06_Last_Battle.cfg:176
 msgid "Look, milady! Cursed undead are emerging from the mountains!"
 msgstr "Schaut, Herrin! Verfluchte Untote kommen aus den bergen!"
 
 #. [message]
+#: scenarios/VOTA/06_Last_Battle.cfg:181
 msgid ""
 "I see. And others, as well. They can only be coming from the Accursed "
 "Valley. All that comes from that place is tainted; we must destroy them!"
@@ -1763,6 +2358,7 @@ msgstr ""
 "vernichten!"
 
 #. [message]
+#: scenarios/VOTA/06_Last_Battle.cfg:186
 msgid ""
 "Wait! We are no allies of the lich. Please. You must help us defeat him!"
 msgstr ""
@@ -1770,6 +2366,7 @@ msgstr ""
 "zu besiegen!"
 
 #. [message]: role=ally
+#: scenarios/VOTA/06_Last_Battle.cfg:190
 msgid ""
 "Aye, it was they that killed the dragon. The valley is cursed no more, fair "
 "lady."
@@ -1778,6 +2375,7 @@ msgstr ""
 "verflucht, gnädige Dame."
 
 #. [message]: role=champion
+#: scenarios/VOTA/06_Last_Battle.cfg:194
 msgid ""
 "We won't be fooled by your lies, foul ones. We will cleanse the land of your "
 "evil!"
@@ -1786,19 +2384,23 @@ msgstr ""
 "vom Bösen bereinigen!"
 
 #. [message]
+#: scenarios/VOTA/06_Last_Battle.cfg:198
 msgid "Very well. Then I'll just have to kill all of you!"
 msgstr "Sehr gut. Dann muss ich eben nur all euch töten!"
 
 #. [option]: speaker=narrator
+#: scenarios/VOTA/06_Last_Battle.cfg:302
 msgid "Drake"
 msgstr "Draken"
 
 #. [chat]
 #. [message]: speaker=narrator
+#: utils/Rotation_War_Common.cfg:62 utils/Rotation_War_Common.cfg:104
 msgid "Rotating War"
 msgstr "Der Bunte Tod"
 
 #. [message]: speaker=narrator
+#: utils/Rotation_War_Common.cfg:64
 msgid ""
 "\n"
 "Use the castle rotation to carry out complex strategies, and attempt to "
@@ -1825,33 +2427,68 @@ msgstr ""
 "jederzeit dem Autor wissen. Dies ist Version $version"
 
 #. [chat]
+#: utils/Rotation_War_Common.cfg:105
 msgid "$unit.name, leader of side $unit.side, has been lost."
 msgstr "$unit.name, Anführer Teams $unit.side, ist gefallen."
 
 #. [modify_side]
+#: utils/Rotation_War_Common.cfg:123
 msgid "Defeated"
 msgstr "Besiegt"
 
 #. [trait]: id=gifted
+#: utils/misc.cfg:22
 msgid "gifted"
 msgstr "begabt"
 
 #. [trait]: id=gifted
+#: utils/misc.cfg:23
 msgid "male^gifted"
 msgstr "begabt"
 
 #. [trait]: id=gifted
+#: utils/misc.cfg:24
 msgid "female^gifted"
 msgstr "begabt"
 
 #. [trait]: id=gifted
+#: utils/misc.cfg:25
 msgid "more powerful in every way"
 msgstr "mächtiger in jedweder Hinsicht"
 
 #. [option]: speaker=narrator
+#: utils/misc.cfg:83
 msgid "Take it"
 msgstr "Nimm es"
 
 #. [option]: speaker=narrator
+#: utils/misc.cfg:136
 msgid "Leave it"
 msgstr "Lass es"
+
+#~ msgid ""
+#~ "Your Leader will respawn on death as long you have at least one unit left"
+#~ msgstr ""
+#~ "Dein Anführer wird wiederbeleben nach seinen Tod so lange mindestens eine "
+#~ "Einheit überlebt"
+
+#~ msgid "Turn 28 [L]"
+#~ msgstr "28. Runde [L]"
+
+#~ msgid "VotA — Uneasy Alliance"
+#~ msgstr "VotA — Eine Unsichere Allianz"
+
+#~ msgid "Defeat enemy leader"
+#~ msgstr "Besiege deinen Gegner"
+
+#~ msgid "VotA — Dwarven Hold"
+#~ msgstr "VotA ­— An der Zwergen Pforte"
+
+#~ msgid "VotA — Out of the Frying Pan"
+#~ msgstr "VotA — Der Glut Entfliehend"
+
+#~ msgid "One"
+#~ msgstr "Eins"
+
+#~ msgid "Two"
+#~ msgstr "Zwei"
