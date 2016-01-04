@@ -6,7 +6,7 @@ msgstr ""
 "PO-Revision-Date: 2014-10-20 00:16-0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: trewe <sjrs456@yahoo.fr>\n"
-"Language: pt\n"
+"Language: pt-PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +16,7 @@ msgstr ""
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 #: Valley_of_the_Ancients/_main.cfg:10
 msgid "Valley of the Ancients"
-msgstr "Vale dos Anciãos"
+msgstr "Vale dos Anciões"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 #: Valley_of_the_Ancients/_main.cfg:11
@@ -30,7 +30,7 @@ msgid ""
 "rival.\n"
 "\n"
 msgstr ""
-"Disputa o teu caminho para o Vale Antigo contra o teu rival.\n"
+"Disputa o teu caminho para o Vale dos Anciões lendário contra o seu rival.\n"
 "\n"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
@@ -66,7 +66,7 @@ msgstr "Manutenção da Campanha"
 #. [multiplayer]: id=VOTA_multiplayer_dimagabeachrace
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:161
 msgid "2p — Race for Dimaga Beach"
-msgstr "2J — Corrida pela Praia de Dimaga"
+msgstr "2J — Corrida pela Praia dos Répteis"
 
 #. [multiplayer]: id=VOTA_multiplayer_dimagabeachrace
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:163
@@ -74,7 +74,7 @@ msgid ""
 "Two players must race down the mountain to dimaga beach! The winner is the "
 "player who reaches the end or survives longer than his opponent."
 msgstr ""
-"Dois jogadores correm pelo vale montanhoso afundo até à Praia de Dimaga! O "
+"Dois jogadores correm pelo vale montanhoso afundo até à Praia dos Répteis! O "
 "primeiro jogador a chegar ao fim ou sobreviver mais tempo vence a partida."
 
 #. [side]
@@ -85,12 +85,12 @@ msgstr "Inimigos"
 #. [side]
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:214
 msgid "Contestant (West)"
-msgstr "Concorrente (Oeste)"
+msgstr "Adversário (Oeste)"
 
 #. [side]
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:228
 msgid "Contestant (East)"
-msgstr "Concorrente (Este)"
+msgstr "Adversário (Este)"
 
 #. [label]
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:266
@@ -100,39 +100,39 @@ msgstr "Praia dos Répteis"
 #. [objective]: condition=win
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:276
 msgid "Advance your leader to Dimaga Beach"
-msgstr "Chega à praia com o teu líder"
+msgstr "Avance o seu líder para a Praia dos Répteis"
 
 #. [objective]: condition=lose
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:280
 msgid "Death of your Leader"
-msgstr "Morte do teu líder"
+msgstr "Morte do seu líder"
 
 #. [objective]: condition=lose
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:284
 msgid "Opponent's Leader reaches Dimaga Beach"
-msgstr "O líder adversário chega primeiro à praia"
+msgstr "O líder adversário chega primeiro à Praia dos Répteis"
 
 #. [message]: speaker=narrator
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:356
 msgid "Dimaga Entruse"
-msgstr "Intruso de Dimaga"
+msgstr "Intruso dos Répteis"
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:362
 #, fuzzy
 msgid "Ah, greetings contestants and welcome to ‘The race for Dimaga Beach!’"
 msgstr ""
-"À, saudações concorrentes e bem-vindo à “Corrida pela Praia de Dimaga”!"
+"À, saudações adversários e bem-vindo à “Corrida pela Praia dos Répteis”!"
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:364
 msgid "Your quest is simple, proceed north..."
-msgstr "A vossa tarefa é simples, sigam o vale acima ..."
+msgstr "A sua tarefa é simples, prossiga para norte..."
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:372
 msgid "...to Dimaga Beach before your opponent gets there."
-msgstr "... até chegarem à Praia de Dimaga antes do vosso adversário."
+msgstr "... para a Praia dos Répteis antes do seu adversário chegar lá."
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:379
@@ -162,17 +162,17 @@ msgstr ""
 #. [event]
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:406
 msgid "Be sure to thank Vincent for his awesome work!"
-msgstr "Agradecimentos especiais ao Vincent pelo seu trabalho fantástico!"
+msgstr "Não se esqueça de agradecer ao Vincent pelo seu trabalho fantástico!"
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:408
 msgid "Now let the Race begin!"
-msgstr "Que comece a corrida!"
+msgstr "Agora, deixe a corrida começar!"
 
 #. [object]: id=FlameRing
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:596
 msgid "Ring of Fire"
-msgstr "Anel do Fogo"
+msgstr "Anel de Fogo"
 
 #. [object]: id=FlameRing
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:598
@@ -185,7 +185,7 @@ msgstr ""
 #. [object]: id=AccuracyRing
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:630
 msgid "Ring of Accuracy"
-msgstr "Anel da Precisão"
+msgstr "Anel de Precisão"
 
 #. [object]: id=AccuracyRing
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:632
@@ -214,18 +214,18 @@ msgstr "$unit.name foi morto em batalha ..."
 #. [event]
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:704
 msgid "Therefore his opponent is Victorious! Congratulations!"
-msgstr "Assim o seu concorrente é vitorioso! Parabéns!"
+msgstr "Por isso, o adversário dele saiu vitorioso! Parabéns!"
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:705
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:795
 msgid "Thanks for playing and please come again!"
-msgstr "Obrigado por jogarem e desfrutarem da partida!"
+msgstr "Obrigado por jogarem e, por favor, voltem outra vez!"
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:735
 msgid "Ladies and gentlemen, we have a Winner."
-msgstr "Senhoras e Senhores, temos um vencedores."
+msgstr "Senhoras e senhores, nós temos um Vencedor."
 
 #. [event]
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:736
@@ -262,13 +262,13 @@ msgstr "2j — Reversi"
 #: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:7
 msgid "Reversi a.k.a Othello for 2 players or alone"
 msgstr ""
-"Reversi, também chamado de Othello, para dois jogadores ou sozinho contra o "
+"Reversi também conhecido como Otelo para 2 jogadores ou contra o "
 "computador."
 
 #. [time]: id=Reversi_tod
 #: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:14
 msgid "Time of day has no effect in Reversi"
-msgstr "O tempo do dia não tem efeito em reversi"
+msgstr "A hora do dia não tem efeito no Reversi"
 
 #. [side]
 #: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:46
@@ -283,12 +283,12 @@ msgstr "Branco"
 #. [objective]: condition=win
 #: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:78
 msgid "Capture more units than your opponent does"
-msgstr "Captura mais unidades do que o teu adversário"
+msgstr "Capture mais unidades do que o seu adversário"
 
 #. [objective]: condition=lose
 #: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:82
 msgid "Your opponent finish with more units"
-msgstr "O teu adversário termina com mais unidades"
+msgstr "O seu adversário termina com mais unidades"
 
 #. [objectives]
 #: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:85
@@ -340,7 +340,7 @@ msgstr ""
 #: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:555
 #: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:572
 msgid "Endgame"
-msgstr "Fim do jogo"
+msgstr "Fim do Jogo"
 
 #. [message]: speaker=narrator
 #: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:539
@@ -389,17 +389,17 @@ msgstr ""
 
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:18
 msgid "holy water^Take it"
-msgstr "Leva-a"
+msgstr "água sagrada^Leve-a"
 
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:19
 msgid "holy water^Leave it"
-msgstr "Deixa-a"
+msgstr "água sagrada^Deixe-a"
 
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:20
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:50
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:85
 msgid "Leaders cannot take this item! Let another take it."
-msgstr "Líderes não podem usar este item! Deixa outro usá-lo."
+msgstr "Os líderes não podem utilizar este item! Deixe outro utilizá-lo."
 
 #. [object]
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:22
@@ -425,16 +425,16 @@ msgstr ""
 
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:48
 msgid "ankh amulete^Take it"
-msgstr "Leva-o"
+msgstr "amuleto^Leve-o"
 
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:49
 msgid "ankh amulete^Leave it"
-msgstr "Deixa-o"
+msgstr "amuleto^Deixe-o"
 
 #. [object]
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:52
 msgid "Illuminates"
-msgstr "Iluminação"
+msgstr "Ilumina"
 
 #. [object]
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:55
@@ -443,7 +443,7 @@ msgid ""
 "the current scenario."
 msgstr ""
 "Apanhando este item concederá iluminação ao usuário até o final do cenário "
-"actual."
+"atual."
 
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:82
 msgid ""
@@ -464,7 +464,7 @@ msgstr "Deixa-a"
 #. [object]
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:87
 msgid "Hit'n run"
-msgstr "Toca e Foge"
+msgstr "Tocar e fugir"
 
 #. [message]: speaker=narrator
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:239
@@ -566,17 +566,17 @@ msgstr "Como podes estar a descansar com todos os morto-vivos a volta!?"
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:424
 #, fuzzy
 msgid "Undead? Where? Get off."
-msgstr "Morto-Vivos? Onde?"
+msgstr "Morto-Vivos? Onde? Fuja"
 
 #. [message]: speaker=second_unit
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:448
 msgid "Okay, okay, no worries. I surrender. Hey, is that a Z over there?"
-msgstr ""
+msgstr "Está bem, está bem, não se preocupe. Eu rendo-me. Ei, isso é um Z ali?"
 
 #. [message]: speaker=unit
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:472
 msgid "Someone is hidden in this temple!"
-msgstr "Parece que tem alguém escondido no templo."
+msgstr "Alguém está escondido neste templo."
 
 #. [unit]: type=Dark Adept, role=adept
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:479
@@ -593,19 +593,19 @@ msgstr ""
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:511
 #, fuzzy
 msgid "Why is he speaking like a lizard?"
-msgstr "Porque fala como se fosse um lagarto?"
+msgstr "Porque é que ele está a falar como se fosse um lagarto?"
 
 #. [message]: role=adept
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:516
 #, fuzzy
 msgid "Just kidding."
-msgstr "Apenas a confirmar."
+msgstr "Estou a brincar."
 
 #. [message]: speaker=unit
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:528
 #, fuzzy
 msgid "Please have mercy what have I done?"
-msgstr "Por favor tenha misericórdia, o que fiz?"
+msgstr "Por favor, tenha misericórdia do que eu fiz?"
 
 #. [multiplayer]: id=Outbrrreak
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:547
@@ -670,7 +670,7 @@ msgstr "Morto-Vivo"
 #. [objective]: condition=win
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:848
 msgid "Survive the zombie onslaught for 1 week"
-msgstr "Sobreviva o assalto à cidade por uma semana"
+msgstr "Sobreviva ao massacre do zombie por uma semana"
 
 #. [objective]: condition=lose
 #: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:853
@@ -959,7 +959,7 @@ msgstr "Norte"
 #. [multiplayer]: id=vota_ktv_4p
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:5
 msgid "4p — Kill the Virgins! (Survival)"
-msgstr "4j — Mata as Virgens! (Sobrevivência)"
+msgstr "4j — Matar as Virgens! (Sobrevivência)"
 
 #. [multiplayer]: id=vota_ktv_4p
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:11
@@ -977,16 +977,16 @@ msgid ""
 "Fog of War: On\n"
 "Starting Gold: 75"
 msgstr ""
-"Mata as Virgens! (Sobrevivência)\n"
+"Matar as Virgens! (Sobrevivência)\n"
 "Criado por: Skele\n"
 "\n"
-"Só ao sacrificar duas virgens irás ser libertado!\n"
+"Só sacrificando duas virgens é que será libertado!\n"
 "\n"
-"Definições recomendadas:\n"
+"Configurações Recomendadas:\n"
 "Turnos: Ilimitados\n"
-"Ouro por Aldeia: 1\n"
+"Ouro da Aldeia: 1\n"
 "Modificador de Experiência: 70%\n"
-"Nevoeiro de Guerra: ligado\n"
+"Nevoeiro da Guerra: ligado\n"
 "Ouro Inicial: 75"
 
 #. [part]
