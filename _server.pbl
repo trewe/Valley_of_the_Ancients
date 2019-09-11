@@ -1,0 +1,16 @@
+author="trewe"
+icon="units/dwarves/guard.png~RC(magenta>brown)"
+version="2.9.3"
+title="Valley of the Ancients"
+type="map_pack"
+description="A collection of competive scenarios.
+
+ * Valley of the Ancients: MP competive campaign for 2 players. (6 scenarios)
+ * Outbreak: a 3 player survival against an onslaught of ever mutating zombies
+ * Kill the Virgins: survival for 1-4 players
+ * Pits of Despair: 3p competive survival
+ * Rotating War: 3 and 6 player versions of a map which rotates counter-clockwise
+ * Reversi: the classical board game for one or two players
+ * Race for Dimaga Beach: competive racing scenario for two players
+ * Temple of the Nagas: 4 player survival"
+translate="true"
