@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-Valley_of_the_Ancients\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2019-09-11 12:36 UTC\n"
+"POT-Creation-Date: 2021-11-25 12:32 UTC\n"
 "PO-Revision-Date: 2018-04-13 17:06+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: trewe <sjrs456@yahoo.fr>\n"
@@ -13,293 +13,71 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 2.0.6\n"
 
-#. [scenario]: id=TL_VOTA_05_Out_of_the_Frying_Pan
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:5
-msgid "Out of the Frying Pan"
-msgstr ""
-
-#. [side]: type=Elvish Lady
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:23
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:35
-msgid "Humans"
-msgstr "Spieler"
-
-#. [leader]: type=Fire Dragon
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:47
-msgid "Rathmalrak"
-msgstr "Rathmalrak"
-
-#. [side]
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:57
-msgid "Dragons"
-msgstr "Drachen"
-
-#. [objectives]
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:85
-msgid "Slay the dragon to escape"
-msgstr "Erschlage den Drachen zum entkommen"
-
-#. [objective]: condition=win
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:87
-msgid "Slay Rathmalrak"
-msgstr "Erschlage Rathmalrak"
-
-#. [objective]: condition=lose
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:91
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:348
-msgid "Death of both players"
-msgstr "Tod beider Spieler"
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:124
-msgid "What place is this?"
-msgstr "Was für ein Platz ist dass?"
-
-#. [message]: role=ally
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:129
-msgid ""
-"Behold the lair of Rathmalrak. It was he who destroyed our once-proud "
-"city... we eventually managed to trap him here at the heart of the mountain, "
-"but he placed a curse on us as his revenge."
-msgstr ""
-"Am versteckt von Rathmalrak. Er war es, der unsere einst so stolzen Stadt "
-"zerstört hat ... wir haben es schließlich geschafft, ihn hier im Herzen des "
-"Berges einzusperren, aber er legte ein Fluch auf uns als seine Rache."
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:133
-msgid "What? You mean it was not Mal-Daugur who cursed you?"
-msgstr "Was? Du meinst, es war nicht Mal-Daugur der euch verfluchte?"
-
-#. [message]: role=ally
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:137
-msgid ""
-"Nay. Mal-Daugur simply took advantage of our vulnerability to move into the "
-"upper citadel. For centuries now we have lived under an uneasy stalemate, "
-"keeping him at bay by threatening to unleash the dragon upon him. Rathmalrak "
-"is the only living thing he fears."
-msgstr ""
-"Nee. Mal-Draugur hat nur unsere Verwundbarkeit ausgenutzt um in die obere "
-"Burg einzuziehen. Seit Jahrhunderten leben wir nun schon in einen brüchigen "
-"Frieden, ihn halten wir fern mit der Drohung den Drachen auf ihn zu "
-"entfesseln. Rathmalrak ist dass einzige Lebewesen dass er fürchtet."
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:142
-msgid ""
-"All things fear me! I am Rathmalrak the Destroyer! It has been long since I "
-"have feasted on fresh meat. I will be sure to make your carcasses last a "
-"long, long time!"
-msgstr ""
-"Alle fürchten mich! Ich bin Rathmalrak der Zerstörer! Es ist lange her seit "
-"ich frisches Fleisch hatte. Ich werde sicher gehen dass eure Körper eine "
-"lange, lange weile dauern!"
-
-#. [message]: role=ally
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:147
-msgid ""
-"This is it. We're throwing our lot in with you. If we must die, we'll die "
-"fighting!"
-msgstr ""
-"Das ist es. Wir treten eurer Seite bei. Wenn wir sterben müssen, werden wir "
-"kämpfend sterben!"
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:152
-msgid ""
-"We had no idea we were bringing such destruction down upon you, but it is "
-"only fitting we should share in your destruction. I swear we will fight "
-"alongside you until the end!"
-msgstr ""
-"Wir hatten keine Ahnung dass wir solche Zerstörungen zu euch bringen, aber "
-"es ist nur angemessen, wir sollten in eurer Zerstörung teilen. Ich schwöre, "
-"wir werden gemeinsam mit Ihnen bis zum Ende kämpfen!"
-
-#. [message]: role=ally
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:157
-msgid ""
-"Hmph. Maybe there is such a thing as honor among surface-dwellers. Very "
-"well. Come, lads! We'll die fighting today!"
-msgstr ""
-"Hmph. Vielleicht gibt es so was wie ehre unter Oberflächen Bewohnern. Sehr "
-"gut. Los, Leute! Wir werden kämpfend sterben heute!"
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:162
-msgid ""
-"Looks like we're back to where we started. We'll have to work together to "
-"kill this thing, but don't think that we're through yet!"
-msgstr ""
-"Es sieht so aus wie wir angefangen haben. Wir werden zusammen halten müssen "
-"um dieses Ding zu töten, aber denke nicht das wir miteinander fertig sind!"
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:204
-msgid "I am undone! Avenge me!"
-msgstr "Ich Sterbe! Räche mich!"
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:223
-msgid "You pathetic weaklings thought you could stand up to ME?"
-msgstr "Ihr Schwächlinge dachtet ihr könntet es mit MIR aufnehmen?"
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:266
-msgid "WHAT?! No... this cannot be! I am Rathmalrak! I destroy all!"
-msgstr ""
-"WAS?! Nein... dass kann nicht sein! Ich bin Rathmalrak! Ich zerstöre alles!"
-
-#. [message]: speaker=second_unit
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:270
-msgid "Hah! Not anymore. Your reign of destruction has ended!"
-msgstr "Ha! Nicht mehr. Dein Herrschaft der Zerstörung ist worüber!"
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:279
-msgid "Huzzah! Our curse is lifted. We are free!"
-msgstr "Hurra! Unser Fluch ist gebrochen. Wir sind frei!"
-
-#. [scenario]: id=TL_VOTA_06_Last_Battle
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:5
+#. [scenario]: id=TL_VOTA_02_Showdown
+#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:5
 #, fuzzy
-msgid "The Last Battle"
-msgstr "VotA — Die Letzte Schlacht"
+msgid "Showdown in the Valley"
+msgstr "VotA — Kraftprobe im Tal"
 
-#. [side]: type=Elvish Lady
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:21
+#. [side]: type=Ruffian
+#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:23
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:135
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:24
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:22
 #, fuzzy
 msgid "Player One"
 msgstr "Jogador"
 
-#. [side]: type=Elvish Lady
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:32
+#. [side]: type=Ruffian
+#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:35
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:146
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:37
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:33
 #, fuzzy
 msgid "Player Two"
 msgstr "Jogador"
 
-#. [side]: type=Ancient Lich
-#. [then]: id=Mal-Daugur
-#. [leader]: id=mal-daugur, type=Ancient Lich
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:41
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:612
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:105
-msgid "Mal-Daugur"
-msgstr "Mal-Daugur"
-
-#. [side]: type=Ancient Lich
-#. [side]
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:45
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:54
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:82
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:113
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:201
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:229
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:741
-msgid "Undead"
-msgstr "Untote"
-
-#. [side]: type=Elvish Sylph
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:68
-msgid "Aelarra"
-msgstr "Aelarra"
-
-#. [side]: type=Elvish Sylph
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:72
-msgid "Elves"
-msgstr "Elfen"
-
-#. [unit]: type=Elvish Champion, role=champion
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:98
-msgid "Lythandrail"
-msgstr "Lythandrail"
-
 #. [objective]: condition=win
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:114
-#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:322
-#, fuzzy
-#| msgid "Defeat enemy leaders"
-msgid "Defeat all enemy leaders"
-msgstr "Besiege die feindlichen Anführer"
+#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:47
+msgid "Defeat your rival to enter the caves"
+msgstr ""
+
+#. [note]
+#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:56
+msgid "Only the victor gets early finish bonus"
+msgstr ""
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:158
-msgid "Finally! I never thought I'd see the open skies again."
-msgstr "Endlich! Ich dachte schon ich würde nie wieder den Himmel sehen."
+#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:67
+msgid ""
+"So you still persist in pursuing the valley? You could still choose to "
+"depart peacefully, you realize. You need not die in vain here."
+msgstr ""
+"So du willst immer noch in das Tal eindringen? Du könntest friedlich "
+"aufbrechen, weißt du. Du musst nicht grundlos hier sterben."
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:162
+#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:72
 msgid ""
-"Then enjoy your last look at them. Now I shall finish you for all your "
-"interference!"
+"Hmph. Unable to back your claim through force, I see you resort to bluff--"
+"and a weak bluff, at that. Either way, you will die!"
 msgstr ""
-"Dann genieße deinen letzten blick auf ihn. Jetzt sollte ich dich ein für "
-"alle male ausschalten für deine Einmischungen!"
+"Hmph. Nicht schaffend dein ziel mit Waffenstärke zu holen, versuchst du zu "
+"bluffen -- ein schwacher Bluff. Sei's darum, du wirst sterben!"
 
-#. [message]: role=drake ally
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:166
-msgid ""
-"We care nothing for the feuds of surface folk, but you slew our lord. For "
-"that, we will not rest until we have defeated you."
-msgstr ""
-"Wir kümmern uns um nicht um die Fehden der Oberflächen Völker, aber ihr "
-"tötetet unseren Herrn. Dafür werden wir nicht ruhen bis wir euch geschlagen "
-"haben."
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:85
+msgid "Argh! They are stronger than I had thought. Fall back!"
+msgstr "Arght! Sie sind stärker als ich dachte. Rückzug!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:171
+#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:91
 msgid ""
-"Ah... I can't thank you enough for taking care of my little dragon problem. "
-"I promise you'll have a position of great prestige in my eternal undead army!"
+"Onward! The path lies open before us now. Soon the ancient treasures of the "
+"dwarves will be mine and mine alone!"
 msgstr ""
-"Ah ... Ich kann euch nicht genug danken für die Betreuung meines kleinen "
-"Drachen Problem. Ich verspreche euch, einen platz von großem Ansehen in "
-"meiner ewigen untoten Armee zu geben!"
-
-#. [message]: role=champion
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:176
-msgid "Look, milady! Cursed undead are emerging from the mountains!"
-msgstr "Schaut, Herrin! Verfluchte Untote kommen aus den bergen!"
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:182
-msgid ""
-"I see. And others, as well. They can only be coming from the Accursed "
-"Valley. All that comes from that place is tainted; we must destroy them!"
-msgstr ""
-"Ich sehe. Und andere, ebenfalls. Sie können nur aus dem verfluchten Tal "
-"kommen. Alles was aus diesem Ort kommt ist behaftet, wir müssen sie "
-"vernichten!"
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:187
-msgid ""
-"Wait! We are no allies of the lich. Please. You must help us defeat him!"
-msgstr ""
-"Wartet! Wir sind keine verbündeten vom Lich. Bitte. Ihr müsst uns helfen ihn "
-"zu besiegen!"
-
-#. [message]: role=ally
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:191
-msgid ""
-"Aye, it was they that killed the dragon. The valley is cursed no more, fair "
-"lady."
-msgstr ""
-"Jo, es wahren sie die den Drachen getötet haben. Dass Tal ist nicht mehr "
-"verflucht, gnädige Dame."
-
-#. [message]: role=champion
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:196
-msgid ""
-"We won't be fooled by your lies, foul ones. We will cleanse the land of your "
-"evil!"
-msgstr ""
-"Wir werden nicht von euren lügen getäuscht, narren! Wir werden dieses Land "
-"vom Bösen bereinigen!"
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:200
-msgid "Very well. Then I'll just have to kill all of you!"
-msgstr "Sehr gut. Dann muss ich eben nur all euch töten!"
+"Vorwärts! Der weg ist nun frei vor uns. Bald werden die uralten schätze der "
+"Zwerge meine sein, und meine allein!"
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
 #: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:5
@@ -307,27 +85,15 @@ msgstr "Sehr gut. Dann muss ich eben nur all euch töten!"
 msgid "Dwarven Hold"
 msgstr "Cinto Anão"
 
-#. [side]: type=Elvish Lady
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:134
-#, fuzzy
-msgid "A Treasure Hunter"
-msgstr "Schatzjäger"
-
-#. [side]: type=Elvish Lady
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:145
-#, fuzzy
-msgid "Another Treasure Hunter"
-msgstr "Schatzjäger"
-
 #. [leader]: type=Dwarvish Lord
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:156
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:157
 msgid "Morglandur"
 msgstr "Morglandur"
 
 #. [side]
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:162
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:163
 #: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:219
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:276
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:275
 msgid "Dwarves"
 msgstr "Zwerge"
 
@@ -337,44 +103,50 @@ msgid "Druth"
 msgstr "Druth"
 
 #. [leader]: type=Dwarvish Sentinel
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:269
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:268
 msgid "Hrandath"
 msgstr "Hrandath"
 
 #. [objectives]
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:342
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:339
 msgid "Loot the ancient dwarvish treasure"
 msgstr "Plündere den uralten Schatz der Zwerge"
 
 #. [objective]: condition=win
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:344
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:341
 msgid "Collect all 7 dwarvish treasures"
 msgstr "Sammle alle 7 Zwergen Schätze"
 
-#. [objectives]
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:351
+#. [objective]: condition=lose
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:345
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:90
+msgid "Death of both players"
+msgstr "Tod beider Spieler"
+
+#. [note]
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:354
 #, fuzzy
 #| msgid "The player who find the most treasures wins if both survive"
 msgid "The player who finds the most treasures wins if both survive"
 msgstr "Der Spieler der die meisten Schätze findet siegt falls beide überleben"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:421
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:425
 msgid "Phew, I think I've lost them. Now I can explore at my leisure."
 msgstr "Pff, ich glaube ich hab ihn verloren. Nun kann ich ungestört suchen."
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:426
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:430
 msgid "Hah hah! Guess again!"
 msgstr "Hah hah! Er glaubt es!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:431
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:435
 msgid "You again?! How did you get past the lich?"
 msgstr "Du schon wieder?! Wie bist du am Lich vorbeigekommen?"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:436
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:440
 msgid ""
 "Mal-Daugur was generous enough to reanimate me with the powers of unlife. He "
 "sought to enslave me into his army, but my will was too strong and I broke "
@@ -387,28 +159,28 @@ msgstr ""
 "ihn zu besiegen ... sobald nachdem ich dich töte!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:441
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:445
 msgid "We'll see about that. Those treasures are mine!"
 msgstr "Wir werden sehen. Diese Schätze sind meine!"
 
 #. [message]: speaker=second_unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:465
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:469
 msgid "What?! There are still dwarves alive down here?"
 msgstr "Was?! Hier sind immer noch Zwerge am leben hier unten?"
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:470
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:474
 msgid "Aye, o'course there be!"
 msgstr "Yo, 'türlich sind es!"
 
 #. [message]: speaker=second_unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:475
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:479
 msgid "But the upper levels are swarming with undead! How can you survive?"
 msgstr ""
 "Aber die oberen Stockwerke sind voll mit Untoten! Wie könnt ihr überleben? "
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:480
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:484
 msgid ""
 "With good sturdy dwarvish steel--how else? Yon bonesacks are nae a match for "
 "our axes and hammers!"
@@ -417,7 +189,7 @@ msgstr ""
 "leichtes Spiel för uns're Äxte und Hämm'r!"
 
 #. [message]: speaker=second_unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:485
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:489
 msgid ""
 "Then surely you must help us. Together we can drive the undead scourge away "
 "from your home!"
@@ -426,7 +198,7 @@ msgstr ""
 "eurer Heimat entledigen!"
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:490
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:494
 msgid ""
 "Aye... so ye can take it for yourselves, no doubt! C'mon, lads--let's send "
 "these intruders back where they belong!"
@@ -435,17 +207,17 @@ msgstr ""
 "schickt diese Eindringlinge zurück wo sie hingehören!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:527
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:532
 msgid "Nnnnrrrrrgghhhh..."
 msgstr "Nnnnrrrrrgghhhh..."
 
 #. [message]: speaker=second_unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:532
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:537
 msgid "Gah! What is this?"
 msgstr "Uah! Was ist dass?"
 
 #. [message]: race=dwarf
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:538
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:543
 msgid ""
 "It is our terrible burden. We are bound to this valley forever, in death as "
 "well as life."
@@ -454,7 +226,7 @@ msgstr ""
 "im Tod."
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:559
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:564
 msgid ""
 "A curse over this wretched place! I should have heeded the guardian's "
 "warnings while I had a chance..."
@@ -463,22 +235,31 @@ msgstr ""
 "beachten sollen, während ich eine Chance hatte ..."
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:577
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:582
 msgid "Damn. I had come so far..."
 msgstr "Verdammt. Ich bin so weit gekommen..."
 
 #. [message]: race=dwarf
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:584
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:589
 msgid "Excellent. The intruders have been defeated!"
 msgstr "Sehr gut. Die Eindringlinge sind besiegt!"
 
 #. [message]: race=dwarf
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:607
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:610
 msgid "No! Our sacred treasures, all gone!"
 msgstr "Nein! Unsere heiligen Schätze, alle fort!"
 
+#. [then]: id=Mal-Daugur
+#. [leader]: id=mal-daugur, type=Ancient Lich
+#. [side]: type=Ancient Lich
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:615
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:106
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:42
+msgid "Mal-Daugur"
+msgstr "Mal-Daugur"
+
 #. [message]: id=Mal-Daugur
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:622
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:625
 msgid ""
 "Hah hah hah! Foolish mortals... your infighting has only left you weak and "
 "vulnerable. Now I will finally destroy you once and for all!"
@@ -487,19 +268,19 @@ msgstr ""
 "und verletzlich. Jetzt werde ich euch endlich vernichten, ein für alle Mal!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:626
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:629
 msgid "Pull back! We need a more defensible position to fight from!"
 msgstr ""
 "Zurück! Wir brauche eine besser zu verteidigende Position um sie zu "
 "bekämpfen!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:630
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:633
 msgid "Damn! Too many enemies... we'll have to retreat!"
 msgstr "Verdammt! Zu viele Feinde... Wir müssen uns zurückziehen!"
 
 #. [message]: race=dwarf
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:637
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:640
 msgid ""
 "Fools! You have doomed us all... below us lies an even greater danger, but "
 "now you have left us all no choice."
@@ -508,12 +289,12 @@ msgstr ""
 "noch größere Gefahr, aber jetzt habt ihr uns allen keine Wahl gelassen."
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:722
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:724
 msgid "Ring of Invisibility"
 msgstr "Ring der Unsichtbarkeit"
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:723
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:725
 msgid ""
 "Wearing this ring will render a unit invisible unless it attacks or moves "
 "adjacent to an enemy."
@@ -522,19 +303,19 @@ msgstr ""
 "sie greift an oder bewegt sich zu einer feindlichen Einheit."
 
 #. [hides]: id=VotA_invisible, description=This unit cannot be seen unless it attacks or is adjacent to an enemy.
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:729
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:730
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:731
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:732
 #, fuzzy
 msgid "Invisible"
 msgstr "invisível"
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:738
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:740
 msgid "Runestorm Axe"
 msgstr "Runen Sturmaxt"
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:739
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:741
 msgid ""
 "This magic throwing axe is enchanted to swiftly return to the thrower's hand."
 msgstr ""
@@ -542,17 +323,17 @@ msgstr ""
 "zurückkommt."
 
 #. [effect]: type=blade
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:743
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:745
 msgid "runestorm axe"
 msgstr "Runen Sturmaxt"
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:781
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:783
 msgid "Golden Mail"
 msgstr "goldene Rüstung"
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:782
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:784
 msgid ""
 "This enchanted armor will increase a unit's hitpoints as well as boosting "
 "resistance to fire and cold damage."
@@ -561,12 +342,12 @@ msgstr ""
 "Feuer und Kälte Resistenzen erhöhen."
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:805
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:807
 msgid "Ring of Ogre Might"
 msgstr "Ring der Oger Macht"
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:806
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:808
 msgid ""
 "Wearing this ring will grant the unit teleporting, and increasing the number "
 "of its strikes."
@@ -575,12 +356,12 @@ msgstr ""
 "und die Angriffe im Nahkampf."
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:879
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:881
 msgid "Spear of Valor"
 msgstr "Speer des Mutes"
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:880
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:882
 msgid ""
 "This magic spear fills the wielder with courage and daring, letting them "
 "charge for double damage."
@@ -589,29 +370,29 @@ msgstr ""
 "ermöglicht ihn mit doppelten schaden zu stürmen."
 
 #. [effect]: type=pierce
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:884
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:886
 msgid "spear of valour"
 msgstr "Speer des Mutes"
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:929
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:931
 msgid "Vial of Holy Water"
 msgstr "Fläschchen Weihwasser"
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:930
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:932
 msgid ""
 "This blessed water will allow a unit's melee attacks to do arcane damage."
 msgstr ""
 "Dieses heilige Wasser lässt allen Nahkampfwaffen den Arkanen schaden geben."
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:945
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:947
 msgid "Trollsblood Potion"
 msgstr "Trollbluttrank"
 
 #. [scenario]: id=TL_VOTA_04_Dwarven_Hold
-#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:946
+#: Valley_of_the_Ancients/scenarios/VOTA/04_Dwarven_Hold.cfg:948
 msgid ""
 "This magical conconction will allow a unit to regenerate health like a troll."
 msgstr ""
@@ -624,33 +405,35 @@ msgstr ""
 msgid "The Accursed City"
 msgstr "VotA — Die verfluchte Stadt"
 
-#. [side]: type=Elvish Lady
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:23
-msgid "Human One"
-msgstr "Erster Spieler"
-
-#. [side]: type=Elvish Lady
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:36
-msgid "Human Two"
-msgstr "Zweiter Spieler"
-
 #. [leader]: type=Necrophage
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:48
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:49
 msgid "Ghruul"
 msgstr "Ghruul"
 
+#. [side]
+#. [side]: type=Ancient Lich
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:55
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:83
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:114
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:202
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:230
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:46
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:642
+msgid "Undead"
+msgstr "Untote"
+
 #. [leader]: type=Necrophage
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:76
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:77
 msgid "Urhuu"
 msgstr "Urhuu"
 
 #. [leader]: type=Revenant
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:195
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:196
 msgid "Aeggorath"
 msgstr "Aeggorath"
 
 #. [leader]: type=Revenant
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:223
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:224
 msgid "Duagor"
 msgstr "Duagor"
 
@@ -671,8 +454,9 @@ msgstr ""
 
 #. [objective]: condition=lose
 #: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:270
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:116
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:217
-#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:326
+#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:334
 msgid "Death of your leader"
 msgstr "Tod deines Anführers"
 
@@ -681,8 +465,13 @@ msgstr "Tod deines Anführers"
 msgid "Opponent escapes before you do"
 msgstr "Gegner entkommt vor ihnen"
 
+#. [note]
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:283
+msgid "Only the Player reaching a trapdoor gains early finish bonus"
+msgstr ""
+
 #. [message]: id=$victor.id
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:339
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:362
 msgid ""
 "Glorious! The lost city of the dwarves and all its riches belong to me at "
 "last!"
@@ -691,37 +480,37 @@ msgstr ""
 "endlich mir!"
 
 #. [message]: id=$loser.id
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:343
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:366
 msgid "Enjoy it while it lasts. I will have my revenge!"
 msgstr "Genieße es, während es dauert. Ich werde meine Rache haben!"
 
 #. [message]: id=$victor.id
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:347
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:370
 msgid "So you're still around? I can take care of that."
 msgstr "Sie sind also noch da? Es kümmert mich nicht."
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:353
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:376
 msgid "FRESH MEAT..."
 msgstr "FRISCHES FLEISCH..."
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:359
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:382
 msgid "HUNGRY..."
 msgstr "HUNGER..."
 
 #. [message]: id=$victor.id
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:363
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:386
 msgid "Huh?"
 msgstr "Huch?"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:369
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:392
 msgid "More victims! How delightful."
 msgstr "Mehr Opfer! Wie entzückend."
 
 #. [message]: id=$victor.id
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:373
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:396
 msgid ""
 "Drat! Perhaps there was more to that guardian's 'Accursed Valley' nonsense "
 "than we gave credit."
@@ -730,7 +519,7 @@ msgstr ""
 "Wächters als wir glauben schenkten. "
 
 #. [message]: id=$victor.id
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:377
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:400
 msgid ""
 "The ancient dwarves were said to have weapons of great power. If we can "
 "reach the depths of the lower city to recover them, we may be able to fight "
@@ -741,13 +530,13 @@ msgstr ""
 "wir in der Lage, diese Horde abzuwehren."
 
 #. [message]: id=$loser.id
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:381
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:404
 msgid "'We'? What's this 'we' business? You're on your own, friend."
 msgstr ""
 "'Wir'? Was ist das 'wir' Gerede? Du bist auf eigener Faust, mein Freund."
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:387
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:410
 msgid ""
 "Run, run, run! Flee as you will, you will not escape! Nothing leaves the "
 "Valley alive!"
@@ -756,32 +545,32 @@ msgstr ""
 "Nichts verlässt dass Tal Lebend!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:419
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:421
 msgid "We'll never get out of here at this rate!"
 msgstr "Wir werden hier niemals herauskommen in diesen Tempo!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:423
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:425
 msgid "This is hopeless. We are doomed!"
 msgstr "Das ist aussichtslos. Wir sind verloren!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:429
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:431
 msgid "Mua hah hah hah!"
 msgstr "Mua hah hah hah!"
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:460
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:462
 msgid "Quickly, this way!"
 msgstr "Schnell, hier entlang!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:469
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:471
 msgid "Master! Some of them are getting away!"
 msgstr "Meister! Ein paar schleichen sich davon!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:475
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:477
 msgid ""
 "They will not get very far. We can deal with them later. For now, though, "
 "take the others!"
@@ -790,46 +579,292 @@ msgstr ""
 "Vorerst, nimmt die anderen!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:486
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:488
 msgid "Oh no. We are doomed fighting this horde alone!"
 msgstr "O nein. Wir sind dazu verurteilt diese Horde allein zu bekämpfen!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:493
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:495
 msgid "Muahahah hah hah!"
 msgstr "Muahahah hah hah!"
 
 #. [message]: speaker=second_unit
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:576
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:578
 msgid "Yessss... more blood and souls for the master!"
 msgstr "Jaaaaa.... noch mehr Blut und Seelen für den Meister!"
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:580
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:582
 msgid "No! Not like this..."
 msgstr "Nein! Nicht so..."
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:586
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:588
 msgid "Feed, my children! Slaughter them all!"
 msgstr "Frisst, meine Kinder! Schlachtet sie alle!"
 
 #. [message]: id=$victor2.id
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:590
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:592
 msgid "Quick, let's get out of here while they're busy."
 msgstr "Schnell, lasst uns hier raus kommen solange sie beschäftigt sind."
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:596
+#: Valley_of_the_Ancients/scenarios/VOTA/03_Cursed_City.cfg:598
 msgid "Heh heh. Run while you can! You will join them soon enough!"
 msgstr ""
 "He He. Rennt solange ihr könnt! Ihr werdet sie als nächstes anschließen!"
 
+#. [scenario]: id=TL_VOTA_06_Last_Battle
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:5
+#, fuzzy
+msgid "The Last Battle"
+msgstr "VotA — Die Letzte Schlacht"
+
+#. [side]: type=Elvish Sylph
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:68
+msgid "Aelarra"
+msgstr "Aelarra"
+
+#. [side]: type=Elvish Sylph
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:72
+msgid "Elves"
+msgstr "Elfen"
+
+#. [unit]: type=Elvish Champion, role=champion
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:97
+msgid "Lythandrail"
+msgstr "Lythandrail"
+
+#. [objective]: condition=win
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:112
+#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:330
+#, fuzzy
+#| msgid "Defeat enemy leaders"
+msgid "Defeat all enemy leaders"
+msgstr "Besiege die feindlichen Anführer"
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:161
+msgid "Finally! I never thought I'd see the open skies again."
+msgstr "Endlich! Ich dachte schon ich würde nie wieder den Himmel sehen."
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:165
+msgid ""
+"Then enjoy your last look at them. Now I shall finish you for all your "
+"interference!"
+msgstr ""
+"Dann genieße deinen letzten blick auf ihn. Jetzt sollte ich dich ein für "
+"alle male ausschalten für deine Einmischungen!"
+
+#. [message]: role=drake ally
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:169
+msgid ""
+"We care nothing for the feuds of surface folk, but you slew our lord. For "
+"that, we will not rest until we have defeated you."
+msgstr ""
+"Wir kümmern uns um nicht um die Fehden der Oberflächen Völker, aber ihr "
+"tötetet unseren Herrn. Dafür werden wir nicht ruhen bis wir euch geschlagen "
+"haben."
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:174
+msgid ""
+"Ah... I can't thank you enough for taking care of my little dragon problem. "
+"I promise you'll have a position of great prestige in my eternal undead army!"
+msgstr ""
+"Ah ... Ich kann euch nicht genug danken für die Betreuung meines kleinen "
+"Drachen Problem. Ich verspreche euch, einen platz von großem Ansehen in "
+"meiner ewigen untoten Armee zu geben!"
+
+#. [message]: role=champion
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:179
+msgid "Look, milady! Cursed undead are emerging from the mountains!"
+msgstr "Schaut, Herrin! Verfluchte Untote kommen aus den bergen!"
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:185
+msgid ""
+"I see. And others, as well. They can only be coming from the Accursed "
+"Valley. All that comes from that place is tainted; we must destroy them!"
+msgstr ""
+"Ich sehe. Und andere, ebenfalls. Sie können nur aus dem verfluchten Tal "
+"kommen. Alles was aus diesem Ort kommt ist behaftet, wir müssen sie "
+"vernichten!"
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:190
+msgid ""
+"Wait! We are no allies of the lich. Please. You must help us defeat him!"
+msgstr ""
+"Wartet! Wir sind keine verbündeten vom Lich. Bitte. Ihr müsst uns helfen ihn "
+"zu besiegen!"
+
+#. [message]: role=ally
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:194
+msgid ""
+"Aye, it was they that killed the dragon. The valley is cursed no more, fair "
+"lady."
+msgstr ""
+"Jo, es wahren sie die den Drachen getötet haben. Dass Tal ist nicht mehr "
+"verflucht, gnädige Dame."
+
+#. [message]: role=champion
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:199
+msgid ""
+"We won't be fooled by your lies, foul ones. We will cleanse the land of your "
+"evil!"
+msgstr ""
+"Wir werden nicht von euren lügen getäuscht, narren! Wir werden dieses Land "
+"vom Bösen bereinigen!"
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/VOTA/06_Last_Battle.cfg:203
+msgid "Very well. Then I'll just have to kill all of you!"
+msgstr "Sehr gut. Dann muss ich eben nur all euch töten!"
+
+#. [scenario]: id=TL_VOTA_05_Out_of_the_Frying_Pan
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:5
+msgid "Out of the Frying Pan"
+msgstr ""
+
+#. [side]: type=Ruffian
 #. [scenario]: id=TL_VOTA_01_Uneasy_Alliance
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:24
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:36
 #: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:5
 #, fuzzy
 msgid "Uneasy Alliance"
 msgstr "Aliança Apressada"
+
+#. [leader]: type=Fire Dragon
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:48
+msgid "Rathmalrak"
+msgstr "Rathmalrak"
+
+#. [side]
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:58
+msgid "Dragons"
+msgstr "Drachen"
+
+#. [objectives]
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:84
+msgid "Slay the dragon to escape"
+msgstr "Erschlage den Drachen zum entkommen"
+
+#. [objective]: condition=win
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:86
+msgid "Slay Rathmalrak"
+msgstr "Erschlage Rathmalrak"
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:128
+msgid "What place is this?"
+msgstr "Was für ein Platz ist dass?"
+
+#. [message]: role=ally
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:133
+msgid ""
+"Behold the lair of Rathmalrak. It was he who destroyed our once-proud "
+"city... we eventually managed to trap him here at the heart of the mountain, "
+"but he placed a curse on us as his revenge."
+msgstr ""
+"Am versteckt von Rathmalrak. Er war es, der unsere einst so stolzen Stadt "
+"zerstört hat ... wir haben es schließlich geschafft, ihn hier im Herzen des "
+"Berges einzusperren, aber er legte ein Fluch auf uns als seine Rache."
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:137
+msgid "What? You mean it was not Mal-Daugur who cursed you?"
+msgstr "Was? Du meinst, es war nicht Mal-Daugur der euch verfluchte?"
+
+#. [message]: role=ally
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:141
+msgid ""
+"Nay. Mal-Daugur simply took advantage of our vulnerability to move into the "
+"upper citadel. For centuries now we have lived under an uneasy stalemate, "
+"keeping him at bay by threatening to unleash the dragon upon him. Rathmalrak "
+"is the only living thing he fears."
+msgstr ""
+"Nee. Mal-Draugur hat nur unsere Verwundbarkeit ausgenutzt um in die obere "
+"Burg einzuziehen. Seit Jahrhunderten leben wir nun schon in einen brüchigen "
+"Frieden, ihn halten wir fern mit der Drohung den Drachen auf ihn zu "
+"entfesseln. Rathmalrak ist dass einzige Lebewesen dass er fürchtet."
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:146
+msgid ""
+"All things fear me! I am Rathmalrak the Destroyer! It has been long since I "
+"have feasted on fresh meat. I will be sure to make your carcasses last a "
+"long, long time!"
+msgstr ""
+"Alle fürchten mich! Ich bin Rathmalrak der Zerstörer! Es ist lange her seit "
+"ich frisches Fleisch hatte. Ich werde sicher gehen dass eure Körper eine "
+"lange, lange weile dauern!"
+
+#. [message]: role=ally
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:151
+msgid ""
+"This is it. We're throwing our lot in with you. If we must die, we'll die "
+"fighting!"
+msgstr ""
+"Das ist es. Wir treten eurer Seite bei. Wenn wir sterben müssen, werden wir "
+"kämpfend sterben!"
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:156
+msgid ""
+"We had no idea we were bringing such destruction down upon you, but it is "
+"only fitting we should share in your destruction. I swear we will fight "
+"alongside you until the end!"
+msgstr ""
+"Wir hatten keine Ahnung dass wir solche Zerstörungen zu euch bringen, aber "
+"es ist nur angemessen, wir sollten in eurer Zerstörung teilen. Ich schwöre, "
+"wir werden gemeinsam mit Ihnen bis zum Ende kämpfen!"
+
+#. [message]: role=ally
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:161
+msgid ""
+"Hmph. Maybe there is such a thing as honor among surface-dwellers. Very "
+"well. Come, lads! We'll die fighting today!"
+msgstr ""
+"Hmph. Vielleicht gibt es so was wie ehre unter Oberflächen Bewohnern. Sehr "
+"gut. Los, Leute! Wir werden kämpfend sterben heute!"
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:166
+msgid ""
+"Looks like we're back to where we started. We'll have to work together to "
+"kill this thing, but don't think that we're through yet!"
+msgstr ""
+"Es sieht so aus wie wir angefangen haben. Wir werden zusammen halten müssen "
+"um dieses Ding zu töten, aber denke nicht das wir miteinander fertig sind!"
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:209
+msgid "I am undone! Avenge me!"
+msgstr "Ich Sterbe! Räche mich!"
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:228
+msgid "You pathetic weaklings thought you could stand up to ME?"
+msgstr "Ihr Schwächlinge dachtet ihr könntet es mit MIR aufnehmen?"
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:269
+msgid "WHAT?! No... this cannot be! I am Rathmalrak! I destroy all!"
+msgstr ""
+"WAS?! Nein... dass kann nicht sein! Ich bin Rathmalrak! Ich zerstöre alles!"
+
+#. [message]: speaker=second_unit
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:273
+msgid "Hah! Not anymore. Your reign of destruction has ended!"
+msgstr "Ha! Nicht mehr. Dein Herrschaft der Zerstörung ist worüber!"
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/VOTA/05_Out_of_the_Frying_Pan.cfg:282
+msgid "Huzzah! Our curse is lifted. We are free!"
+msgstr "Hurra! Unser Fluch ist gebrochen. Wir sind frei!"
 
 #. [scenario]: id=TL_VOTA_01_Uneasy_Alliance
 #: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:6
@@ -896,48 +931,47 @@ msgstr ""
 "Aufgeregt, sammelst du alle Ressourcen die du finden konntest für die "
 "Expedition, nur um zu erfahren dass du nicht alleine bist..."
 
-#. [side]: type=Drake Fighter
-#. [side]: type=Skeleton # dummy unit to bypass leader lock
+#. [side]
 #: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:42
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:59
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:57
 msgid "Explorers"
 msgstr "Erforscher"
 
 #. [side]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:77
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:73
 msgid "Guardians"
 msgstr "Wächter"
 
 #. [unit]: type=$random
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:104
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:101
 msgid "Praetor"
 msgstr "Praetor"
 
 #. [objective]: condition=win
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:194
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:177
 #, fuzzy
 #| msgid "Healer with Guards"
 msgid "Defeat the Guardians"
 msgstr "Heiler mit Wächter"
 
 #. [objective]: condition=lose
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:198
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:181
 msgid "Death of an Hero"
 msgstr "Tod eines Helden"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:211
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:200
 msgid "At last! Behold the Gates of Dawn--the legends are true!"
 msgstr ""
 "Endlich! Hinter den Toren der Dämmerung - die Legenden bewahrheiten sich! "
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:216
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:205
 msgid "The legendary entrance to the Valley of the Ancients. I knew it!"
 msgstr "Der legendäre Eingang zum Alten Tal. Ich wusste es! "
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:221
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:210
 msgid ""
 "What? Who are you--how did you discover the location of the valley?! No "
 "matter. If you try to interfere, I will destroy you."
@@ -946,7 +980,7 @@ msgstr ""
 "sorge. Wenn du dich versuchst einzumischen, werde ich dich zerstören."
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:226
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:215
 msgid ""
 "You really think you can stop me? It is my destiny to reclaim the ancient "
 "valley of the dwarves!"
@@ -955,13 +989,13 @@ msgstr ""
 "Tal von dem Zwergen zu fordern!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:232
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:221
 msgid "More intruders, I see. So, you both seek the Accursed Valley?"
 msgstr ""
 "Noch mehr Eindringlinge, ich sehe. Also, ihr beide sucht dass Verfluchte Tal?"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:237
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:226
 msgid ""
 "'Accursed Valley'? What nonsense is this? You will not stop me with a lot of "
 "superstitious prattle, fool!"
@@ -970,7 +1004,7 @@ msgstr ""
 "aufhalten mit diesen abergläubischen Geschwätz, Narr!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:243
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:232
 msgid ""
 "Indeed I will not; I will stop you with strength of arms, for it is our "
 "sworn duty to guard the valley. Be thankful, for it is a far kinder fate "
@@ -981,7 +1015,7 @@ msgstr ""
 "weit besseres Schicksal als dass was euch innen erwartet!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:248
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:237
 msgid ""
 "His words are backed by a great army. Perhaps we should band together until "
 "he is out of the way?"
@@ -990,7 +1024,7 @@ msgstr ""
 "wir uns zusammen tun bis er aus den weg ist?"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:253
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:242
 msgid ""
 "So be it. First we will destroy these self-proclaimed guardians. Your "
 "reckoning will come later!"
@@ -999,17 +1033,17 @@ msgstr ""
 "zerstören. Deine Rechnung kommt später!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:258
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:247
 msgid "Hah! We shall see."
 msgstr "Ha! Wir werden sehen."
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:274
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:263
 msgid "Nooooo! I was so close..."
 msgstr "Neeeiiiin! Ich war so nah dran..."
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:280
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:269
 msgid ""
 "Well done, men. All we have to do is clean up the rest of this rabble. The "
 "valley is safe again, for now."
@@ -1018,7 +1052,7 @@ msgstr ""
 "bereinigen. Das Tal ist wieder sicher, fürs erste."
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:290
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:279
 msgid ""
 "Damnation! I'll never be able to fight my way through now... you've won "
 "today, but I will be back!"
@@ -1027,38 +1061,38 @@ msgstr ""
 "hast heute gewonnen, aber ich werde wiederkommen!"
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:307
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:296
 msgid "No! I have failed..."
 msgstr "Nein! Ich hab versagt..."
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:312
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:301
 msgid "The valley is mine!"
 msgstr "Dass Tal ist Mein!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:317
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:306
 msgid "Hah! Think again."
 msgstr "Ha! Überlegt es dir noch mal."
 
 #. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:321
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:310
 msgid "Hmph. Much good may it do you... turn back now, I tell you!"
 msgstr "Hmpf! Viel gutes wünsche ich euch... kehrt um, sage ich euch!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:326
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:315
 msgid "Crazy old blighter... oh well. Time to settle the score!"
 msgstr "Verrückte alte Natter ... sehr gut. Zeit zur Beilegung der Gäste!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:364
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:353
 msgid "Reinforcements are at hand! Now we can sweep the invaders before us!"
 msgstr ""
 "Verstärkungen sind eingetroffen! Jetzt können wir die Eindringlinge wegfegen!"
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:369
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:358
 msgid ""
 "Bah! You're on your own. I'm getting out of here while I still have a chance."
 msgstr ""
@@ -1066,7 +1100,7 @@ msgstr ""
 "ich noch kann."
 
 #. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:374
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:363
 msgid ""
 "You coward! You've cost me my only chance at the Valley... you'll pay for "
 "this!"
@@ -1075,302 +1109,96 @@ msgstr ""
 "bezahlen!"
 
 #. [modify_side]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:380
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:369
 msgid "Traitor"
 msgstr "Verräter"
 
 #. [modify_side]
-#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:385
+#: Valley_of_the_Ancients/scenarios/VOTA/01_Uneasy_Alliance.cfg:374
 msgid "Covard"
 msgstr "Feigling"
 
-#. [scenario]: id=TL_VOTA_02_Showdown
-#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:5
-#, fuzzy
-msgid "Showdown in the Valley"
-msgstr "VotA — Kraftprobe im Tal"
+#. [multiplayer]: id=vota_rotatingwar_3p
+#: Valley_of_the_Ancients/scenarios/3p_Rotating_War.cfg:5
+msgid "3p — Rotating War"
+msgstr "3s — Der Bunte Tod"
 
-#. [side]: type=Ruffian
-#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:23
-msgid "West"
-msgstr "Westen"
-
-#. [side]: type=Ruffian
-#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:35
-msgid "East"
-msgstr "Osten"
-
-#. [objective]: condition=win
-#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:48
-msgid "Defeat your rival to enter the caves"
-msgstr ""
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:60
+#. [multiplayer]: id=vota_rotatingwar_3p
+#: Valley_of_the_Ancients/scenarios/3p_Rotating_War.cfg:7
 msgid ""
-"So you still persist in pursuing the valley? You could still choose to "
-"depart peacefully, you realize. You need not die in vain here."
+"A somewhat complex competitive scenario, on which the map will rotate "
+"continuously. Attempt to set up a trap for your opponent while avoiding that "
+"the same is done to you."
 msgstr ""
-"So du willst immer noch in das Tal eindringen? Du könntest friedlich "
-"aufbrechen, weißt du. Du musst nicht grundlos hier sterben."
+"Um cenário competitivo algo complexo, no qual o mapa irá rodar "
+"continuadamente. Procura forçar uma armadilha ao teu adversário enquanto "
+"evitas que este faça o mesmo a ti."
 
-#. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:65
-msgid ""
-"Hmph. Unable to back your claim through force, I see you resort to bluff--"
-"and a weak bluff, at that. Either way, you will die!"
-msgstr ""
-"Hmph. Nicht schaffend dein ziel mit Waffenstärke zu holen, versuchst du zu "
-"bluffen -- ein schwacher Bluff. Sei's darum, du wirst sterben!"
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:78
-msgid "Argh! They are stronger than I had thought. Fall back!"
-msgstr "Arght! Sie sind stärker als ich dachte. Rückzug!"
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/VOTA/02_Showdown.cfg:84
-msgid ""
-"Onward! The path lies open before us now. Soon the ancient treasures of the "
-"dwarves will be mine and mine alone!"
-msgstr ""
-"Vorwärts! Der weg ist nun frei vor uns. Bald werden die uralten schätze der "
-"Zwerge meine sein, und meine allein!"
-
-#. [multiplayer]: id=island_survival
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:5
-msgid "3p — Island Survival"
-msgstr ""
-
-#. [multiplayer]: id=island_survival
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:36
-msgid "Protect your island with your allies."
-msgstr ""
-
-#. [multiplayer]: id=island_survival
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:37
-msgid ""
-"Recommended setting of 3 gold per village, 70% experience, fog and no shroud."
-msgstr ""
-
-#. [side]: type=Fire Dragon
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:56
-msgid "teamname^Attackers"
+#. [side]
+#. [modify_side]
+#: Valley_of_the_Ancients/scenarios/3p_Rotating_War.cfg:20
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:808
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:889
+msgid "teamname^East"
 msgstr ""
 
 #. [side]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:87
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:116
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:145
-msgid "teamname^Defenders"
+#. [modify_side]
+#: Valley_of_the_Ancients/scenarios/3p_Rotating_War.cfg:36
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:815
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:883
+msgid "teamname^West"
 msgstr ""
 
-#. [objective]: condition=win
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:186
-msgid "Survive until turn 30"
+#. [side]
+#: Valley_of_the_Ancients/scenarios/3p_Rotating_War.cfg:52
+msgid "teamname^North"
 msgstr ""
 
-#. [objective]: condition=win
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:194
+#. [multiplayer]: id=vota_rotatingwar_6p
+#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:5
+msgid "6p — Rotating War"
+msgstr "6s — Der Bunte Tod"
+
+#. [multiplayer]: id=vota_rotatingwar_6p
+#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:7
 #, fuzzy
-#| msgid "Kill the virgins!"
-msgid "Kill the Fire Dragon"
-msgstr "Tötet die Jungfrauen!"
-
-#. [objective]: condition=lose
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:198
-#, fuzzy
-#| msgid "Death of your leader"
-msgid "Death of your leaders"
-msgstr "Tod deines Anführers"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:220
-#, fuzzy
-msgid "Turn 3:"
-msgstr "40. Runde"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:220
-msgid "Ruffians and peasants"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:223
-msgid "Island Survival: 3-Player Survival Scenario"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:226
+#| msgid ""
+#| "A somewhat complex competitive scenario, on which the map will rotate "
+#| "continuously. Attempt to set up a trap for your opponent while avoiding "
+#| "that the same is done to you."
 msgid ""
+"A somewhat complex competitive scenario, on which the map will rotate "
+"continuously. Attempt to set up a trap for your opponent while avoiding that "
+"the same is done to you.\n"
 "\n"
-"<span color='green'>GOAL:</span>\n"
-"Survive 30 turns or kill the Fire Dragon, which is released at turn 27. Some "
-"of the castle tiles changes to lava then.\n"
+"Recommended Team Settings:\n"
 "\n"
-"<span color='lightblue'>TIPS:</span>\n"
-"<b>»</b> Pirate waves spawn at the two docks.\n"
-"<b>»</b> Most of the waves spawn on the water around the island."
+"1,6 vs 2,3 vs 4,5 or\n"
+"1,4 vs 2,5 vs 3,6 or\n"
+"1,3,5 vs 2,4,6 or\n"
+"free-for-all"
+msgstr ""
+"Um cenário competitivo algo complexo, no qual o mapa irá rodar "
+"continuadamente. Procura forçar uma armadilha ao teu adversário enquanto "
+"evitas que este faça o mesmo a ti."
+
+#. [side]
+#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:27
+#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:97
+msgid "teamname^Team One"
 msgstr ""
 
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:244
-msgid "Uh... This cannot be true..."
+#. [side]
+#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:41
+#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:55
+msgid "teamname^Team Two"
 msgstr ""
 
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:257
-msgid "You... have... won... Finally... I... can... rest."
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:263
-#, fuzzy
-msgid "Turn 5:"
-msgstr "40. Runde"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:263
-msgid "Nagas and gliders"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:278
-#, fuzzy
-msgid "Turn 7:"
-msgstr "40. Runde"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:278
-#, fuzzy
-#| msgid "Human One"
-msgid "Human Pirates!"
-msgstr "Erster Spieler"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:345
-#, fuzzy
-msgid "Turn 9:"
-msgstr "40. Runde"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:345
-msgid "Mudcrawlers"
-msgstr ""
-
-#. [message]: type=Thug
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:365
-msgid "Yaaarrrr! They be wounded!"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:371
-#, fuzzy
-msgid "Turn 11:"
-msgstr "40. Runde"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:371
-msgid "Ghosts and bats"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:383
-#, fuzzy
-msgid "Turn 14:"
-msgstr "40. Runde"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:383
-#, fuzzy
-#| msgid "Drake"
-msgid "Drakes"
-msgstr "Draken"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:404
-#, fuzzy
-#| msgid "Turn 8 [L]"
-msgid "Turn 18:"
-msgstr "8. Runde [L]"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:404
-msgid "Mermen and Sea Monsters"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:418
-#, fuzzy
-msgid "Turn 21:"
-msgstr "40. Runde"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:418
-msgid "Gryphons"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:438
-#, fuzzy
-msgid "Turn 24:"
-msgstr "40. Runde"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:438
-msgid "Woses"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:452
-#, fuzzy
-msgid "Turn 26:"
-msgstr "40. Runde"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:452
-msgid "Orcish Pirates and Nagas"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:512
-#, fuzzy
-msgid "Turn 27:"
-msgstr "40. Runde"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:512
-msgid "The Fire Dragon"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:543
-#, fuzzy
-msgid "Turn 30:"
-msgstr "40. Runde"
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:543
-msgid "VICTORY!"
-msgstr ""
-
-#. [message]: type=Fire Dragon
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:572
-msgid "Fools! I... have... awoken!"
-msgstr ""
-
-#. [unit]: type=Grand Marshal, id=Marshal Brucks
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:640
-msgid "Marshal Brucks"
-msgstr ""
-
-#. [message]: id=Marshal Brucks
-#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:654
-msgid ""
-"Come abroad and lets sail away from this god-forsaken island to the "
-"mainland. Let my soldiers to take care about the rest of the enemies. King "
-"wants to give you reward for your brave deeds defending our nation in his "
-"castle. Now come!"
+#. [side]
+#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:69
+#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:83
+msgid "teamname^Team Three"
 msgstr ""
 
 #. [multiplayer]: id=TL_VOTA_Reversi
@@ -1380,7 +1208,9 @@ msgstr "2s — Reversi"
 
 #. [multiplayer]: id=TL_VOTA_Reversi
 #: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:7
-msgid "Reversi a.k.a Othello for 2 players or alone"
+#, fuzzy
+#| msgid "Reversi a.k.a Othello for 2 players or alone"
+msgid "Reversi (also known as Othello) for 2 players or solo against the AI"
 msgstr ""
 "Reversi, auch bekannt als Othello, für zwei Spieler (auch als Einzelspieler "
 "Modus spielbar)"
@@ -1426,729 +1256,91 @@ msgstr ""
 
 #. [note]
 #: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:97
-msgid "(1) Move your leader to a ruined castle to select the column and row"
+#, fuzzy
+#| msgid "(1) Move your leader to a ruined castle to select the column and row"
+msgid "Move your leader to a ruined castle to select the column and row"
 msgstr "(1) Bewege deinen Anführer zu einer Burgruine um die Spalte auswählen"
 
 #. [note]
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:100
-msgid ""
-"(2) If the move is valid an unit will be created at the given interception"
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:98
+msgid "(1)"
+msgstr ""
+
+#. [note]
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:101
+#, fuzzy
+#| msgid ""
+#| "(2) If the move is valid an unit will be created at the given interception"
+msgid "If the move is valid an unit will be created at the given interception"
 msgstr ""
 "(3) Ist der Zug gültig, wird eine Einheit an der angegebenen Stelle "
 "einberufen"
 
 #. [note]
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:103
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:102
+msgid "(2)"
+msgstr ""
+
+#. [note]
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:105
+#, fuzzy
+#| msgid ""
+#| "(3) Any enemy units standing between the newly created unit and one of "
+#| "the same side will swap side."
 msgid ""
-"(3) Any enemy units standing between the newly created unit and one of the "
-"same side will swap side."
+"Any enemy units standing between the newly created unit and one of the same "
+"side will swap side."
 msgstr ""
 "(4) Und jede feindliche Einheiten die zwischen zwei von Ihren steht wird "
 "dann die Seite wechseln."
 
 #. [note]
 #: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:106
+msgid "(3)"
+msgstr ""
+
+#. [note]
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:109
+#, fuzzy
+#| msgid ""
+#| "(4) The game continues until the board is full, or neither leader can do "
+#| "a move."
 msgid ""
-"(4) The game continues until the board is full, or neither leader can do a "
-"move."
+"The game continues until the board is full, or neither leader can do a move."
 msgstr ""
 "(5) Das Spiel wird fortgesetzt, bis das Brett voll ist, oder keiner von den "
 "beiden Anführer einen Zug machen kann."
 
+#. [note]
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:110
+msgid "(4)"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:543
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:560
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:577
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:589
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:606
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:623
 msgid "Endgame"
 msgstr "Spielende"
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:544
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:590
 msgid ""
 "<b>$Player1Name</b> won the game with <i>$side_1.units:$side_2.units</i>"
 msgstr ""
 "<b>$Player1Name</b> ganhou a partida com <i>$side_1.units:$side_2.units</i>"
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:561
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:607
 msgid ""
 "<b>$Player2Name</b> won the game with <i>$side_2.units:$side_1.units</i>"
 msgstr ""
 "<b>$Player2Name</b> ganhou a partida com <i>$side_2.units:$side_1.units</i>"
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:578
+#: Valley_of_the_Ancients/scenarios/2p_Othello.cfg:624
 msgid "The game ended in a draw (<i>$side_1.units:$side_2.units</i>)"
 msgstr "Das Spiel endete Unetnschieden  (<i>$side_1.units:$side_2.units</i>)"
-
-#. [multiplayer]: id=temples_of_the_nagas, description=Lured by the promise of untold treasures, 4 nations unite in an uneasy alliance to lay siege to the temples of the nagas. This is a 4-player team multiplayer scenario that includes several waves of enemy spawns controled by the AI. Each spawn will have a ""Boss"" unit that will drop a helpful item when slain. Victory is achieved by killing every unit on the map after the final spawn. Each temple contains gold that may be plundered. Each temple may only be plundered once. Recommended settings: 80%XP, 2 GPV; 4 players with side 1 being AI
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:5
-msgid "4p — Temples of the nagas"
-msgstr ""
-
-#. [part]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:14
-msgid ""
-"Lured by the promise of untold treasures, four nations unite in an uneasy "
-"alliance to lay siege to the temples of the nagas."
-msgstr ""
-
-#. [part]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:17
-msgid ""
-"The crafty Naga Templars, however, were well aware of the encroaching "
-"attackers. They used some gold to hire mercenaries, hoarding the rest within "
-"the temples. Their champions were summoned, along with scores of men and "
-"monstars, all ready to defend the sacred temples with their lives."
-msgstr ""
-
-#. [part]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:22
-msgid ""
-"Unbeknownst to them all, the High Templar plans to use the blood of the "
-"fallen, both friend and foe, to summon their god into this mortal realm. "
-"Only blood sacrifice is powerful enough to summon a god, and the rivers "
-"shall soon run red..."
-msgstr ""
-
-#. [side]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:36
-msgid "team_name^Temple Guardians"
-msgstr ""
-
-#. [side]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:53
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:74
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:95
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:116
-#, fuzzy
-#| msgid "Critters"
-msgid "team_name^Attackers"
-msgstr "Höhlen Kreaturen"
-
-#. [choice]: id=Temples_Of_The_Nagas_Settings
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:158
-#, fuzzy
-#| msgid "Difficulty: Lich"
-msgid "Difficulty"
-msgstr "Schwierigkeitsgrad: Lich"
-
-#. [choice]: id=Temples_Of_The_Nagas_Settings
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:159
-#, fuzzy
-#| msgid "Choose the game difficulty."
-msgid "Choose the length and difficulty of the scenario"
-msgstr "Wählen Sie den Spielschwierigkeitsgrad."
-
-#. [item]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:161
-msgid "Lite: 4 waves, 22 turn limit"
-msgstr ""
-
-#. [item]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:165
-msgid "Medium: 6 waves, 34 turn limit"
-msgstr ""
-
-#. [item]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:173
-msgid "Hardcore: 10 waves, 58 turn limit"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:213
-msgid "The oracle of Xnamas"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:214
-msgid "Temple of Liabra"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:215
-msgid "Temple of Wizzi"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:216
-msgid "Temple of Axmaill"
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:217
-msgid "Temple of Saxrireii"
-msgstr ""
-
-#. [objective]: condition=win
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:224
-msgid "Kill off all the waves of enemies"
-msgstr ""
-
-#. [objective]: condition=lose
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:228
-#, fuzzy
-#| msgid "Death of all leaders"
-msgid "Death of all party leaders"
-msgstr "Tod aller Anführer"
-
-#. [objective]: condition=lose
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:232
-msgid "Turns run out"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:250
-msgid ""
-"Created by:\n"
-"jb: Map and story\n"
-"Mythological: WML"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:257
-msgid ""
-"Special thanks to Truper for testing the scenario and providing feedback.\n"
-"\n"
-"Maintenance and updates:\n"
-"2012: Evropi in versions 1.25-1.26 with several improvements for Wesnoth "
-"1.10.\n"
-"2017: cengique/enzuppe updated version 1.26.2 onwards to work in Wesnoth "
-"1.12."
-msgstr ""
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:271
-msgid ""
-"Let us get one thing straight: I do not trust you and you do not trust me. "
-"If you get in my way, I may be indiscriminate about who is friend and who is "
-"foe."
-msgstr ""
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:276
-msgid "Fine with me. I am not here to aid you, I am here for the gold."
-msgstr ""
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:281
-msgid ""
-"No need for your petty hatred. We must work together if we have any hope of "
-"defeating the temple guardians."
-msgstr ""
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:286
-msgid "Silence! The battle is upon us. Prepare to attack."
-msgstr ""
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:299
-msgid ""
-"Knee deep in mud and blood, a lucky blow ends your life. Damn Wesnoth and "
-"its unfair RNG. Clearly, if you did not have such bad luck, victory would "
-"have been yours..."
-msgstr ""
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:309
-msgid "Good, more gold for us!"
-msgstr ""
-
-#. [print]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:328
-msgid "Xnamas plundered"
-msgstr ""
-
-#. [print]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:354
-msgid "Liabra plundered"
-msgstr ""
-
-#. [print]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:380
-msgid "Saxrireii plundered"
-msgstr ""
-
-#. [print]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:406
-msgid "Wizzi plundered"
-msgstr ""
-
-#. [print]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:432
-msgid "Axmaill plundered"
-msgstr ""
-
-#. [set_menu_item]: id=hintbook_text
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:539
-msgid "Show Spawns"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:561
-msgid ""
-"Turn 3: Critters and crawlers and simple folk...\n"
-"Turn 8: Backstabbing, elusive, poisonous knaves...\n"
-"Turn 13: Fire, thunder, and arrows everywhere...\n"
-"Turn 18: Birds above and scouts below..."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:572
-msgid ""
-"Turn 3: Critters and crawlers and simple folk...\n"
-"Turn 8: Backstabbing, elusive, poisonous knaves...\n"
-"Turn 13: Fire, thunder, and arrows everywhere...\n"
-"Turn 18: Birds above and scouts below...\n"
-"Turn 23: Men of steel and men of might...\n"
-"Turn 28: A rift of magic...\n"
-"Turn 33: The raging sea comes for its revenge...\n"
-"Turn 38: Stronger men of steel and men of might..."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:587
-msgid ""
-"Turn 3: Critters and crawlers and simple folk...\n"
-"Turn 8: Backstabbing, elusive, poisonous knaves...\n"
-"Turn 13: Fire, thunder, and arrows everywhere...\n"
-"Turn 18: Birds above and scouts below...\n"
-"Turn 23: Men of steel and men of might...\n"
-"Turn 28: A rift of magic...\n"
-"Turn 33: The raging sea comes for its revenge...\n"
-"Turn 38: Stronger men of steel and men of might...\n"
-"Turn 43: Death for mortals and monsters alike...\n"
-"Turn 48: The naga defenders themselves..."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:603
-msgid ""
-"Turn 3: Critters and crawlers and simple folk...\n"
-"Turn 8: Backstabbing, elusive, poisonous knaves...\n"
-"Turn 13: Fire, thunder, and arrows everywhere...\n"
-"Turn 18: Birds above and scouts below...\n"
-"Turn 23: Men of steel and men of might...\n"
-"Turn 28: A rift of magic..."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:623
-msgid ""
-"In a small dirty chest tossed haphazardly to the side of the path, your "
-"scouts find the journal from the last king who was foolish enough to "
-"challenge the naga temples."
-msgstr ""
-
-#. [unit]: id=ton_boss_$turn_number, type=Goblin Pillager
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:791
-msgid "Argurk"
-msgstr ""
-
-#. [message]: id=ton_boss_$turn_number
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:833
-msgid "You can't run from me!"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:844
-msgid "Aarrrggggghhhhh!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:849
-msgid ""
-"Argurk drops an item: The Choker of Speed.\n"
-"\n"
-"Wearing this choker will double your speed."
-msgstr ""
-
-#. [event]
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:855
-msgid "The choker of speed"
-msgstr ""
-
-#. [object]: id=Choker
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:866
-msgid "Choker of Speed"
-msgstr ""
-
-#. [object]: id=Choker
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:868
-msgid "Wearing this choker will double your speed."
-msgstr ""
-
-#. [unit]: id=ton_boss_$turn_number, type=Dwarvish Berserker
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:898
-msgid "Elmagatsol"
-msgstr ""
-
-#. [message]: id=ton_boss_$turn_number
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1058
-msgid "I'll chop you all to pieces.....MUHAHAHAHA!"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1069
-msgid "Nooooo... It's not possible that someone could defeat me."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1074
-msgid ""
-"Elmagatsol drops an item: Berserker Amulet.\n"
-"\n"
-"Wearing this amulet when attacking will transform you into a wild berserker "
-"against whom no enemy has a chance to retaliate."
-msgstr ""
-
-#. [object]: id=Amulet
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1091
-msgid "Berserker Amulet"
-msgstr ""
-
-#. [object]: id=Amulet
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1093
-msgid ""
-"Wearing this amulet when attacking will transform you into a wild berserker "
-"against whom no enemy has a chance to retaliate."
-msgstr ""
-
-#. [unit]: id=ton_boss_$turn_number, type=Elvish Sharpshooter
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1242
-msgid "Tora"
-msgstr ""
-
-#. [message]: id=ton_boss_$turn_number
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1293
-msgid "I will shoot you down!"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1304
-msgid "......"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1309
-msgid ""
-"Tora drops an item: Elven Bow.\n"
-"\n"
-"The Elven Bow greatly increases your existing ranged attack or, if you don't "
-"have any ranged attack, gives you a powerful new one."
-msgstr ""
-
-#. [object]: id=Bow
-#. [object]: id=BowII
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1334
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1356
-msgid "Elven Bow"
-msgstr ""
-
-#. [object]: id=Bow
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1336
-msgid "The elven bow greatly increases your ranged attack."
-msgstr ""
-
-#. [object]: id=BowII
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1358
-msgid "The elven bow gives you a powerful ranged attack."
-msgstr ""
-
-#. [unit]: id=ton_boss_$turn_number, type=Merman Hoplite
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1399
-msgid "Poseidon"
-msgstr ""
-
-#. [message]: id=ton_boss_$turn_number
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1459
-msgid "You deserve a trident through the heart!"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1470
-msgid "Glu glu..."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1475
-msgid ""
-"Poseidon drops an item: Hoplite's Shield.\n"
-"\n"
-"Hoplite's Shield will increase your resistances to all kinds of weapons, "
-"effectively reducing the damage you take by half."
-msgstr ""
-
-#. [object]: id=Shield
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1492
-msgid "Hoplite's Shield"
-msgstr ""
-
-#. [object]: id=Shield
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1494
-msgid ""
-"The Hoplite's Shield will increase your resistances to all kinds of weapons, "
-"effectively reducing the damage you take by half."
-msgstr ""
-
-#. [unit]: id=ton_boss_$turn_number, type=Dwarvish Lord
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1549
-msgid "Mithril"
-msgstr ""
-
-#. [message]: id=ton_boss_$turn_number
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1608
-msgid "As lord, I shall personally pass judgment. Guilty!"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1619
-msgid "Slain by an unworthy foe.... ARGH!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1624
-msgid ""
-"Mithril drops an item: Lord's Ring.\n"
-"\n"
-"The magical dwarven ring gives you tremendous power, causing your melee "
-"strikes to deal double damage. It also gives you the powerful leadership "
-"ability."
-msgstr ""
-
-#. [object]: id=Ring
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1641
-msgid "Lord's Ring"
-msgstr ""
-
-#. [object]: id=Ring
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1643
-msgid ""
-"The magical dwarven ring gives you tremendous power, causing your melee "
-"strikes to deal double damage. It also gives you the powerful leadership "
-"ability."
-msgstr ""
-
-#. [unit]: id=ton_boss_$turn_number, type=Silver Mage
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1697
-msgid "Ilon"
-msgstr ""
-
-#. [message]: id=ton_boss_$turn_number
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1749
-msgid "Hehehe.. You think you are ready for me!"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1760
-msgid "It was foolish of me to underestimate you."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1765
-msgid ""
-"Ilon drops an item: Silver Ring.\n"
-"\n"
-"The Silver Ring gives you powerful magical attacks."
-msgstr ""
-
-#. [object]: id=Silver
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1782
-msgid "Silver Ring"
-msgstr ""
-
-#. [object]: id=Silver
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1784
-msgid "The magical silver ring gives you powerful magical attacks."
-msgstr ""
-
-#. [unit]: id=ton_boss_$turn_number, type=Merman Triton
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1840
-msgid "Neptune"
-msgstr ""
-
-#. [message]: id=ton_boss_$turn_number
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1893
-msgid "You killed my brother, now I have come for vengeance!"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1904
-msgid "How can this be? Aaargh!"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1909
-msgid ""
-"Neptune drops an item: Triton's Trident.\n"
-"\n"
-"Triton's Trident increases your melee attack and enables you to shoot "
-"magical ice bolts at your enemies."
-msgstr ""
-
-#. [object]: id=TridentS
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1926
-msgid "Triton's Trident"
-msgstr ""
-
-#. [object]: id=TridentS
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1928
-msgid ""
-"Triton's Trident increases your melee attack and enables you to shoot "
-"magical ice bolts at your enemies."
-msgstr ""
-
-#. [unit]: id=ton_boss_$turn_number, type=Drake Enforcer
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1977
-msgid "Zogfotpik"
-msgstr ""
-
-#. [message]: id=ton_boss_$turn_number
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2038
-msgid "Enough games, I've come to enforce your punishment!"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2049
-msgid "So be it..."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2054
-msgid ""
-"Zogfotpik drops an item: Enforcer's equipment.\n"
-"\n"
-"The Enforcer's armor doubles your hitpoints while his weapon gives you a "
-"powerful and precise attack."
-msgstr ""
-
-#. [object]: id=Equipment
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2071
-msgid "Enforcer's equipment"
-msgstr ""
-
-#. [object]: id=Equipment
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2073
-msgid ""
-"The Enforcer's armor doubles your hitpoints while his weapon gives you a "
-"powerful and precise attack."
-msgstr ""
-
-#. [unit]: id=ton_boss_$turn_number, type=Great Mage
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2119
-msgid "Argus"
-msgstr ""
-
-#. [message]: id=ton_boss_$turn_number
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2202
-msgid "Who dares challenge me? Foolish mortals, I am a god!"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2213
-msgid ""
-"Death whispers to me... But it can not have me. I will now ascend a higher "
-"plane of existence."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2218
-msgid ""
-"Argus drops an item: Great Mage's Staff.\n"
-"\n"
-"This staff gives you a magical attack and a magical defense."
-msgstr ""
-
-#. [object]: id=Staff
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2234
-msgid "Great Mage's Staff"
-msgstr ""
-
-#. [object]: id=Staff
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2236
-msgid "This staff gives you a magical attack and a magical defense."
-msgstr ""
-
-#. [unit]: type=Naga Myrmidon, id=High Templar
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2304
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2695
-msgid "High Templar"
-msgstr ""
-
-#. [unit]: id=Templar2, type=Naga Myrmidon
-#. [unit]: id=Templar3, type=Naga Myrmidon
-#. [unit]: id=Templar4, type=Naga Myrmidon
-#. [unit]: id=Templar5, type=Naga Myrmidon
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2356
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2401
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2462
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2506
-msgid "Templar"
-msgstr ""
-
-#. [message]: id=High Templar
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2591
-msgid ""
-"I am the High Templar of the temples of the nagas. You have destroyed our "
-"god's mortal body, but our god awaits resurrection. We shall sacrifice your "
-"blood upon our altars. With the blood of the four kings, our god shall "
-"return ten times more powerful than before."
-msgstr ""
-
-#. [message]: speaker=High Templar
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2610
-msgid ""
-"I can not believe that you've made it this far, thieves, but you will go no "
-"further. I have called upon our god to flood our sacred lands, and now we "
-"will stop you. Now, you land dwellers have no chance against us."
-msgstr ""
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2620
-msgid ""
-"We have still won... For our souls shall now be collected by our god. The "
-"day of our rebirth shall cast terror into your mortal world. Hahahaha...."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2630
-msgid ""
-"There is a constant pulsing in your head... though you wrestle with the "
-"inner demon, you cannot resist it any longer. Your army has stopped "
-"fighting, all now on their knees in worship. You, too, feel the urge to "
-"worship... You find yourself on your knees as well, offering your soul to "
-"the Naga God as his faithful servant for all of time."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2639
-msgid ""
-"The blood dripping from your blade splatters upon your boots like crimson "
-"drops of victory. The remaining templars, elderly and unfit for battle, "
-"mutter curses to you - invoking the power of their god to cast a hex upon "
-"you. Your smile broadens as your bloody blade hacks them down savagely, "
-"heads rolling and random body parts still twitching as they long to be "
-"reattached to their bodies.\n"
-"Your voice is hoarse and dry, \"I am not here for your god, I am here for "
-"your gold.\" It takes several days and dozens of wagons to haul away your "
-"mighty fortune. You have found enough gold to buy yourself a kingdom."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2691
-msgid ""
-"The High Templar's laughter swims through your ears as you slowly die..."
-msgstr ""
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2696
-msgid ""
-"The blood of these kings shall be used to revive our god. It shall be ten "
-"times more poweful, we shall be unstoppable - and if you don't know who I "
-"am , try again and come to defeat me on hardcore difficulty!"
-msgstr ""
 
 #. [multiplayer]: id=vota_ktv_4p
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:5
@@ -2187,8 +1379,10 @@ msgstr ""
 "Nebel des Krieges: An\n"
 "Startgold: 75"
 
-#. [choice]: id=VoTA_difficulty
+#. [choice]: id=VoTA_difficulty_KTV
+#. [choice]: id=VoTA_difficulty_Outbreak
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:27
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:441
 #, fuzzy
 #| msgid "Difficulty: Lich"
 msgid "Difficulty: "
@@ -2196,12 +1390,14 @@ msgstr "Schwierigkeitsgrad: Lich"
 
 #. [item]
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:30
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:444
 msgid "Easy"
 msgstr ""
 
 #. [item]
 #. [difficulty]
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:34
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:448
 #: Valley_of_the_Ancients/_main.cfg:31
 #, fuzzy
 #| msgid "(Normal)"
@@ -2258,39 +1454,39 @@ msgstr "Tod deines Teams"
 #. [message]: speaker=narrator
 #. [event]
 #: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:400
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:524
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:525
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:528
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:529
 msgid "Innocent Virgin"
 msgstr "Unschuldige Jungfrau"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:476
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:480
 msgid "Thank God you made it! Please destroy me!!!"
 msgstr "Gott sei Dank habt ihr es geschafft! Bitte vernichtet mich jetzt!"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:490
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:494
 msgid "Oh please, just kill me now!!!"
 msgstr "Oh ja, bitte, töte mich jetzt!!!"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:521
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:522
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:525
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:526
 msgid "Virgin Altar"
 msgstr "Altar der Jungfrau"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:552
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:556
 msgid "Turn 4 [R]"
 msgstr "4. Runde [R]"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:552
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:556
 msgid "Hooligans"
 msgstr "Randalierer"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:581
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:585
 msgid ""
 "If we two virgins must die for the good of all, so be it. Show no mercy "
 "before the angry god!"
@@ -2299,157 +1495,393 @@ msgstr ""
 "Zeige keine Gnade vor dem zornigen Gott!"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:607
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:611
 #, fuzzy
 msgid "Turn 5"
 msgstr "40. Runde"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:607
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:689
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:611
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:693
 msgid "Friendly Reinforcement"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:617
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:621
 #, fuzzy
 msgid "Turn 11 [R]"
 msgstr "11. Runde [R]"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:617
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:621
 msgid "Evil Things"
 msgstr "Üble Dinge"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:627
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:631
 msgid "Turn 8 [L]"
 msgstr "8. Runde [L]"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:627
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:631
 msgid "Healer with Guards"
 msgstr "Heiler mit Wächter"
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:649
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:722
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:653
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:726
 msgid "Free at last! I will help you but first I must heal!"
 msgstr "Endlich frei! Ich werde euch helfen, aber zuerst muss ich mich heilen!"
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:651
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:724
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:655
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:728
 msgid "Talking Squid"
 msgstr "Sprechendes Vieh"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:659
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:663
 #, fuzzy
 msgid "Turn 14 [L]"
 msgstr "14. Runde [L]"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:659
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:663
 msgid "Water Dwellers"
 msgstr "Wasser Bewohner"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:669
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:673
 #, fuzzy
 msgid "Turn 17 [R]"
 msgstr "11. Runde [R]"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:669
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:673
 msgid "Savages"
 msgstr "Wilde"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:679
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:683
 #, fuzzy
 msgid "Turn 20 [L]"
 msgstr "20. Runde [L]"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:679
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:683
 msgid "Stampede"
 msgstr "Panik"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:689
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:693
 #, fuzzy
 msgid "Turn 21"
 msgstr "40. Runde"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:699
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:703
 #, fuzzy
 #| msgid "Turn 4 [R]"
 msgid "Turn 24 [R]"
 msgstr "4. Runde [R]"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:699
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:703
 msgid "Tree Huggers"
 msgstr "adoradores de árvores"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:732
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:736
 msgid "Turn 28 [L]"
 msgstr "28. Runde [L]"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:732
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:736
 msgid "Skirmishers"
 msgstr "Plänkler"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:742
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:746
 #, fuzzy
 msgid "Turn 31 [R]"
 msgstr "35. Runde [L]"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:742
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:746
 msgid "Fire and Steel"
 msgstr "Feuer und Stahl"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:757
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:761
 #, fuzzy
 msgid "Turn 35 [L]"
 msgstr "35. Runde [L]"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:757
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:761
 msgid "Hodgepodge"
 msgstr "Mischmasch"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:767
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:771
 #, fuzzy
 msgid "Turn 40"
 msgstr "40. Runde"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:767
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:771
 msgid "Kill the Virgins!"
 msgstr "Tötet die Jungfrauen!"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:777
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:781
 msgid "Hail Q'zrk!"
 msgstr "Lob Q'zrk!"
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:792
+#: Valley_of_the_Ancients/scenarios/4p_KTV.cfg:796
 msgid ""
 "Free us from our altars and sacrifice us to Q'zrk! Hurry before it is too "
 "late!"
 msgstr ""
 "Befreie uns von unseren Altären und opfere uns Q'zrk! Beeilt euch, bevor es "
 "zu spät ist!"
+
+#. [multiplayer]: id=island_survival
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:5
+msgid "3p — Island Survival"
+msgstr ""
+
+#. [multiplayer]: id=island_survival
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:34
+msgid "Protect your island with your allies."
+msgstr ""
+
+#. [multiplayer]: id=island_survival
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:35
+msgid ""
+"Recommended setting of 3 gold per village, 70% experience, fog and no shroud."
+msgstr ""
+
+#. [side]: type=Fire Dragon
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:54
+msgid "teamname^Attackers"
+msgstr ""
+
+#. [side]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:85
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:114
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:143
+msgid "teamname^Defenders"
+msgstr ""
+
+#. [objective]: condition=win
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:184
+msgid "Survive until turn 30"
+msgstr ""
+
+#. [objective]: condition=win
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:192
+#, fuzzy
+#| msgid "Kill the virgins!"
+msgid "Kill the Fire Dragon"
+msgstr "Tötet die Jungfrauen!"
+
+#. [objective]: condition=lose
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:196
+#, fuzzy
+#| msgid "Death of your leader"
+msgid "Death of your leaders"
+msgstr "Tod deines Anführers"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:218
+#, fuzzy
+msgid "Turn 3:"
+msgstr "40. Runde"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:218
+msgid "Ruffians and peasants"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:221
+msgid "Island Survival: 3-Player Survival Scenario"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:224
+msgid ""
+"\n"
+"<span color='green'>GOAL:</span>\n"
+"Survive 30 turns or kill the Fire Dragon, which is released at turn 27. Some "
+"of the castle tiles changes to lava then.\n"
+"\n"
+"<span color='lightblue'>TIPS:</span>\n"
+"<b>»</b> Pirate waves spawn at the two docks.\n"
+"<b>»</b> Most of the waves spawn on the water around the island."
+msgstr ""
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:242
+msgid "Uh... This cannot be true..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:255
+msgid "You... have... won... Finally... I... can... rest."
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:261
+#, fuzzy
+msgid "Turn 5:"
+msgstr "40. Runde"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:261
+msgid "Nagas and gliders"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:276
+#, fuzzy
+msgid "Turn 7:"
+msgstr "40. Runde"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:276
+#, fuzzy
+#| msgid "Human One"
+msgid "Human Pirates!"
+msgstr "Erster Spieler"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:343
+#, fuzzy
+msgid "Turn 9:"
+msgstr "40. Runde"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:343
+msgid "Mudcrawlers"
+msgstr ""
+
+#. [message]: type=Thug
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:363
+msgid "Yaaarrrr! They be wounded!"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:369
+#, fuzzy
+msgid "Turn 11:"
+msgstr "40. Runde"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:369
+msgid "Ghosts and bats"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:381
+#, fuzzy
+msgid "Turn 14:"
+msgstr "40. Runde"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:381
+#, fuzzy
+#| msgid "Drake"
+msgid "Drakes"
+msgstr "Draken"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:402
+#, fuzzy
+#| msgid "Turn 8 [L]"
+msgid "Turn 18:"
+msgstr "8. Runde [L]"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:402
+msgid "Mermen and Sea Monsters"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:416
+#, fuzzy
+msgid "Turn 21:"
+msgstr "40. Runde"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:416
+msgid "Gryphons"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:436
+#, fuzzy
+msgid "Turn 24:"
+msgstr "40. Runde"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:436
+msgid "Woses"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:450
+#, fuzzy
+msgid "Turn 26:"
+msgstr "40. Runde"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:450
+msgid "Orcish Pirates and Nagas"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:510
+#, fuzzy
+msgid "Turn 27:"
+msgstr "40. Runde"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:510
+msgid "The Fire Dragon"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:541
+#, fuzzy
+msgid "Turn 30:"
+msgstr "40. Runde"
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:541
+msgid "VICTORY!"
+msgstr ""
+
+#. [message]: type=Fire Dragon
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:570
+msgid "Fools! I... have... awoken!"
+msgstr ""
+
+#. [unit]: type=Grand Marshal, id=Marshal Brucks
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:638
+msgid "Marshal Brucks"
+msgstr ""
+
+#. [message]: id=Marshal Brucks
+#: Valley_of_the_Ancients/scenarios/3p_Island_Survival.cfg:652
+msgid ""
+"Come abroad and lets sail away from this god-forsaken island to the "
+"mainland. Let my soldiers to take care about the rest of the enemies. King "
+"wants to give you reward for your brave deeds defending our nation in his "
+"castle. Now come!"
+msgstr ""
 
 #. [multiplayer]: id=TL_Pits_of_Despair
 #: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:5
@@ -2483,21 +1915,21 @@ msgid "teamname^Critters"
 msgstr "Höhlen Kreaturen"
 
 #. [objectives]
-#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:329
+#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:337
 #, fuzzy
 #| msgid "Scenario Settings:"
 msgid "Scenario rules:"
 msgstr "Szenarioneinstellungen"
 
 #. [note]
-#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:331
+#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:339
 msgid ""
 "All players can recruit units from any faction... but each unit may only be "
 "recruited once."
 msgstr ""
 
 #. [note]
-#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:334
+#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:342
 #, fuzzy
 #| msgid ""
 #| "A three players competitive survival. Fight off clones of other players' "
@@ -2508,29 +1940,1211 @@ msgstr ""
 "teus adversários."
 
 #. [note]
-#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:337
+#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:345
 msgid "While dealing with waves of AI critters."
 msgstr ""
 
 #. [note]
-#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:346
+#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:354
 msgid "Have fun and good luck!"
 msgstr ""
 
 #. [trait]: id=gifted
-#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:464
+#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:472
 msgid "gifted"
 msgstr "begabt"
 
 #. [trait]: id=gifted
-#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:465
+#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:473
 msgid "female^gifted"
 msgstr "begabt"
 
 #. [trait]: id=gifted
-#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:466
+#: Valley_of_the_Ancients/scenarios/3p_Pits_of_Despair.cfg:474
 msgid "more powerful in every way"
 msgstr "mächtiger in jedweder Hinsicht"
+
+#. [multiplayer]: id=temples_of_the_nagas
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:5
+msgid "4p — Temples of the nagas"
+msgstr ""
+
+#. [multiplayer]: id=temples_of_the_nagas
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:6
+msgid ""
+"Lured by the promise of untold treasures, 4 nations unite in an uneasy "
+"alliance to lay siege to the temples of the nagas.\n"
+"\n"
+"This is a 4-player team multiplayer scenario that includes several waves of "
+"enemy spawns controled by the AI. Each spawn will have a \"Boss\" unit that "
+"will drop a helpful item when slain. Each temple contains gold that may be "
+"plundered once.\n"
+"\n"
+"Victory is achieved by killing every unit on the map after the final spawn.\n"
+"\n"
+"Recommended settings:\n"
+"    80% XP, 2 GPV"
+msgstr ""
+
+#. [part]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:21
+msgid ""
+"Lured by the promise of untold treasures, four nations unite in an uneasy "
+"alliance to lay siege to the temples of the nagas."
+msgstr ""
+
+#. [part]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:24
+msgid ""
+"The crafty Naga Templars, however, were well aware of the encroaching "
+"attackers. They used some gold to hire mercenaries, hoarding the rest within "
+"the temples. Their champions were summoned, along with scores of men and "
+"monstars, all ready to defend the sacred temples with their lives."
+msgstr ""
+
+#. [part]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:29
+msgid ""
+"Unbeknownst to them all, the High Templar plans to use the blood of the "
+"fallen, both friend and foe, to summon their god into this mortal realm. "
+"Only blood sacrifice is powerful enough to summon a god, and the rivers "
+"shall soon run red..."
+msgstr ""
+
+#. [side]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:43
+msgid "team_name^Temple Guardians"
+msgstr ""
+
+#. [side]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:60
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:81
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:102
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:123
+#, fuzzy
+#| msgid "Critters"
+msgid "team_name^Attackers"
+msgstr "Höhlen Kreaturen"
+
+#. [choice]: id=Temples_Of_The_Nagas_Settings
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:165
+#, fuzzy
+#| msgid "Difficulty: Lich"
+msgid "Difficulty"
+msgstr "Schwierigkeitsgrad: Lich"
+
+#. [choice]: id=Temples_Of_The_Nagas_Settings
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:166
+#, fuzzy
+#| msgid "Choose the game difficulty."
+msgid "Choose the length and difficulty of the scenario"
+msgstr "Wählen Sie den Spielschwierigkeitsgrad."
+
+#. [item]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:168
+msgid "Lite: 4 waves, 22 turn limit"
+msgstr ""
+
+#. [item]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:172
+msgid "Medium: 6 waves, 34 turn limit"
+msgstr ""
+
+#. [item]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:180
+msgid "Hardcore: 10 waves, 58 turn limit"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:220
+msgid "The oracle of Xnamas"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:221
+msgid "Temple of Liabra"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:222
+msgid "Temple of Wizzi"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:223
+msgid "Temple of Axmaill"
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:224
+msgid "Temple of Saxrireii"
+msgstr ""
+
+#. [objective]: condition=win
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:231
+msgid "Kill off all the waves of enemies"
+msgstr ""
+
+#. [objective]: condition=lose
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:235
+#, fuzzy
+#| msgid "Death of all leaders"
+msgid "Death of all party leaders"
+msgstr "Tod aller Anführer"
+
+#. [objective]: condition=lose
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:239
+msgid "Turns run out"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:257
+msgid ""
+"Created by:\n"
+"jb: Map and story\n"
+"Mythological: WML"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:264
+msgid ""
+"Special thanks to Truper for testing the scenario and providing feedback.\n"
+"\n"
+"Maintenance and updates:\n"
+"2012: Evropi in versions 1.25-1.26 with several improvements for Wesnoth "
+"1.10.\n"
+"2017: cengique/enzuppe updated version 1.26.2 onwards to work in Wesnoth "
+"1.12."
+msgstr ""
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:278
+msgid ""
+"Let us get one thing straight: I do not trust you and you do not trust me. "
+"If you get in my way, I may be indiscriminate about who is friend and who is "
+"foe."
+msgstr ""
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:283
+msgid "Fine with me. I am not here to aid you, I am here for the gold."
+msgstr ""
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:288
+msgid ""
+"No need for your petty hatred. We must work together if we have any hope of "
+"defeating the temple guardians."
+msgstr ""
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:293
+msgid "Silence! The battle is upon us. Prepare to attack."
+msgstr ""
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:306
+msgid ""
+"Knee deep in mud and blood, a lucky blow ends your life. Damn Wesnoth and "
+"its unfair RNG. Clearly, if you did not have such bad luck, victory would "
+"have been yours..."
+msgstr ""
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:316
+msgid "Good, more gold for us!"
+msgstr ""
+
+#. [print]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:335
+msgid "Xnamas plundered"
+msgstr ""
+
+#. [print]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:361
+msgid "Liabra plundered"
+msgstr ""
+
+#. [print]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:387
+msgid "Saxrireii plundered"
+msgstr ""
+
+#. [print]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:413
+msgid "Wizzi plundered"
+msgstr ""
+
+#. [print]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:439
+msgid "Axmaill plundered"
+msgstr ""
+
+#. [set_menu_item]: id=hintbook_text
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:546
+msgid "Show Spawns"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:568
+msgid ""
+"Turn 3: Critters and crawlers and simple folk...\n"
+"Turn 8: Backstabbing, elusive, poisonous knaves...\n"
+"Turn 13: Fire, thunder, and arrows everywhere...\n"
+"Turn 18: Birds above and scouts below..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:579
+msgid ""
+"Turn 3: Critters and crawlers and simple folk...\n"
+"Turn 8: Backstabbing, elusive, poisonous knaves...\n"
+"Turn 13: Fire, thunder, and arrows everywhere...\n"
+"Turn 18: Birds above and scouts below...\n"
+"Turn 23: Men of steel and men of might...\n"
+"Turn 28: A rift of magic...\n"
+"Turn 33: The raging sea comes for its revenge...\n"
+"Turn 38: Stronger men of steel and men of might..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:594
+msgid ""
+"Turn 3: Critters and crawlers and simple folk...\n"
+"Turn 8: Backstabbing, elusive, poisonous knaves...\n"
+"Turn 13: Fire, thunder, and arrows everywhere...\n"
+"Turn 18: Birds above and scouts below...\n"
+"Turn 23: Men of steel and men of might...\n"
+"Turn 28: A rift of magic...\n"
+"Turn 33: The raging sea comes for its revenge...\n"
+"Turn 38: Stronger men of steel and men of might...\n"
+"Turn 43: Death for mortals and monsters alike...\n"
+"Turn 48: The naga defenders themselves..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:610
+msgid ""
+"Turn 3: Critters and crawlers and simple folk...\n"
+"Turn 8: Backstabbing, elusive, poisonous knaves...\n"
+"Turn 13: Fire, thunder, and arrows everywhere...\n"
+"Turn 18: Birds above and scouts below...\n"
+"Turn 23: Men of steel and men of might...\n"
+"Turn 28: A rift of magic..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:630
+msgid ""
+"In a small dirty chest tossed haphazardly to the side of the path, your "
+"scouts find the journal from the last king who was foolish enough to "
+"challenge the naga temples."
+msgstr ""
+
+#. [unit]: id=ton_boss_$turn_number, type=Goblin Pillager
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:798
+msgid "Argurk"
+msgstr ""
+
+#. [message]: id=ton_boss_$turn_number
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:840
+msgid "You can't run from me!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:851
+msgid "Aarrrggggghhhhh!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:856
+msgid ""
+"Argurk drops an item: The Choker of Speed.\n"
+"\n"
+"Wearing this choker will double your speed."
+msgstr ""
+
+#. [event]
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:862
+msgid "The choker of speed"
+msgstr ""
+
+#. [object]: id=Choker
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:873
+msgid "Choker of Speed"
+msgstr ""
+
+#. [object]: id=Choker
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:875
+msgid "Wearing this choker will double your speed."
+msgstr ""
+
+#. [unit]: id=ton_boss_$turn_number, type=Dwarvish Berserker
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:905
+msgid "Elmagatsol"
+msgstr ""
+
+#. [message]: id=ton_boss_$turn_number
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1065
+msgid "I'll chop you all to pieces.....MUHAHAHAHA!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1076
+msgid "Nooooo... It's not possible that someone could defeat me."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1081
+msgid ""
+"Elmagatsol drops an item: Berserker Amulet.\n"
+"\n"
+"Wearing this amulet when attacking will transform you into a wild berserker "
+"against whom no enemy has a chance to retaliate."
+msgstr ""
+
+#. [object]: id=Amulet
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1098
+msgid "Berserker Amulet"
+msgstr ""
+
+#. [object]: id=Amulet
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1100
+msgid ""
+"Wearing this amulet when attacking will transform you into a wild berserker "
+"against whom no enemy has a chance to retaliate."
+msgstr ""
+
+#. [unit]: id=ton_boss_$turn_number, type=Elvish Sharpshooter
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1249
+msgid "Tora"
+msgstr ""
+
+#. [message]: id=ton_boss_$turn_number
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1300
+msgid "I will shoot you down!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1311
+msgid "......"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1316
+msgid ""
+"Tora drops an item: Elven Bow.\n"
+"\n"
+"The Elven Bow greatly increases your existing ranged attack or, if you don't "
+"have any ranged attack, gives you a powerful new one."
+msgstr ""
+
+#. [object]: id=Bow
+#. [object]: id=BowII
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1341
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1363
+msgid "Elven Bow"
+msgstr ""
+
+#. [object]: id=Bow
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1343
+msgid "The elven bow greatly increases your ranged attack."
+msgstr ""
+
+#. [object]: id=BowII
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1365
+msgid "The elven bow gives you a powerful ranged attack."
+msgstr ""
+
+#. [unit]: id=ton_boss_$turn_number, type=Merman Hoplite
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1406
+msgid "Poseidon"
+msgstr ""
+
+#. [message]: id=ton_boss_$turn_number
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1466
+msgid "You deserve a trident through the heart!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1477
+msgid "Glu glu..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1482
+msgid ""
+"Poseidon drops an item: Hoplite's Shield.\n"
+"\n"
+"Hoplite's Shield will increase your resistances to all kinds of weapons, "
+"effectively reducing the damage you take by half."
+msgstr ""
+
+#. [object]: id=Shield
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1499
+msgid "Hoplite's Shield"
+msgstr ""
+
+#. [object]: id=Shield
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1501
+msgid ""
+"The Hoplite's Shield will increase your resistances to all kinds of weapons, "
+"effectively reducing the damage you take by half."
+msgstr ""
+
+#. [unit]: id=ton_boss_$turn_number, type=Dwarvish Lord
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1556
+msgid "Mithril"
+msgstr ""
+
+#. [message]: id=ton_boss_$turn_number
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1615
+msgid "As lord, I shall personally pass judgment. Guilty!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1626
+msgid "Slain by an unworthy foe.... ARGH!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1631
+msgid ""
+"Mithril drops an item: Lord's Ring.\n"
+"\n"
+"The magical dwarven ring gives you tremendous power, causing your melee "
+"strikes to deal double damage. It also gives you the powerful leadership "
+"ability."
+msgstr ""
+
+#. [object]: id=Ring
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1648
+msgid "Lord's Ring"
+msgstr ""
+
+#. [object]: id=Ring
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1650
+msgid ""
+"The magical dwarven ring gives you tremendous power, causing your melee "
+"strikes to deal double damage. It also gives you the powerful leadership "
+"ability."
+msgstr ""
+
+#. [unit]: id=ton_boss_$turn_number, type=Silver Mage
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1704
+msgid "Ilon"
+msgstr ""
+
+#. [message]: id=ton_boss_$turn_number
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1756
+msgid "Hehehe.. You think you are ready for me!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1767
+msgid "It was foolish of me to underestimate you."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1772
+msgid ""
+"Ilon drops an item: Silver Ring.\n"
+"\n"
+"The Silver Ring gives you powerful magical attacks."
+msgstr ""
+
+#. [object]: id=Silver
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1789
+msgid "Silver Ring"
+msgstr ""
+
+#. [object]: id=Silver
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1791
+msgid "The magical silver ring gives you powerful magical attacks."
+msgstr ""
+
+#. [unit]: id=ton_boss_$turn_number, type=Merman Triton
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1847
+msgid "Neptune"
+msgstr ""
+
+#. [message]: id=ton_boss_$turn_number
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1900
+msgid "You killed my brother, now I have come for vengeance!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1911
+msgid "How can this be? Aaargh!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1916
+msgid ""
+"Neptune drops an item: Triton's Trident.\n"
+"\n"
+"Triton's Trident increases your melee attack and enables you to shoot "
+"magical ice bolts at your enemies."
+msgstr ""
+
+#. [object]: id=TridentS
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1933
+msgid "Triton's Trident"
+msgstr ""
+
+#. [object]: id=TridentS
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1935
+msgid ""
+"Triton's Trident increases your melee attack and enables you to shoot "
+"magical ice bolts at your enemies."
+msgstr ""
+
+#. [unit]: id=ton_boss_$turn_number, type=Drake Enforcer
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:1984
+msgid "Zogfotpik"
+msgstr ""
+
+#. [message]: id=ton_boss_$turn_number
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2045
+msgid "Enough games, I've come to enforce your punishment!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2056
+msgid "So be it..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2061
+msgid ""
+"Zogfotpik drops an item: Enforcer's equipment.\n"
+"\n"
+"The Enforcer's armor doubles your hitpoints while his weapon gives you a "
+"powerful and precise attack."
+msgstr ""
+
+#. [object]: id=Equipment
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2078
+msgid "Enforcer's equipment"
+msgstr ""
+
+#. [object]: id=Equipment
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2080
+msgid ""
+"The Enforcer's armor doubles your hitpoints while his weapon gives you a "
+"powerful and precise attack."
+msgstr ""
+
+#. [unit]: id=ton_boss_$turn_number, type=Great Mage
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2126
+msgid "Argus"
+msgstr ""
+
+#. [message]: id=ton_boss_$turn_number
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2209
+msgid "Who dares challenge me? Foolish mortals, I am a god!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2220
+msgid ""
+"Death whispers to me... But it can not have me. I will now ascend a higher "
+"plane of existence."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2225
+msgid ""
+"Argus drops an item: Great Mage's Staff.\n"
+"\n"
+"This staff gives you a magical attack and a magical defense."
+msgstr ""
+
+#. [object]: id=Staff
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2241
+msgid "Great Mage's Staff"
+msgstr ""
+
+#. [object]: id=Staff
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2243
+msgid "This staff gives you a magical attack and a magical defense."
+msgstr ""
+
+#. [unit]: type=Naga Myrmidon, id=High Templar
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2311
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2702
+msgid "High Templar"
+msgstr ""
+
+#. [unit]: id=Templar2, type=Naga Myrmidon
+#. [unit]: id=Templar3, type=Naga Myrmidon
+#. [unit]: id=Templar4, type=Naga Myrmidon
+#. [unit]: id=Templar5, type=Naga Myrmidon
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2363
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2408
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2469
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2513
+msgid "Templar"
+msgstr ""
+
+#. [message]: id=High Templar
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2598
+msgid ""
+"I am the High Templar of the temples of the nagas. You have destroyed our "
+"god's mortal body, but our god awaits resurrection. We shall sacrifice your "
+"blood upon our altars. With the blood of the four kings, our god shall "
+"return ten times more powerful than before."
+msgstr ""
+
+#. [message]: speaker=High Templar
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2617
+msgid ""
+"I can not believe that you've made it this far, thieves, but you will go no "
+"further. I have called upon our god to flood our sacred lands, and now we "
+"will stop you. Now, you land dwellers have no chance against us."
+msgstr ""
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2627
+msgid ""
+"We have still won... For our souls shall now be collected by our god. The "
+"day of our rebirth shall cast terror into your mortal world. Hahahaha...."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2637
+msgid ""
+"There is a constant pulsing in your head... though you wrestle with the "
+"inner demon, you cannot resist it any longer. Your army has stopped "
+"fighting, all now on their knees in worship. You, too, feel the urge to "
+"worship... You find yourself on your knees as well, offering your soul to "
+"the Naga God as his faithful servant for all of time."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2646
+msgid ""
+"The blood dripping from your blade splatters upon your boots like crimson "
+"drops of victory. The remaining templars, elderly and unfit for battle, "
+"mutter curses to you - invoking the power of their god to cast a hex upon "
+"you. Your smile broadens as your bloody blade hacks them down savagely, "
+"heads rolling and random body parts still twitching as they long to be "
+"reattached to their bodies.\n"
+"Your voice is hoarse and dry, \"I am not here for your god, I am here for "
+"your gold.\" It takes several days and dozens of wagons to haul away your "
+"mighty fortune. You have found enough gold to buy yourself a kingdom."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2698
+msgid ""
+"The High Templar's laughter swims through your ears as you slowly die..."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Valley_of_the_Ancients/scenarios/4p_Temples_Of_The_Nagas.cfg:2703
+msgid ""
+"The blood of these kings shall be used to revive our god. It shall be ten "
+"times more poweful, we shall be unstoppable - and if you don't know who I "
+"am , try again and come to defeat me on hardcore difficulty!"
+msgstr ""
+
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:11
+msgid ""
+"Sprinkling this water on melee weapons grants them the <i>arcane</i> damage "
+"type until the end of the current scenario. Should $unit.name use it?"
+msgstr ""
+"Jedwede Waffe, die mit diesem Wasser übergossen wird, gilt bis zum Ende des "
+"Szenarios als <i>arkane</i> Waffe. Soll $unit.name das Wasser verwenden?"
+
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:12
+msgid "holy water^Take it"
+msgstr "Nehmen"
+
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:13
+msgid "holy water^Leave it"
+msgstr "Liegen lassen"
+
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:14
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:44
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:79
+msgid "Leaders cannot take this item! Let another take it."
+msgstr ""
+"Anführer können diesen Gegenstand nicht nutzen! Gebt ihn einem anderen."
+
+#. [object]
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:16
+msgid "Holy Water"
+msgstr "Weihwasser"
+
+#. [object]
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:19
+msgid ""
+"This water will make melee weapons have the 'arcane' damage type until the "
+"end of the current scenario."
+msgstr ""
+"Jedwede Waffe, die mit diesem Wasser übergossen wird, gilt bis zum Ende des "
+"Szenarios als <i>arkane</i> Waffe"
+
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:41
+msgid ""
+"Picking up this item will grant illuminates to the wearer until the end of "
+"the current scenario. Should $unit.name use it?"
+msgstr ""
+"Dieser Gegenstand gewährt seinen Träger Beleuchtung bis zum Ende des "
+"aktuellen Szenario. Soll $unit.name es verwenden?"
+
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:42
+msgid "ankh amulete^Take it"
+msgstr "Nimm es"
+
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:43
+msgid "ankh amulete^Leave it"
+msgstr "Lass es"
+
+#. [object]
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:46
+msgid "Illuminates"
+msgstr "Lichtaura"
+
+#. [object]
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:49
+msgid ""
+"Picking up this item will grant illuminates to the wearer until the end of "
+"the current scenario."
+msgstr ""
+"Dieser Gegenstand gewährt seinen Träger Beleuchtung bis zum Ende des "
+"aktuellen Szenario."
+
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:76
+msgid ""
+"Drinking this potion will give the unit the bloodlust ability, allowing it "
+"to attack again whenever it kills an opponent. Should $unit.name use it?"
+msgstr ""
+"Diesen Trank trinkend gibt der Einheit die Blutrausch Fähigkeit, so dass sie "
+"wieder angreifen kann, wenn es einen Gegner tötet. Soll $unit.name ihn "
+"verwenden?"
+
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:77
+msgid "potion of bloodlust^Take it"
+msgstr "Nimm ihn"
+
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:78
+msgid "potion of bloodlust^Leave it"
+msgstr "Lass ihn"
+
+#. [object]
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:81
+msgid "Hit'n run"
+msgstr "Toca e Foge"
+
+#. [dummy]: id=bloodlust
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:89
+#, fuzzy
+msgid "hit’n run"
+msgstr "toca e foge"
+
+#. [dummy]: id=bloodlust
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:90
+#, fuzzy
+msgid "female^hit’n run"
+msgstr "toca e foge"
+
+#. [dummy]: id=bloodlust
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:91
+msgid "This unit gains another move everytime its kills an enemy unit."
+msgstr ""
+"Diese Einheit kann sich erneut bewegen wenn sie eine feindliche Einheit "
+"tötet."
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:244
+msgid "Did that tree just move?!?"
+msgstr "Hat sich dieser Baum gerade bewegt?!?"
+
+#. [unit]: type=Elvish Shaman, role=shaman
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:249
+msgid "Smygel"
+msgstr "Smygel"
+
+#. [message]: role=shaman
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:262
+msgid "Who dares to enter my forest? Die rotten ... oh hi there!"
+msgstr "Wer wagt es, meinen Wald zu betreten? Stirbt faule... oh hallo!"
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:266
+msgid "We mean no harm, please join us - the Walking Deads are everywhere!"
+msgstr ""
+"Wir meinen es nicht böse, bitte schließe dich uns an - die wandelnde Tote "
+"sind überall!"
+
+#. [message]: role=shaman
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:270
+msgid ""
+"Hmph, fine. But you have to take good care of me - I don't want to become "
+"one of THEM!"
+msgstr ""
+"Mm, gut. Aber du musst gut auf mich aufpassen - ich will nicht einer von "
+"IHNEN werden!"
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:285
+msgid "Does anyone live here?"
+msgstr "Lebt hier jemand?"
+
+#. [unit]: type=Heavy Infantryman, role=troop
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:290
+msgid "Vobryn"
+msgstr "Vobryn"
+
+#. [message]: role=troop
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:304
+msgid "Who is disturbing my rest?"
+msgstr "Wer stört meine Ruhe?"
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:308
+msgid "How can you resting with all that undead around!?"
+msgstr "Wie könnt ihr ruhen mit all dem Untoten!?"
+
+#. [message]: role=troop
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:312
+#, fuzzy
+msgid "Undead? Where? Get off."
+msgstr "Untote? Wo?"
+
+#. [message]: speaker=second_unit
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:336
+msgid "Okay, okay, no worries. I surrender. Hey, is that a Z over there?"
+msgstr ""
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:359
+msgid "Someone is hidden in this temple!"
+msgstr "Es scheint, als verstecke sich jemand in diesem Tempel."
+
+#. [unit]: type=Dark Adept, role=adept
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:366
+#, fuzzy
+msgid "Isch’tar"
+msgstr "Ischtar"
+
+#. [message]: role=adept
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:385
+#, fuzzy
+msgid "Die harrrd, intrrruderszz!"
+msgstr "Besiegt die Eindringlinge"
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:397
+#, fuzzy
+msgid "Why is he speaking like a lizard?"
+msgstr "Warum sprich er wie ein Saurianer?"
+
+#. [message]: role=adept
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:402
+#, fuzzy
+msgid "Just kidding."
+msgstr "Nur zur Überprüfung."
+
+#. [message]: speaker=unit
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:414
+#, fuzzy
+msgid "Please have mercy what have I done?"
+msgstr "Bitte erbarme dich, was habe ich getan?"
+
+#. [multiplayer]: id=VOTA_Outbrrreak
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:429
+msgid "3p — Outbrrreak"
+msgstr "3s — Epidemie"
+
+#. [multiplayer]: id=VOTA_Outbrrreak
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:431
+msgid ""
+"Three player horror survival. Survive against 'n onslaught of ever-mutating "
+"zombies."
+msgstr ""
+"Überlebensszenario für drei Spieler. Überlebe gegen einen Ansturm von immer "
+"mutierenden Zombies."
+
+#. [item]
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:452
+msgid "Hard"
+msgstr ""
+
+#. [item]
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:456
+msgid "Nightmare"
+msgstr ""
+
+#. [time]: id=campfire
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:490
+msgid "Campfire"
+msgstr "Lagerfeuer"
+
+#. [side]: type=White Mage
+#. [side]: type=Lieutenant
+#. [side]: type=Swordsman
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:503
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:550
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:597
+msgid "Survivors"
+msgstr "Überlebenden"
+
+#. [unit]: type=Fencer, role=fencer
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:519
+msgid "Felric"
+msgstr "Felric"
+
+#. [unit]: type=Horseman, role=lancer
+#. [unit]: type=Lancer, id=Rhonvan, role=lancer
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:566
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1158
+msgid "Rhonvan"
+msgstr "Rhonvan"
+
+#. [unit]: type=Merman Fighter, role=merman
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:613
+msgid "Eleagros"
+msgstr "Eleagros"
+
+#. [objective]: condition=win
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:754
+msgid "Survive the zombie onslaught for 1 week"
+msgstr "Überlebe den Ansturm der Zombies für eine Woche"
+
+#. [objective]: condition=lose
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:759
+msgid "Death of all leaders"
+msgstr "Tod aller Anführer"
+
+#. [message]: role=lieutenant
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:825
+msgid ""
+"I feel a chill wind blowing; something bodes ill for this night. At times "
+"like these I wish we were not the fort's only defenders..."
+msgstr ""
+"Ich spüre einen kühlen Wind wehen, etwas verheißt nichts Gutes für diese "
+"Nacht. In Zeiten wie diese wünschte ich, wir wären nicht die einzigen "
+"Verteidiger der Festung..."
+
+#. [message]: role=swordsman
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:829
+msgid ""
+"Hmph, what are you worrying about? We can hold this fort just fine. You're "
+"not afraid of the dark, are you?"
+msgstr ""
+"Mm, über was hast du bedenken? Wir können diese Festung leicht halten. Du "
+"hast doch etwa keine Angst vor der Dunkelheit, nicht?"
+
+#. [message]: role=mage
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:833
+msgid "No, he's right. I feel dark forces stirring in the twilight..."
+msgstr ""
+"Nein, er hat Recht. Ich fühle dunkle Kräfte in der Dämmerung am regen..."
+
+#. [unit]: type=Cavalryman, role=cavalryman
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:848
+msgid "Gerddyn"
+msgstr "Gerddyn"
+
+#. [message]: role=cavalryman
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:860
+msgid ""
+"My lords, something terrible is happening! We are under attack from the "
+"living dead!"
+msgstr ""
+"Meine Herren, etwas Schreckliches ist passiert! Wir sind unter Beschuss von "
+"den lebenden Toten!"
+
+#. [message]: role=fencer
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:864
+msgid "Grave tidings, I see."
+msgstr "Grabraub, wie ich sehe."
+
+#. [message]: role=mage
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:868
+msgid ""
+"Hold your tongue! This is no time for mirth. We few must somehow defend the "
+"city, and it may be a week before reinforcements arrive..."
+msgstr ""
+"Halt ein! Dies ist keine Zeit für Witze. Wir wenige müssen irgendwie die "
+"Stadt verteidigen, und es kann eine Woche dauern, bis Verstärkung "
+"eintrifft..."
+
+#. [message]: role=merman
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:872
+msgid ""
+"I don't see what the problem is. These walls will hold mere zombies away, "
+"and with the lake here they can't get in behind us. Not unless they learn "
+"how to swim, heh heh."
+msgstr ""
+"Ich verstehe nicht, was das Problem ist. Diese Mauern werden bloße Zombies "
+"abhalten und mit dem See hier können sie nicht hinter uns. Nicht solange sie "
+"nicht lernen wie man schwimmt, heh heh."
+
+#. [message]: role=swordsman
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:876
+msgid ""
+"The fish has a point. Even if there's only six of us, we can always rouse a "
+"few able-bodied men into the militia. Even barely equipped peasants could "
+"hold these walls against a bunch of shambling corpses."
+msgstr ""
+"Der Fisch hat recht. Selbst wenn es nur sechs von uns sind, können wir immer "
+"einige wehrfähigen Männer der Stadtmiliz erwecken. Selbst kaum ausgestattet "
+"Bauern können diese Mauern gegen eine Reihe von watschelnden Leichen halten."
+
+#. [message]: role=lieutenant
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:880
+msgid ""
+"For a day or two, perhaps. But who knows how strong their attack will be? We "
+"must see to the protection of the outlying lands, for without their "
+"resources we will be doomed!"
+msgstr ""
+"Für ein oder zwei Tage, vielleicht. Aber wer weiß, wie stark der Angriff "
+"sein wird? Wir müssen den Schutz der umliegenden Ländereien finden, denn "
+"ohne ihre Mittel werden wir verdammt sein!"
+
+#. [message]: role=mage
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:884
+msgid ""
+"Rhonvan, ride to the north and seek for help from the Brotherhood of Light. "
+"Only they might know the cure for this horrible plague. Hurry, time is of "
+"the essence!"
+msgstr ""
+"Rhonvan, reitet nach Norden und sucht um Hilfe von der Bruderschaft des "
+"Lichtes. Nur sie wissen das Heilmittel für diese schreckliche Pest. Eile, "
+"Zeit ist rar!"
+
+#. [message]: role=lancer
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:888
+msgid ""
+"Sirs, I will not disappoint you. Though I would rather stay and fight here "
+"with you, I understand the importance of my mission ..."
+msgstr ""
+"Meine Herren, ich werde euch nicht enttäuschen. Obwohl ich lieber bleiben "
+"und kämpfen würde, verstehe ich die Wichtigkeit meiner Mission..."
+
+#. [message]: role=mage
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:966
+msgid ""
+"Have mercy on me, friends. Slay me quickly and spare me this unnatural end!"
+msgstr ""
+"Habt Erbarmen mit mir, Freunde. Tötet mich schnell und erspart mir dieses "
+"unnatürliches Ende!"
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:971
+msgid ""
+"There goes our best chance for survival. It will be all we can do to avoid "
+"meeting the same fate."
+msgstr ""
+"Da geht unsere beste Chance zum Überleben. Wir müssen alles tun was wir "
+"können, um das gleiche Schicksal zu vermeiden."
+
+#. [message]: role=mage
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:977
+msgid "No! I feel a great darkness reaching over the land..."
+msgstr ""
+"Nein! Ich fühle eine große Dunkelheit die sich über das Land ausbreitet..."
+
+#. [message]: role=lieutenant
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1001
+msgid ""
+"Urk! You'll have to carry on without me. The people are depending on you!"
+msgstr ""
+"Arg! Ihr müsst ohne mich weitermachen. Das Volk verlässt sich auf euch!"
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1006
+msgid "Damn. He was a good man, he didn't deserve to go out like that..."
+msgstr ""
+"Verdammt. Er war ein guter Mann, er hat es nicht verdient so zu sterben..."
+
+#. [message]: role=lieutenant
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1012
+msgid "This is the end! We have failed our duty..."
+msgstr "Dies ist das Ende! Wir haben unsere Pflicht nicht erfühlt..."
+
+#. [message]: role=swordsman
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1036
+msgid ""
+"What the... can't believe a bunch of worm-ridden corpses got the best of me!"
+msgstr ""
+"Was zum... ich kann es kaum fassen, daß ein Haufen von Würmern heimgesuchten "
+"Leichen mich besiegt hat!"
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1041
+msgid ""
+"Stubborn and proud to the end, he was. I always thought he could use some "
+"humbling, but gods, not like this..."
+msgstr ""
+"Stur und stolz bis zum Ende, das war er. Ich dachte immer, er könnte etwas "
+"mehr Demut gebrauchen, aber bei allen Göttern, nicht so..."
+
+#. [message]: role=swordsman
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1047
+msgid "It's... only a flesh wound..."
+msgstr "Es ist... bloß eine Fleischwunde..."
+
+#. [unit]: type=Mage of Light, role=maldor
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1116
+msgid "Maldor"
+msgstr "Maldor"
+
+#. [message]: role=maldor
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1171
+msgid ""
+"This is worse than I could have imagined! I have never seen such monstrous "
+"mutations before."
+msgstr ""
+"Das ist schlimmer als ich mir vorgestellt hatte! Ich habe noch nie solch "
+"monströsen Mutationen gesehen."
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1176
+msgid ""
+"The legendary Maldor has come to our aid. Alas, I fear you arrive too late. "
+"There are ... so many of them. *Gasp* it is horrible - they turned our "
+"friends into those monsters! We ... we ... cannot not defeat them ..."
+msgstr ""
+"Der legendäre Maldor ist uns zu Hilfe gekommen. Ach, ich fürchte, er kommt "
+"zu spät. Es gibt... so viele von ihnen. *Schnappt* es ist schrecklich - sie "
+"verwandelten unsere Freunde in diese Monster! Wir... wir... können nicht "
+"gewinnen..."
+
+#. [message]: role=lancer
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1180
+msgid "I wish I could have returned earlier ..."
+msgstr "Ich wünschte ich wäre nur früher zurückkommen ..."
+
+#. [message]: role=pally2
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1184
+msgid "It is not over yet! Onwards, protect the surviors!"
+msgstr "Es ist noch nicht vorbei! Vorwärts, beschützt die überlebenden!"
+
+#. [message]: role=pally3
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1188
+msgid "CHAAARGE!"
+msgstr "AAANGRIF!"
+
+#. [message]: role=maldor
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1192
+msgid "Only divine magic can help us now..."
+msgstr "Bloß göttliche Magie kann uns nun retten..."
+
+#. [message]
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1196
+msgid "... no ... more ... BRAINS?"
+msgstr "... keine ... GEHIRNE ... mehr?"
+
+#. [message]: role=maldor
+#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1200
+msgid "... *casts lvl99 of 'Turn Undead'*"
+msgstr "... *sagt Spruch Level 99 von 'Untoten Aura' auf*"
 
 #. [multiplayer]: id=VOTA_multiplayer_dimagabeachrace
 #: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:202
@@ -2550,829 +3164,199 @@ msgid "Enemies"
 msgstr "Inimigos"
 
 #. [side]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:260
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:273
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:259
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:272
 msgid "teamname^Contestants"
 msgstr ""
 
 #. [label]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:342
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:340
 #, fuzzy
 msgid "Dimaga Beach"
 msgstr "Praia dos Répteis"
 
 #. [objective]: condition=win
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:352
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:350
 msgid "Advance your leader to Dimaga Beach"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:356
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:354
 #, fuzzy
 msgid "Death of your Leader"
 msgstr "Tod deines Anführers"
 
 #. [objective]: condition=lose
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:360
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:358
 msgid "Opponent's Leader reaches Dimaga Beach"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:420
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:418
 msgid "Dimaga Entruse"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:435
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:433
 msgid "Ah, greetings contestants and welcome to ‘The race for Dimaga Beach!’"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:437
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:435
 msgid "Your quest is simple, proceed north..."
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:445
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:443
 msgid "...to Dimaga Beach before your opponent gets there."
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:455
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:453
 msgid ""
 "These rings grant one lucky unit, for each player, an enhancement for its "
 "weapons."
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:474
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:472
 msgid "Hostile creatures scatter the path! You must be fast and efficient."
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:480
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:478
 msgid "If you are killed then your opponent is immediately victorious."
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:482
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:480
 msgid "Your keep will disappear on turn 10 so choose your units wisely."
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:486
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:484
 msgid "Now let the Race begin!"
 msgstr ""
 
 #. [object]: id=FlameRing
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:733
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:731
 #, fuzzy
 msgid "Ring of Fire"
 msgstr "Anel do Poder"
 
 #. [object]: id=FlameRing
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:735
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:733
 msgid ""
 "This enchanted ring has made your weapons burn and deal 25% extra damage!"
 msgstr ""
 
 #. [object]: id=AccuracyRing
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:773
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:771
 #, fuzzy
 msgid "Ring of Accuracy"
 msgstr "Precisão:"
 
 #. [object]: id=AccuracyRing
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:775
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:773
 msgid "This ring has enchanted your weapons and granted them 70% accuracy!"
 msgstr ""
 
-#. [modify_side]
-#. [side]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:810
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:891
-#: Valley_of_the_Ancients/scenarios/3p_Rotating_War.cfg:20
-msgid "teamname^East"
-msgstr ""
-
-#. [modify_side]
-#. [side]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:817
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:885
-#: Valley_of_the_Ancients/scenarios/3p_Rotating_War.cfg:36
-msgid "teamname^West"
-msgstr ""
-
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:821
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:819
 msgid "Attention players!"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:827
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:825
 msgid "Vision of your opponent has been removed, you must fight for the Win."
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:873
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:871
 #, fuzzy
 msgid "$unit.name has been slain..."
 msgstr "A partida foi guardada."
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:879
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:877
 msgid "Therefore his opponent is Victorious! Congratulations!"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:880
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:996
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:878
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:994
 msgid "Thanks for playing and please come again!"
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:943
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:941
 msgid "Ladies and gentlemen, we have a Winner."
 msgstr ""
 
 #. [event]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:944
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:942
 msgid "Congratulations $unit.name!"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:950
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:948
 msgid "Achievement: "
 msgstr ""
 
 #. [then]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:959
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:957
 msgid "Unbreakable!"
 msgstr ""
 
 #. [then]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:959
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:957
 msgid "$unit.name has not lost a single unit in the race!"
 msgstr ""
 
 #. [then]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:969
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:967
 msgid "Hardcore!"
 msgstr ""
 
 #. [then]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:969
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:967
 msgid "$unit.name has killed $kills$unit.side units during the race!"
 msgstr ""
 
 #. [then]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:980
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:978
 msgid "Blitz!"
 msgstr ""
 
 #. [then]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:980
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:978
 msgid "$unit.name has completed the race in $turn_number turns!"
 msgstr ""
 
 #. [then]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:992
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:990
 msgid "Capitalist!"
 msgstr ""
 
 #. [then]
-#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:992
+#: Valley_of_the_Ancients/scenarios/2p_Dimaga_Beach_Race.cfg:990
 msgid "$unit.name has finished the race with $gold gold to spare!"
 msgstr ""
 
-#. [multiplayer]: id=vota_rotatingwar_3p
-#: Valley_of_the_Ancients/scenarios/3p_Rotating_War.cfg:5
-msgid "3p — Rotating War"
-msgstr "3s — Der Bunte Tod"
-
-#. [multiplayer]: id=vota_rotatingwar_3p
-#. [multiplayer]: id=vota_rotatingwar_6p
-#: Valley_of_the_Ancients/scenarios/3p_Rotating_War.cfg:7
-#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:7
-msgid ""
-"A somewhat complex competitive scenario, on which the map will rotate "
-"continuously. Attempt to set up a trap for your opponent while avoiding that "
-"the same is done to you."
-msgstr ""
-"Um cenário competitivo algo complexo, no qual o mapa irá rodar "
-"continuadamente. Procura forçar uma armadilha ao teu adversário enquanto "
-"evitas que este faça o mesmo a ti."
-
-#. [side]
-#: Valley_of_the_Ancients/scenarios/3p_Rotating_War.cfg:52
-msgid "teamname^North"
-msgstr ""
-
-#. [bloodlust]: id=bloodlust
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:6
-#, fuzzy
-msgid "hit’n run"
-msgstr "toca e foge"
-
-#. [bloodlust]: id=bloodlust
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:7
-#, fuzzy
-msgid "female^hit’n run"
-msgstr "toca e foge"
-
-#. [bloodlust]: id=bloodlust
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:8
-msgid "This unit gains another move everytime its kills an enemy unit."
-msgstr ""
-"Diese Einheit kann sich erneut bewegen wenn sie eine feindliche Einheit "
-"tötet."
-
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:17
-msgid ""
-"Sprinkling this water on melee weapons grants them the <i>arcane</i> damage "
-"type until the end of the current scenario. Should $unit.name use it?"
-msgstr ""
-"Jedwede Waffe, die mit diesem Wasser übergossen wird, gilt bis zum Ende des "
-"Szenarios als <i>arkane</i> Waffe. Soll $unit.name das Wasser verwenden?"
-
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:18
-msgid "holy water^Take it"
-msgstr "Nehmen"
-
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:19
-msgid "holy water^Leave it"
-msgstr "Liegen lassen"
-
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:20
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:50
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:85
-msgid "Leaders cannot take this item! Let another take it."
-msgstr ""
-"Anführer können diesen Gegenstand nicht nutzen! Gebt ihn einem anderen."
-
-#. [object]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:22
-msgid "Holy Water"
-msgstr "Weihwasser"
-
-#. [object]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:25
-msgid ""
-"This water will make melee weapons have the 'arcane' damage type until the "
-"end of the current scenario."
-msgstr ""
-"Jedwede Waffe, die mit diesem Wasser übergossen wird, gilt bis zum Ende des "
-"Szenarios als <i>arkane</i> Waffe"
-
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:47
-msgid ""
-"Picking up this item will grant illuminates to the wearer until the end of "
-"the current scenario. Should $unit.name use it?"
-msgstr ""
-"Dieser Gegenstand gewährt seinen Träger Beleuchtung bis zum Ende des "
-"aktuellen Szenario. Soll $unit.name es verwenden?"
-
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:48
-msgid "ankh amulete^Take it"
-msgstr "Nimm es"
-
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:49
-msgid "ankh amulete^Leave it"
-msgstr "Lass es"
-
-#. [object]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:52
-msgid "Illuminates"
-msgstr "Lichtaura"
-
-#. [object]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:55
-msgid ""
-"Picking up this item will grant illuminates to the wearer until the end of "
-"the current scenario."
-msgstr ""
-"Dieser Gegenstand gewährt seinen Träger Beleuchtung bis zum Ende des "
-"aktuellen Szenario."
-
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:82
-msgid ""
-"Drinking this potion will give the unit the bloodlust ability, allowing it "
-"to attack again whenever it kills an opponent. Should $unit.name use it?"
-msgstr ""
-"Diesen Trank trinkend gibt der Einheit die Blutrausch Fähigkeit, so dass sie "
-"wieder angreifen kann, wenn es einen Gegner tötet. Soll $unit.name ihn "
-"verwenden?"
-
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:83
-msgid "potion of bloodlust^Take it"
-msgstr "Nimm ihn"
-
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:84
-msgid "potion of bloodlust^Leave it"
-msgstr "Lass ihn"
-
-#. [object]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:87
-msgid "Hit'n run"
-msgstr "Toca e Foge"
-
-#. [message]: speaker=narrator
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:240
-msgid "Choose the game difficulty. Once chosen, you cannot change it."
-msgstr ""
-"Wählen Sie den Spielschwierigkeitsgrad. Einmal gewählt, kann sie nicht "
-"geändert werden."
-
 #. [option]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:242
-msgid "Walking Corpse"
-msgstr "Wandelnde Leiche"
-
-#. [print]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:248
-msgid "Difficulty: Walking Corpse"
-msgstr "Schwierigkeitsgrad: Wandelne Leiche"
-
-#. [option]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:258
-msgid "Dark Adept: Default"
-msgstr "Dunkler Adept: Standard"
-
-#. [print]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:264
-msgid "Difficulty: Dark Adept"
-msgstr "Schwierigkeitsgrad: Dunkler Adept"
-
-#. [option]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:274
-msgid "Necromancer"
-msgstr "Totenbeschwörer"
-
-#. [print]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:280
-msgid "Difficulty: Necromancer"
-msgstr "Schwierigkeitsgrad: Totenbeschwörer"
-
-#. [option]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:290
-msgid "Lich"
-msgstr "Lich"
-
-#. [print]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:296
-msgid "Difficulty: Lich"
-msgstr "Schwierigkeitsgrad: Lich"
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:341
-msgid "Did that tree just move?!?"
-msgstr "Hat sich dieser Baum gerade bewegt?!?"
-
-#. [unit]: type=Elvish Shaman, role=shaman
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:346
-msgid "Smygel"
-msgstr "Smygel"
-
-#. [message]: role=shaman
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:373
-msgid "Who dares to enter my forest? Die rotten ... oh hi there!"
-msgstr "Wer wagt es, meinen Wald zu betreten? Stirbt faule... oh hallo!"
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:377
-msgid "We mean no harm, please join us - the Walking Deads are everywhere!"
-msgstr ""
-"Wir meinen es nicht böse, bitte schließe dich uns an - die wandelnde Tote "
-"sind überall!"
-
-#. [message]: role=shaman
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:381
-msgid ""
-"Hmph, fine. But you have to take good care of me - I don't want to become "
-"one of THEM!"
-msgstr ""
-"Mm, gut. Aber du musst gut auf mich aufpassen - ich will nicht einer von "
-"IHNEN werden!"
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:396
-msgid "Does anyone live here?"
-msgstr "Lebt hier jemand?"
-
-#. [unit]: type=Heavy Infantryman, role=troop
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:401
-msgid "Vobryn"
-msgstr "Vobryn"
-
-#. [message]: role=troop
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:417
-msgid "Who is disturbing my rest?"
-msgstr "Wer stört meine Ruhe?"
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:421
-msgid "How can you resting with all that undead around!?"
-msgstr "Wie könnt ihr ruhen mit all dem Untoten!?"
-
-#. [message]: role=troop
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:425
-#, fuzzy
-msgid "Undead? Where? Get off."
-msgstr "Untote? Wo?"
-
-#. [message]: speaker=second_unit
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:449
-msgid "Okay, okay, no worries. I surrender. Hey, is that a Z over there?"
-msgstr ""
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:473
-msgid "Someone is hidden in this temple!"
-msgstr "Es scheint, als verstecke sich jemand in diesem Tempel."
-
-#. [unit]: type=Dark Adept, role=adept
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:480
-#, fuzzy
-msgid "Isch’tar"
-msgstr "Ischtar"
-
-#. [message]: role=adept
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:500
-#, fuzzy
-msgid "Die harrrd, intrrruderszz!"
-msgstr "Besiegt die Eindringlinge"
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:512
-#, fuzzy
-msgid "Why is he speaking like a lizard?"
-msgstr "Warum sprich er wie ein Saurianer?"
-
-#. [message]: role=adept
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:517
-#, fuzzy
-msgid "Just kidding."
-msgstr "Nur zur Überprüfung."
-
-#. [message]: speaker=unit
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:529
-#, fuzzy
-msgid "Please have mercy what have I done?"
-msgstr "Bitte erbarme dich, was habe ich getan?"
-
-#. [multiplayer]: id=Outbrrreak
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:548
-msgid "3p — Outbrrreak"
-msgstr "3s — Epidemie"
-
-#. [multiplayer]: id=Outbrrreak
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:550
-msgid ""
-"Three player horror survival. Survive against 'n onslaught of ever-mutating "
-"zombies."
-msgstr ""
-"Überlebensszenario für drei Spieler. Überlebe gegen einen Ansturm von immer "
-"mutierenden Zombies."
-
-#. [time]: id=campfire
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:586
-msgid "Campfire"
-msgstr "Lagerfeuer"
-
-#. [side]: type=White Mage
-#. [side]: type=Lieutenant
-#. [side]: type=Swordsman
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:599
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:647
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:695
-msgid "Survivors"
-msgstr "Überlebenden"
-
-#. [unit]: type=Fencer, role=fencer
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:615
-msgid "Felric"
-msgstr "Felric"
-
-#. [unit]: type=Horseman, role=lancer
-#. [unit]: type=Lancer, id=Rhonvan, role=lancer
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:663
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1280
-msgid "Rhonvan"
-msgstr "Rhonvan"
-
-#. [unit]: type=Merman Fighter, role=merman
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:711
-msgid "Eleagros"
-msgstr "Eleagros"
-
-#. [objective]: condition=win
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:855
-msgid "Survive the zombie onslaught for 1 week"
-msgstr "Überlebe den Ansturm der Zombies für eine Woche"
-
-#. [objective]: condition=lose
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:860
-msgid "Death of all leaders"
-msgstr "Tod aller Anführer"
-
-#. [message]: role=lieutenant
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:887
-msgid ""
-"I feel a chill wind blowing; something bodes ill for this night. At times "
-"like these I wish we were not the fort's only defenders..."
-msgstr ""
-"Ich spüre einen kühlen Wind wehen, etwas verheißt nichts Gutes für diese "
-"Nacht. In Zeiten wie diese wünschte ich, wir wären nicht die einzigen "
-"Verteidiger der Festung..."
-
-#. [message]: role=swordsman
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:891
-msgid ""
-"Hmph, what are you worrying about? We can hold this fort just fine. You're "
-"not afraid of the dark, are you?"
-msgstr ""
-"Mm, über was hast du bedenken? Wir können diese Festung leicht halten. Du "
-"hast doch etwa keine Angst vor der Dunkelheit, nicht?"
-
-#. [message]: role=mage
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:895
-msgid "No, he's right. I feel dark forces stirring in the twilight..."
-msgstr ""
-"Nein, er hat Recht. Ich fühle dunkle Kräfte in der Dämmerung am regen..."
-
-#. [unit]: type=Cavalryman, role=cavalryman
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:910
-msgid "Gerddyn"
-msgstr "Gerddyn"
-
-#. [message]: role=cavalryman
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:923
-msgid ""
-"My lords, something terrible is happening! We are under attack from the "
-"living dead!"
-msgstr ""
-"Meine Herren, etwas Schreckliches ist passiert! Wir sind unter Beschuss von "
-"den lebenden Toten!"
-
-#. [message]: role=fencer
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:927
-msgid "Grave tidings, I see."
-msgstr "Grabraub, wie ich sehe."
-
-#. [message]: role=mage
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:931
-msgid ""
-"Hold your tongue! This is no time for mirth. We few must somehow defend the "
-"city, and it may be a week before reinforcements arrive..."
-msgstr ""
-"Halt ein! Dies ist keine Zeit für Witze. Wir wenige müssen irgendwie die "
-"Stadt verteidigen, und es kann eine Woche dauern, bis Verstärkung "
-"eintrifft..."
-
-#. [message]: role=merman
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:935
-msgid ""
-"I don't see what the problem is. These walls will hold mere zombies away, "
-"and with the lake here they can't get in behind us. Not unless they learn "
-"how to swim, heh heh."
-msgstr ""
-"Ich verstehe nicht, was das Problem ist. Diese Mauern werden bloße Zombies "
-"abhalten und mit dem See hier können sie nicht hinter uns. Nicht solange sie "
-"nicht lernen wie man schwimmt, heh heh."
-
-#. [message]: role=swordsman
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:939
-msgid ""
-"The fish has a point. Even if there's only six of us, we can always rouse a "
-"few able-bodied men into the militia. Even barely equipped peasants could "
-"hold these walls against a bunch of shambling corpses."
-msgstr ""
-"Der Fisch hat recht. Selbst wenn es nur sechs von uns sind, können wir immer "
-"einige wehrfähigen Männer der Stadtmiliz erwecken. Selbst kaum ausgestattet "
-"Bauern können diese Mauern gegen eine Reihe von watschelnden Leichen halten."
-
-#. [message]: role=lieutenant
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:943
-msgid ""
-"For a day or two, perhaps. But who knows how strong their attack will be? We "
-"must see to the protection of the outlying lands, for without their "
-"resources we will be doomed!"
-msgstr ""
-"Für ein oder zwei Tage, vielleicht. Aber wer weiß, wie stark der Angriff "
-"sein wird? Wir müssen den Schutz der umliegenden Ländereien finden, denn "
-"ohne ihre Mittel werden wir verdammt sein!"
-
-#. [message]: role=mage
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:947
-msgid ""
-"Rhonvan, ride to the north and seek for help from the Brotherhood of Light. "
-"Only they might know the cure for this horrible plague. Hurry, time is of "
-"the essence!"
-msgstr ""
-"Rhonvan, reitet nach Norden und sucht um Hilfe von der Bruderschaft des "
-"Lichtes. Nur sie wissen das Heilmittel für diese schreckliche Pest. Eile, "
-"Zeit ist rar!"
-
-#. [message]: role=lancer
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:951
-msgid ""
-"Sirs, I will not disappoint you. Though I would rather stay and fight here "
-"with you, I understand the importance of my mission ..."
-msgstr ""
-"Meine Herren, ich werde euch nicht enttäuschen. Obwohl ich lieber bleiben "
-"und kämpfen würde, verstehe ich die Wichtigkeit meiner Mission..."
-
-#. [message]: role=mage
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1048
-msgid ""
-"Have mercy on me, friends. Slay me quickly and spare me this unnatural end!"
-msgstr ""
-"Habt Erbarmen mit mir, Freunde. Tötet mich schnell und erspart mir dieses "
-"unnatürliches Ende!"
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1053
-msgid ""
-"There goes our best chance for survival. It will be all we can do to avoid "
-"meeting the same fate."
-msgstr ""
-"Da geht unsere beste Chance zum Überleben. Wir müssen alles tun was wir "
-"können, um das gleiche Schicksal zu vermeiden."
-
-#. [message]: role=mage
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1059
-msgid "No! I feel a great darkness reaching over the land..."
-msgstr ""
-"Nein! Ich fühle eine große Dunkelheit die sich über das Land ausbreitet..."
-
-#. [message]: role=lieutenant
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1083
-msgid ""
-"Urk! You'll have to carry on without me. The people are depending on you!"
-msgstr ""
-"Arg! Ihr müsst ohne mich weitermachen. Das Volk verlässt sich auf euch!"
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1088
-msgid "Damn. He was a good man, he didn't deserve to go out like that..."
-msgstr ""
-"Verdammt. Er war ein guter Mann, er hat es nicht verdient so zu sterben..."
-
-#. [message]: role=lieutenant
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1094
-msgid "This is the end! We have failed our duty..."
-msgstr "Dies ist das Ende! Wir haben unsere Pflicht nicht erfühlt..."
-
-#. [message]: role=swordsman
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1118
-msgid ""
-"What the... can't believe a bunch of worm-ridden corpses got the best of me!"
-msgstr ""
-"Was zum... ich kann es kaum fassen, daß ein Haufen von Würmern heimgesuchten "
-"Leichen mich besiegt hat!"
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1123
-msgid ""
-"Stubborn and proud to the end, he was. I always thought he could use some "
-"humbling, but gods, not like this..."
-msgstr ""
-"Stur und stolz bis zum Ende, das war er. Ich dachte immer, er könnte etwas "
-"mehr Demut gebrauchen, aber bei allen Göttern, nicht so..."
-
-#. [message]: role=swordsman
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1129
-msgid "It's... only a flesh wound..."
-msgstr "Es ist... bloß eine Fleischwunde..."
-
-#. [unit]: type=Mage of Light, role=maldor
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1238
-msgid "Maldor"
-msgstr "Maldor"
-
-#. [message]: role=maldor
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1294
-msgid ""
-"This is worse than I could have imagined! I have never seen such monstrous "
-"mutations before."
-msgstr ""
-"Das ist schlimmer als ich mir vorgestellt hatte! Ich habe noch nie solch "
-"monströsen Mutationen gesehen."
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1299
-msgid ""
-"The legendary Maldor has come to our aid. Alas, I fear you arrive too late. "
-"There are ... so many of them. *Gasp* it is horrible - they turned our "
-"friends into those monsters! We ... we ... cannot not defeat them ..."
-msgstr ""
-"Der legendäre Maldor ist uns zu Hilfe gekommen. Ach, ich fürchte, er kommt "
-"zu spät. Es gibt... so viele von ihnen. *Schnappt* es ist schrecklich - sie "
-"verwandelten unsere Freunde in diese Monster! Wir... wir... können nicht "
-"gewinnen..."
-
-#. [message]: role=lancer
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1303
-msgid "I wish I could have returned earlier ..."
-msgstr "Ich wünschte ich wäre nur früher zurückkommen ..."
-
-#. [message]: role=pally2
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1307
-msgid "It is not over yet! Onwards, protect the surviors!"
-msgstr "Es ist noch nicht vorbei! Vorwärts, beschützt die überlebenden!"
-
-#. [message]: role=pally3
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1311
-msgid "CHAAARGE!"
-msgstr "AAANGRIF!"
-
-#. [message]: role=maldor
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1315
-msgid "Only divine magic can help us now..."
-msgstr "Bloß göttliche Magie kann uns nun retten..."
-
-#. [message]
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1319
-msgid "... no ... more ... BRAINS?"
-msgstr "... keine ... GEHIRNE ... mehr?"
-
-#. [message]: role=maldor
-#: Valley_of_the_Ancients/scenarios/3p_Outbreak.cfg:1323
-msgid "... *casts lvl99 of 'Turn Undead'*"
-msgstr "... *sagt Spruch Level 99 von 'Untoten Aura' auf*"
-
-#. [multiplayer]: id=vota_rotatingwar_6p
-#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:5
-msgid "6p — Rotating War"
-msgstr "6s — Der Bunte Tod"
-
-#. [side]
-#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:27
-#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:97
-msgid "teamname^Team One"
-msgstr ""
-
-#. [side]
-#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:41
-#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:55
-msgid "teamname^Team Two"
-msgstr ""
-
-#. [side]
-#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:69
-#: Valley_of_the_Ancients/scenarios/6p_Rotating_War.cfg:83
-msgid "teamname^Team Three"
-msgstr ""
-
-#. [option]
-#: Valley_of_the_Ancients/utils/misc.cfg:53
+#: Valley_of_the_Ancients/utils/misc.cfg:87
 msgid "Take it"
 msgstr "Nimm es"
 
 #. [option]
-#: Valley_of_the_Ancients/utils/misc.cfg:106
+#: Valley_of_the_Ancients/utils/misc.cfg:140
 msgid "Leave it"
 msgstr "Lass es"
 
 #. [message]: speaker=narrator
-#: Valley_of_the_Ancients/utils/misc.cfg:219
-msgid "What type of Soulless would you like to recruit?"
-msgstr "Welche Art von Seelenloser würden Sie gerne zu rekrutieren?"
-
-#. [option]
-#: Valley_of_the_Ancients/utils/misc.cfg:228
-msgid "Bat"
-msgstr "Fledermaus"
-
-#. [option]
-#: Valley_of_the_Ancients/utils/misc.cfg:247
-msgid "Saurian"
-msgstr "Saurianer"
-
-#. [option]
-#: Valley_of_the_Ancients/utils/misc.cfg:266
-msgid "Goblin"
-msgstr "Kobold"
-
-#. [option]
-#: Valley_of_the_Ancients/utils/misc.cfg:285
-msgid "Dwarf"
-msgstr "Zwerg"
-
-#. [option]
-#: Valley_of_the_Ancients/utils/misc.cfg:304
-msgid "Drake"
-msgstr "Draken"
-
-#. [option]
-#: Valley_of_the_Ancients/utils/misc.cfg:323
-msgid "Wose"
-msgstr ""
-
-#. [message]: speaker=narrator
 #. [chat]
 #: Valley_of_the_Ancients/utils/Rotation_War_Common.cfg:60
-#: Valley_of_the_Ancients/utils/Rotation_War_Common.cfg:105
+#: Valley_of_the_Ancients/utils/Rotation_War_Common.cfg:87
 msgid "Rotating War"
 msgstr "Der Bunte Tod"
 
@@ -3385,12 +3369,12 @@ msgid ""
 msgstr ""
 
 #. [chat]
-#: Valley_of_the_Ancients/utils/Rotation_War_Common.cfg:106
+#: Valley_of_the_Ancients/utils/Rotation_War_Common.cfg:88
 msgid "$unit.name, leader of side $unit.side, has been lost."
 msgstr "$unit.name, Anführer Teams $unit.side, ist gefallen."
 
 #. [modify_side]
-#: Valley_of_the_Ancients/utils/Rotation_War_Common.cfg:124
+#: Valley_of_the_Ancients/utils/Rotation_War_Common.cfg:101
 msgid "Defeated"
 msgstr "Besiegt"
 
@@ -3433,6 +3417,76 @@ msgstr "Autor und Designer"
 #: Valley_of_the_Ancients/_main.cfg:42
 msgid "Campaign Maintenance"
 msgstr "Pflege und Erweiterung der Kampagne"
+
+#~ msgid "Humans"
+#~ msgstr "Spieler"
+
+#, fuzzy
+#~ msgid "A Treasure Hunter"
+#~ msgstr "Schatzjäger"
+
+#, fuzzy
+#~ msgid "Another Treasure Hunter"
+#~ msgstr "Schatzjäger"
+
+#~ msgid "Human One"
+#~ msgstr "Erster Spieler"
+
+#~ msgid "Human Two"
+#~ msgstr "Zweiter Spieler"
+
+#~ msgid "West"
+#~ msgstr "Westen"
+
+#~ msgid "East"
+#~ msgstr "Osten"
+
+#~ msgid "Choose the game difficulty. Once chosen, you cannot change it."
+#~ msgstr ""
+#~ "Wählen Sie den Spielschwierigkeitsgrad. Einmal gewählt, kann sie nicht "
+#~ "geändert werden."
+
+#~ msgid "Walking Corpse"
+#~ msgstr "Wandelnde Leiche"
+
+#~ msgid "Difficulty: Walking Corpse"
+#~ msgstr "Schwierigkeitsgrad: Wandelne Leiche"
+
+#~ msgid "Dark Adept: Default"
+#~ msgstr "Dunkler Adept: Standard"
+
+#~ msgid "Difficulty: Dark Adept"
+#~ msgstr "Schwierigkeitsgrad: Dunkler Adept"
+
+#~ msgid "Necromancer"
+#~ msgstr "Totenbeschwörer"
+
+#~ msgid "Difficulty: Necromancer"
+#~ msgstr "Schwierigkeitsgrad: Totenbeschwörer"
+
+#~ msgid "Lich"
+#~ msgstr "Lich"
+
+#~ msgid "Difficulty: Lich"
+#~ msgstr "Schwierigkeitsgrad: Lich"
+
+#~ msgid "What type of Soulless would you like to recruit?"
+#~ msgstr "Welche Art von Seelenloser würden Sie gerne zu rekrutieren?"
+
+#~ msgid "Bat"
+#~ msgstr "Fledermaus"
+
+#~ msgid "Saurian"
+#~ msgstr "Saurianer"
+
+#~ msgid "Goblin"
+#~ msgstr "Kobold"
+
+#~ msgid "Dwarf"
+#~ msgstr "Zwerg"
+
+#~ msgid "Drake"
+#~ msgstr "Draken"
 
 #~ msgid "Mal-Draugur"
 #~ msgstr "Mal-Draugur"
