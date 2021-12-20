@@ -5,7 +5,7 @@ DS_Store
 .bzr
 ~*
 *~
-*.bak
+*bak
 *.*mo
 *.pot
 *.lib
@@ -22,3 +22,5 @@ DS_Store
 *.cab
 *.sh
 *.log
+*.pbl
+_info.cfg
